@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 export const dynamic="force-dynamic";
-const season=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",year:"numeric"}).format(new Date());
+const season="2026";
 const root="https://baseballsavant.mlb.com/leaderboard";
 function parseCsv(text:string){const rows:string[][]=[];let row:string[]=[],field="",quoted=false;for(let i=0;i<text.length;i++){const c=text[i];if(c==='"'){if(quoted&&text[i+1]==='"'){field+='"';i++}else quoted=!quoted}else if(c===","&&!quoted){row.push(field);field=""}else if((c==="\n"||c==="\r")&&!quoted){if(c==="\r"&&text[i+1]==="\n")i++;row.push(field);if(row.some(Boolean))rows.push(row);row=[];field=""}else field+=c}if(field||row.length){row.push(field);rows.push(row)}const headers=rows.shift()??[];return rows.map(values=>Object.fromEntries(headers.map((h,i)=>[h,values[i]??""])))}
 async function csv(url:string){const response=await fetch(url,{headers:{Accept:"text/csv","User-Agent":"Hallman-MLB-Model/1.0"},cache:"no-store"});if(!response.ok)throw new Error(`Statcast request failed (${response.status}).`);return parseCsv(await response.text())}
