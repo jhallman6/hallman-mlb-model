@@ -1,10 +1,17 @@
 import { NextResponse } from "next/server";
-export const dynamic="force-dynamic";
-const season="2026";
-const root="https://baseballsavant.mlb.com/leaderboard";
-function parseCsv(text:string){const rows:string[][]=[];let row:string[]=[],field="",quoted=false;for(let i=0;i<text.length;i++){const c=text[i];if(c==='"'){if(quoted&&text[i+1]==='"'){field+='"';i++}else quoted=!quoted}else if(c===","&&!quoted){row.push(field);field=""}else if((c==="\n"||c==="\r")&&!quoted){if(c==="\r"&&text[i+1]==="\n")i++;row.push(field);if(row.some(Boolean))rows.push(row);row=[];field=""}else field+=c}if(field||row.length){row.push(field);rows.push(row)}const headers=rows.shift()??[];return rows.map(values=>Object.fromEntries(headers.map((h,i)=>[h,values[i]??""])))}
-async function csv(url:string){const response=await fetch(url,{headers:{Accept:"text/csv","User-Agent":"Hallman-MLB-Model/1.0"},cache:"no-store"});if(!response.ok)throw new Error(`Statcast request failed (${response.status}).`);return parseCsv(await response.text())}
-const num=(value:unknown)=>value===""||value==null?null:Number(value);
-const fullName=(value:string)=>{const[last,...first]=value.split(",");return`${first.join(",").trim()} ${last.trim()}`.trim()};
-async function teamMap(ids:number[]){const map=new Map<number,string>();for(let i=0;i<ids.length;i+=100){const response=await fetch(`https://statsapi.mlb.com/api/v1/people?personIds=${ids.slice(i,i+100).join(",")}&hydrate=currentTeam`,{cache:"no-store"});if(!response.ok)continue;const body=await response.json() as {people?:Array<{id:number;currentTeam?:{abbreviation?:string;name?:string}}>};for(const player of body.people??[])map.set(player.id,player.currentTeam?.abbreviation??player.currentTeam?.name??"—")}return map}
-export async function GET(){try{const[batted,contact]=await Promise.all([csv(`${root}/batted-ball?gameType=Regular&groupBy=year&minGroupSwings=1&minSwings=1&seasonEnd=${season}&seasonStart=${season}&type=batter&csv=true`),csv(`${root}/statcast?type=batter&year=${season}&position=&team=&min=1&sort=6&sortDir=desc&csv=true`)]);const hardHit=new Map(contact.map(row=>[Number(row.player_id),num(row.ev95percent)==null?null:Number(row.ev95percent)/100]));const ids=batted.map(row=>Number(row.id)).filter(Boolean),teams=await teamMap(ids);const rows=batted.map(row=>{const id=Number(row.id);return{playerId:id,name:fullName(row.name),team:teams.get(id)??"—",bbe:num(row.bbe),gbPct:num(row.gb_rate),fbPct:num(row.fb_rate),hardHitPct:hardHit.get(id)??null,pullPct:num(row.pull_rate)}}).sort((a,b)=>(Number(b.bbe)||0)-(Number(a.bbe)||0)).map((row,index)=>({rank:index+1,...row}));return NextResponse.json({season:Number(season),fetchedAt:new Date().toISOString(),source:"MLB Statcast (Baseball Savant)",fanGraphsUrl:"https://www.fangraphs.com/leaders/major-league?pos=all&qual=1&type=2&month=0",rows},{headers:{"Cache-Control":"public, max-age=300, stale-while-revalidate=3600"}})}catch(error){return NextResponse.json({error:error instanceof Error?error.message:"Batted-ball data is unavailable."},{status:502})}}
+import snapshot from "../../../data/fangraphs-batted-ball-2026.json";
+
+export const dynamic = "force-dynamic";
+
+export async function GET() {
+  return NextResponse.json({
+    season: snapshot.season,
+    minPA: snapshot.minPA,
+    fetchedAt: snapshot.fetchedAt,
+    source: "FanGraphs member export",
+    fanGraphsUrl: snapshot.sourceUrl,
+    rows: snapshot.rows,
+  }, {
+    headers: { "Cache-Control": "public, max-age=300, stale-while-revalidate=3600" },
+  });
+}
