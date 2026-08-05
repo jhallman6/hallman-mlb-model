@@ -8,8 +8,8 @@ type MarketInput={line:string;overOdds:string;underOdds:string};
 type Point={value:number;probability:number};
 const configs:{key:MarketKey;label:string;short:string;defaultLine:string;defaultOver:string;defaultUnder:string;unitScale:number}[]=[
  {key:"SO",label:"Strikeouts",short:"K",defaultLine:"3.5",defaultOver:"110",defaultUnder:"115",unitScale:15},
- {key:"BB",label:"Walks",short:"BB",defaultLine:"1.5",defaultOver:"128",defaultUnder:"-160",unitScale:10},
- {key:"ER",label:"Earned runs",short:"ER",defaultLine:"2.5",defaultOver:"-109",defaultUnder:"100",unitScale:10},
+ {key:"BB",label:"Walks",short:"BB",defaultLine:"1.5",defaultOver:"128",defaultUnder:"-160",unitScale:15},
+ {key:"ER",label:"Earned runs",short:"ER",defaultLine:"2.5",defaultOver:"-109",defaultUnder:"100",unitScale:15},
  {key:"HITS",label:"Hits allowed",short:"H",defaultLine:"4.5",defaultOver:"-110",defaultUnder:"-110",unitScale:15},
 ];
 const implied=(odds:number)=>odds>0?100/(odds+100):odds<0?-odds/(-odds+100):.5;
