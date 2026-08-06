@@ -1,42 +1,21 @@
-import { NextRequest, NextResponse } from "next/server";
+import {NextRequest,NextResponse} from "next/server";
 
-type Outcome={name:string;description?:string;price:number;point?:number};
-type OddsEvent={id:string;away_team:string;home_team:string;bookmakers?:{key:string;title:string;markets:{key:string;outcomes:Outcome[]}[]}[]};
-type Quote={market:string;player:string;side:string;line:number;odds:number;book:string};
-const books="fanduel,draftkings,betmgm,kalshi,novig";
-const markets="pitcher_strikeouts,pitcher_walks,pitcher_earned_runs,pitcher_hits_allowed,pitcher_outs,pitcher_strikeouts_alternate";
-const labels:Record<string,string>={pitcher_strikeouts:"SO",pitcher_walks:"BB",pitcher_earned_runs:"ER",pitcher_hits_allowed:"HITS",pitcher_outs:"OUTS"};
+type BookQuote={odds?:string;overUnder?:string;available?:boolean;altLines?:BookQuote[]};
+type Odd={statID?:string;playerID?:string;sideID?:string;started?:boolean;byBookmaker?:Record<string,BookQuote>};
+type Event={eventID:string;teams?:{away?:{names?:{long?:string}};home?:{names?:{long?:string}}};status?:{started?:boolean;completed?:boolean;cancelled?:boolean;startsAt?:string};players?:Record<string,{name?:string}>;odds?:Record<string,Odd>};
+type Quote={line:number;odds:number;book:string;side:"Over"|"Under"};
+type PitcherOdds={markets:Record<string,{line:number;overOdds:number|null;underOdds:number|null;overBook:string|null;underBook:string|null}|null>;alternateStrikeouts:{line:number;overOdds:number|null;book:string|null}[]};
+type Snapshot={fetchedAt:string;eventCount:number;byPitcher:Record<string,PitcherOdds>};
+
+const API="https://api.sportsgameodds.com/v2/events";
+const allowedBooks:Record<string,string>={fanduel:"FanDuel",draftkings:"DraftKings",betmgm:"BetMGM",kalshi:"Kalshi",novig:"Novig"};
+const statKeys:Record<string,string>={pitching_strikeouts:"SO",pitching_basesOnBalls:"BB",pitching_earnedRuns:"ER",pitching_hits:"HITS",pitching_outs:"OUTS"};
+const globalStore=globalThis as typeof globalThis&{__hallmanOddsSnapshot?:Snapshot};
 const normalize=(value:string)=>value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/\b(rhp|lhp|jr|sr|ii|iii|iv)\b/g,"").replace(/[^a-z0-9]/g,"");
-const cache=new Map<string,{expires:number,event:OddsEvent}>();
-const pending=new Map<string,Promise<OddsEvent|null>>();
-const failures=new Map<string,{expires:number;message:string}>();
-const EVENT_CACHE_MS=30*60*1000;
-const sameTeam=(a:string,b:string)=>{const x=normalize(a),y=normalize(b);return x===y||x.endsWith(y)||y.endsWith(x)};
-const best=(quotes:Quote[],side:string)=>quotes.filter(q=>q.side===side).sort((a,b)=>b.odds-a.odds)[0];
-function mainMarket(quotes:Quote[]){
- const counts=new Map<number,Set<string>>();for(const quote of quotes){if(!counts.has(quote.line))counts.set(quote.line,new Set());counts.get(quote.line)!.add(quote.book)}
- const line=[...counts.entries()].sort((a,b)=>b[1].size-a[1].size||a[0]-b[0])[0]?.[0];if(line==null)return null;
- const atLine=quotes.filter(q=>q.line===line),over=best(atLine,"Over"),under=best(atLine,"Under");
- return {line,overOdds:over?.odds??null,underOdds:under?.odds??null,overBook:over?.book??null,underBook:under?.book??null};
-}
-async function loadEvent(eventKey:string,away:string,home:string,apiKey:string){
- const cached=cache.get(eventKey);if(cached&&cached.expires>Date.now())return cached.event;
- const failed=failures.get(eventKey);if(failed&&failed.expires>Date.now())throw new Error(failed.message);
- const existing=pending.get(eventKey);if(existing)return existing;
- const request=(async()=>{const eventResponse=await fetch(`https://api.the-odds-api.com/v4/sports/baseball_mlb/events?apiKey=${encodeURIComponent(apiKey)}`,{cache:"no-store"});if(!eventResponse.ok)throw new Error(`Odds events returned ${eventResponse.status}`);const events=await eventResponse.json() as OddsEvent[],match=events.find(event=>sameTeam(event.away_team,away)&&sameTeam(event.home_team,home));if(!match)return null;const oddsResponse=await fetch(`https://api.the-odds-api.com/v4/sports/baseball_mlb/events/${match.id}/odds?apiKey=${encodeURIComponent(apiKey)}&bookmakers=${books}&markets=${markets}&oddsFormat=american`,{cache:"no-store"});if(!oddsResponse.ok)throw new Error(`MLB prop odds returned ${oddsResponse.status}`);const event=await oddsResponse.json() as OddsEvent;failures.delete(eventKey);cache.set(eventKey,{expires:Date.now()+EVENT_CACHE_MS,event});return event})().catch(error=>{const message=error instanceof Error?error.message:"MLB odds could not be loaded.";failures.set(eventKey,{expires:Date.now()+5*60*1000,message});throw error}).finally(()=>pending.delete(eventKey));pending.set(eventKey,request);return request;
-}
+const number=(value:unknown)=>{const parsed=Number(value);return Number.isFinite(parsed)?parsed:null};
+const best=(quotes:Quote[],side:"Over"|"Under")=>quotes.filter(q=>q.side===side).sort((a,b)=>b.odds-a.odds)[0];
+function mainMarket(quotes:Quote[]){const booksByLine=new Map<number,Set<string>>();for(const quote of quotes){if(!booksByLine.has(quote.line))booksByLine.set(quote.line,new Set());booksByLine.get(quote.line)!.add(quote.book)}const line=[...booksByLine.entries()].sort((a,b)=>b[1].size-a[1].size||a[0]-b[0])[0]?.[0];if(line==null)return null;const atLine=quotes.filter(q=>q.line===line),over=best(atLine,"Over"),under=best(atLine,"Under");return{line,overOdds:over?.odds??null,underOdds:under?.odds??null,overBook:over?.book??null,underBook:under?.book??null}}
+function buildSnapshot(events:Event[]):Snapshot{const byPitcher:Record<string,PitcherOdds>={};for(const event of events){if(event.status?.started||event.status?.completed||event.status?.cancelled||Date.parse(event.status?.startsAt||"")<=Date.now())continue;const quotes=new Map<string,Record<string,Quote[]>>(),alts=new Map<string,Quote[]>();for(const odd of Object.values(event.odds||{})){const market=odd.statID&&statKeys[odd.statID],playerID=odd.playerID;if(!market||!playerID||odd.started)continue;const player=event.players?.[playerID]?.name;if(!player)continue;const side=odd.sideID==="over"?"Over":odd.sideID==="under"?"Under":null;if(!side)continue;const key=normalize(player);if(!quotes.has(key))quotes.set(key,{});const marketQuotes=quotes.get(key)!;marketQuotes[market]??=[];for(const[bookID,bookQuote]of Object.entries(odd.byBookmaker||{})){const book=allowedBooks[bookID],line=number(bookQuote.overUnder),price=number(bookQuote.odds);if(!book||bookQuote.available===false||line==null||price==null)continue;marketQuotes[market].push({line,odds:price,book,side});if(market==="SO"&&side==="Over"){if(!alts.has(key))alts.set(key,[]);for(const alt of bookQuote.altLines||[]){const altLine=number(alt.overUnder),altPrice=number(alt.odds);if(alt.available!==false&&altLine!=null&&altPrice!=null)alts.get(key)!.push({line:altLine,odds:altPrice,book,side})}}}}for(const[key,markets]of quotes){const alternate=[...new Set((alts.get(key)||[]).map(q=>q.line))].sort((a,b)=>a-b).map(line=>{const quote=best((alts.get(key)||[]).filter(q=>q.line===line),"Over");return{line,overOdds:quote?.odds??null,book:quote?.book??null}});byPitcher[key]={markets:{SO:mainMarket(markets.SO||[]),BB:mainMarket(markets.BB||[]),ER:mainMarket(markets.ER||[]),HITS:mainMarket(markets.HITS||[]),OUTS:mainMarket(markets.OUTS||[])},alternateStrikeouts:alternate}}}return{fetchedAt:new Date().toISOString(),eventCount:events.length,byPitcher}}
 
-export async function GET(request:NextRequest){
- const apiKey=process.env.THE_ODDS_API_KEY,away=request.nextUrl.searchParams.get("away")||"",home=request.nextUrl.searchParams.get("home")||"",pitcher=request.nextUrl.searchParams.get("pitcher")||"";
- if(!apiKey)return NextResponse.json({error:"The Odds API is not configured."},{status:503});
- if(!away||!home||!pitcher)return NextResponse.json({error:"Away team, home team, and pitcher are required."},{status:400});
- try{
-  const eventKey=`${normalize(away)}-${normalize(home)}`,event=await loadEvent(eventKey,away,home,apiKey);
-  if(!event)return NextResponse.json({event:null,markets:{},alternateStrikeouts:[],warning:"No matching sportsbook event is available yet."});
-  const quotes:Quote[]=[];for(const bookmaker of event.bookmakers||[])for(const market of bookmaker.markets||[])for(const outcome of market.outcomes||[]){if(outcome.description&&Number.isFinite(outcome.point)&&Number.isFinite(outcome.price))quotes.push({market:market.key,player:outcome.description,side:outcome.name,line:Number(outcome.point),odds:Number(outcome.price),book:bookmaker.title})}
-  const playerQuotes=quotes.filter(quote=>{const a=normalize(quote.player),b=normalize(pitcher);return a===b||a.includes(b)||b.includes(a)}),result:Record<string,ReturnType<typeof mainMarket>>={};
-  for(const [market,key] of Object.entries(labels))result[key]=mainMarket(playerQuotes.filter(q=>q.market===market));
-  const altLines=[...new Set(playerQuotes.filter(q=>q.market==="pitcher_strikeouts_alternate").map(q=>q.line))].sort((a,b)=>a-b).map(line=>{const quote=best(playerQuotes.filter(q=>q.market==="pitcher_strikeouts_alternate"&&q.line===line),"Over");return {line,overOdds:quote?.odds??null,book:quote?.book??null}}).filter(row=>row.overOdds!=null);
-  return NextResponse.json({event:{away:event.away_team,home:event.home_team},pitcher,markets:result,alternateStrikeouts:altLines,fetchedAt:new Date().toISOString(),region:"New Jersey",books:["FanDuel","DraftKings","BetMGM","Kalshi","Novig"]},{headers:{"Cache-Control":"private, max-age=600"}});
- }catch(error){return NextResponse.json({error:error instanceof Error?error.message:"MLB odds could not be loaded."},{status:502,headers:{"Cache-Control":"private, max-age=60","Retry-After":"300"}})}
-}
+export async function POST(request:NextRequest){const apiKey=process.env.SPORTS_GAME_ODDS_API_KEY;if(!apiKey)return NextResponse.json({error:"SportsGameOdds is not configured."},{status:503});try{const body=await request.json().catch(()=>({})),games=Array.isArray(body.games)?body.games:[],upcoming=games.filter((game:any)=>!game.started&&Date.parse(game.startTime||"")>Date.now());if(!upcoming.length)return NextResponse.json({error:"There are no upcoming games to refresh."},{status:400});const startsAfter=new Date().toISOString(),startsBefore=new Date(Math.max(...upcoming.map((game:any)=>Date.parse(game.startTime)))+5*60*1000).toISOString(),url=`${API}?leagueID=MLB&oddsAvailable=true&includeAltLines=true&startsAfter=${encodeURIComponent(startsAfter)}&startsBefore=${encodeURIComponent(startsBefore)}&limit=100`;const response=await fetch(url,{headers:{"x-api-key":apiKey},cache:"no-store"});const payload=await response.json() as {success?:boolean;data?:Event[];error?:string};if(!response.ok||!payload.success)throw new Error(payload.error||`SportsGameOdds returned ${response.status}`);const targets=new Set(upcoming.map((game:any)=>`${normalize(game.away?.name||"")}-${normalize(game.home?.name||"")}`)),events=(payload.data||[]).filter(event=>targets.has(`${normalize(event.teams?.away?.names?.long||"")}-${normalize(event.teams?.home?.names?.long||"")}`));const snapshot=buildSnapshot(events);globalStore.__hallmanOddsSnapshot=snapshot;return NextResponse.json({...snapshot,pitcherCount:Object.keys(snapshot.byPitcher).length})}catch(error){return NextResponse.json({error:error instanceof Error?error.message:"SportsGameOdds could not be refreshed."},{status:502})}}
+export async function GET(request:NextRequest){const pitcher=request.nextUrl.searchParams.get("pitcher")||"",snapshot=globalStore.__hallmanOddsSnapshot;if(!snapshot)return NextResponse.json({markets:{},alternateStrikeouts:[],warning:"Click Refresh Odds to load today’s sportsbook prices."});const odds=snapshot.byPitcher[normalize(pitcher)];if(!odds)return NextResponse.json({markets:{},alternateStrikeouts:[],warning:"No SportsGameOdds pitcher props are available for this player.",fetchedAt:snapshot.fetchedAt});return NextResponse.json({...odds,fetchedAt:snapshot.fetchedAt,source:"SportsGameOdds",eventCount:snapshot.eventCount})}
