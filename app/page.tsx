@@ -3,6 +3,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import HitterStatcast from "./HitterStatcast";
 import PitcherData from "./PitcherData";
 import MatchupLineupScreen from "./MatchupLineupScreen";
+import BestBets from "./BestBets";
 
 type Player = { order:number; playerId:number; name:string; bats:string; position:string };
 type Team = { name:string; abbreviation:string; pitcher:string; pitcherId:number|null; throws:string; lineup:Player[]; lineupStatus:string };
@@ -28,7 +29,7 @@ function GameModel({data,loading,onRefresh}:{data:Payload|null;loading:boolean;o
 }
 
 export default function Home() {
-  const [view,setView] = useState<"lineups"|"model"|"statcast"|"pitchers">("lineups");
+  const [view,setView] = useState<"lineups"|"model"|"bestBets"|"statcast"|"pitchers">("lineups");
   const [date,setDate] = useState(easternToday);
   const [data,setData] = useState<Payload|null>(null);
   const [loading,setLoading] = useState(true);
@@ -44,8 +45,8 @@ export default function Home() {
   const gameCount=data?.games.length??0;
   const confirmedCount=useMemo(()=>data?.games.reduce((n,g)=>n+Number(g.away.lineupStatus==="Confirmed lineup")+Number(g.home.lineupStatus==="Confirmed lineup"),0)??0,[data]);
 
-  return <main><header className="topbar"><div className="brand-mark">H</div><div><strong>The Hallman Algo</strong><span>MLB Game Model</span></div><nav><button className={view==="lineups"?"active":""} onClick={()=>setView("lineups")}>Daily Lineups</button><button className={view==="model"?"active":""} onClick={()=>setView("model")}>Game Model</button><button className={view==="statcast"?"active":""} onClick={()=>setView("statcast")}>Hitter Statcast</button><button className={view==="pitchers"?"active":""} onClick={()=>setView("pitchers")}>Pitchers</button></nav><a href="https://www.fangraphs.com/leaders/major-league?pos=all&type=24&qual=1" target="_blank" rel="noreferrer">Open FanGraphs ↗</a></header><div className="page-shell">
-    {view==="statcast"?<HitterStatcast/>:view==="pitchers"?<PitcherData/>:view==="model"?<GameModel data={data} loading={loading} onRefresh={()=>void loadLineups(date)}/>:<>
+  return <main><header className="topbar"><div className="brand-mark">H</div><div><strong>The Hallman Algo</strong><span>MLB Game Model</span></div><nav><button className={view==="lineups"?"active":""} onClick={()=>setView("lineups")}>Daily Lineups</button><button className={view==="model"?"active":""} onClick={()=>setView("model")}>Game Model</button><button className={view==="bestBets"?"active":""} onClick={()=>setView("bestBets")}>Best Bets</button><button className={view==="statcast"?"active":""} onClick={()=>setView("statcast")}>Hitter Statcast</button><button className={view==="pitchers"?"active":""} onClick={()=>setView("pitchers")}>Pitchers</button></nav><a href="https://www.fangraphs.com/leaders/major-league?pos=all&type=24&qual=1" target="_blank" rel="noreferrer">Open FanGraphs ↗</a></header><div className="page-shell">
+    {view==="statcast"?<HitterStatcast/>:view==="pitchers"?<PitcherData/>:view==="bestBets"?<BestBets games={data?.games||[]}/>:view==="model"?<GameModel data={data} loading={loading} onRefresh={()=>void loadLineups(date)}/>:<>
     <section className="hero"><div><p className="eyebrow">Daily lineup command center</p><h1>Today’s slate,<br/><em>ready for the model.</em></h1><p className="hero-copy">Every matchup loads with a projected batting order. As teams announce their official lineups, refresh to replace projections automatically.</p></div><div className="date-card"><label htmlFor="slate-date">Slate date</label><input id="slate-date" type="date" value={date} onChange={e=>setDate(e.target.value)}/><button onClick={()=>void loadLineups(date)} disabled={loading}>{loading?"Refreshing…":"Refresh lineups"}</button><button className="today-button" onClick={()=>setDate(easternToday())}>Jump to today</button></div></section>
     <section className="summary-bar" aria-live="polite"><div><span>Games</span><strong>{loading?"—":gameCount}</strong></div><div><span>Confirmed lineups</span><strong>{loading?"—":`${confirmedCount}/${gameCount*2}`}</strong></div><div><span>Active source</span><strong>{data?.source||"Checking…"}</strong></div><div><span>FanGraphs</span><strong className={data?.fanGraphsStatus==="available"?"good":"warn"}>{data?.fanGraphsStatus||"Checking…"}</strong></div></section>
     {data?.warning&&<div className="notice"><strong>Lineup status</strong><span>{data.warning}</span></div>}{error&&<div className="error"><strong>Couldn’t load this slate.</strong><span>{error}</span><button onClick={()=>void loadLineups(date)}>Try again</button></div>}
