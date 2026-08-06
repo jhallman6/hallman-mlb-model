@@ -1,11 +1,11 @@
 "use client";
-import {useCallback,useMemo,useState} from "react";
+import {useCallback,useEffect,useMemo,useState} from "react";
 import TeamProjectionPanel from "./TeamProjectionPanel";
 import type {BestBet} from "./PitcherPropsPanel";
 
 type Player={order:number;playerId:number;name:string;bats:string;position:string};
 type Team={name:string;abbreviation:string;pitcher:string;pitcherId:number|null;throws:string;lineup:Player[];lineupStatus:string};
-type Game={gamePk:number;started?:boolean;away:Team;home:Team};
+type Game={gamePk:number;startTime?:string;started?:boolean;away:Team;home:Team};
 type RankedBet=BestBet&{matchup:string};
 const pct=(value:number)=>`${(value*100).toFixed(2)}%`;
 const odds=(value:number)=>`${value>0?"+":""}${value}`;
@@ -18,7 +18,9 @@ function Calculator({id,game,side,unitSize,onUpdate}:{id:string;game:Game;side:"
 
 export default function BestBets({games}:{games:Game[]}){
  const[unitInput,setUnitInput]=useState("100"),[groups,setGroups]=useState<Record<string,{matchup:string;bets:BestBet[]}>>({});
- const eligibleGames=useMemo(()=>games.filter(game=>!game.started),[games]);
+ const[now,setNow]=useState(()=>Date.now());
+ useEffect(()=>{const timer=window.setInterval(()=>setNow(Date.now()),30000);return()=>window.clearInterval(timer)},[]);
+ const eligibleGames=useMemo(()=>games.filter(game=>!game.started&&(!game.startTime||Date.parse(game.startTime)>now)),[games,now]);
  const eligibleIds=useMemo(()=>new Set(eligibleGames.flatMap(game=>[`${game.gamePk}-away`,`${game.gamePk}-home`])),[eligibleGames]);
  const unitSize=Math.max(0,Number(unitInput)||0);
  const update=useCallback((id:string,matchup:string,bets:BestBet[])=>setGroups(current=>current[id]?.matchup===matchup&&JSON.stringify(current[id].bets)===JSON.stringify(bets)?current:{...current,[id]:{matchup,bets}}),[]);
