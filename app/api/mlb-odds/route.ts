@@ -9,6 +9,8 @@ const labels:Record<string,string>={pitcher_strikeouts:"SO",pitcher_walks:"BB",p
 const normalize=(value:string)=>value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/\b(rhp|lhp|jr|sr|ii|iii|iv)\b/g,"").replace(/[^a-z0-9]/g,"");
 const cache=new Map<string,{expires:number,event:OddsEvent}>();
 const pending=new Map<string,Promise<OddsEvent|null>>();
+const failures=new Map<string,{expires:number;message:string}>();
+const EVENT_CACHE_MS=30*60*1000;
 const sameTeam=(a:string,b:string)=>{const x=normalize(a),y=normalize(b);return x===y||x.endsWith(y)||y.endsWith(x)};
 const best=(quotes:Quote[],side:string)=>quotes.filter(q=>q.side===side).sort((a,b)=>b.odds-a.odds)[0];
 function mainMarket(quotes:Quote[]){
@@ -19,8 +21,9 @@ function mainMarket(quotes:Quote[]){
 }
 async function loadEvent(eventKey:string,away:string,home:string,apiKey:string){
  const cached=cache.get(eventKey);if(cached&&cached.expires>Date.now())return cached.event;
+ const failed=failures.get(eventKey);if(failed&&failed.expires>Date.now())throw new Error(failed.message);
  const existing=pending.get(eventKey);if(existing)return existing;
- const request=(async()=>{const eventResponse=await fetch(`https://api.the-odds-api.com/v4/sports/baseball_mlb/events?apiKey=${encodeURIComponent(apiKey)}`,{cache:"no-store"});if(!eventResponse.ok)throw new Error(`Odds events returned ${eventResponse.status}`);const events=await eventResponse.json() as OddsEvent[],match=events.find(event=>sameTeam(event.away_team,away)&&sameTeam(event.home_team,home));if(!match)return null;const oddsResponse=await fetch(`https://api.the-odds-api.com/v4/sports/baseball_mlb/events/${match.id}/odds?apiKey=${encodeURIComponent(apiKey)}&bookmakers=${books}&markets=${markets}&oddsFormat=american`,{cache:"no-store"});if(!oddsResponse.ok)throw new Error(`MLB prop odds returned ${oddsResponse.status}`);const event=await oddsResponse.json() as OddsEvent;cache.set(eventKey,{expires:Date.now()+120000,event});return event})().finally(()=>pending.delete(eventKey));pending.set(eventKey,request);return request;
+ const request=(async()=>{const eventResponse=await fetch(`https://api.the-odds-api.com/v4/sports/baseball_mlb/events?apiKey=${encodeURIComponent(apiKey)}`,{cache:"no-store"});if(!eventResponse.ok)throw new Error(`Odds events returned ${eventResponse.status}`);const events=await eventResponse.json() as OddsEvent[],match=events.find(event=>sameTeam(event.away_team,away)&&sameTeam(event.home_team,home));if(!match)return null;const oddsResponse=await fetch(`https://api.the-odds-api.com/v4/sports/baseball_mlb/events/${match.id}/odds?apiKey=${encodeURIComponent(apiKey)}&bookmakers=${books}&markets=${markets}&oddsFormat=american`,{cache:"no-store"});if(!oddsResponse.ok)throw new Error(`MLB prop odds returned ${oddsResponse.status}`);const event=await oddsResponse.json() as OddsEvent;failures.delete(eventKey);cache.set(eventKey,{expires:Date.now()+EVENT_CACHE_MS,event});return event})().catch(error=>{const message=error instanceof Error?error.message:"MLB odds could not be loaded.";failures.set(eventKey,{expires:Date.now()+5*60*1000,message});throw error}).finally(()=>pending.delete(eventKey));pending.set(eventKey,request);return request;
 }
 
 export async function GET(request:NextRequest){
@@ -34,6 +37,6 @@ export async function GET(request:NextRequest){
   const playerQuotes=quotes.filter(quote=>{const a=normalize(quote.player),b=normalize(pitcher);return a===b||a.includes(b)||b.includes(a)}),result:Record<string,ReturnType<typeof mainMarket>>={};
   for(const [market,key] of Object.entries(labels))result[key]=mainMarket(playerQuotes.filter(q=>q.market===market));
   const altLines=[...new Set(playerQuotes.filter(q=>q.market==="pitcher_strikeouts_alternate").map(q=>q.line))].sort((a,b)=>a-b).map(line=>{const quote=best(playerQuotes.filter(q=>q.market==="pitcher_strikeouts_alternate"&&q.line===line),"Over");return {line,overOdds:quote?.odds??null,book:quote?.book??null}}).filter(row=>row.overOdds!=null);
-  return NextResponse.json({event:{away:event.away_team,home:event.home_team},pitcher,markets:result,alternateStrikeouts:altLines,fetchedAt:new Date().toISOString(),region:"New Jersey",books:["FanDuel","DraftKings","BetMGM","Kalshi","Novig"]});
- }catch(error){return NextResponse.json({error:error instanceof Error?error.message:"MLB odds could not be loaded."},{status:502})}
+  return NextResponse.json({event:{away:event.away_team,home:event.home_team},pitcher,markets:result,alternateStrikeouts:altLines,fetchedAt:new Date().toISOString(),region:"New Jersey",books:["FanDuel","DraftKings","BetMGM","Kalshi","Novig"]},{headers:{"Cache-Control":"private, max-age=600"}});
+ }catch(error){return NextResponse.json({error:error instanceof Error?error.message:"MLB odds could not be loaded."},{status:502,headers:{"Cache-Control":"private, max-age=60","Retry-After":"300"}})}
 }
