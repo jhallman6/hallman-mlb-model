@@ -1,0 +1,1569 @@
+{
+  "date": "2026-08-06",
+  "games": [
+    {
+      "teams": [
+        {
+          "name": "Angels",
+          "players": [
+            {
+              "bats": "L",
+              "fangraphsId": 31490,
+              "name": "Wade Meckler",
+              "order": 1,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 10155,
+              "name": "Mike Trout",
+              "order": 2,
+              "position": "DH"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 33189,
+              "name": "Nolan Schanuel",
+              "order": 3,
+              "position": "1B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 31347,
+              "name": "Zach Neto",
+              "order": 4,
+              "position": "SS"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 26031,
+              "name": "Vaughn Grissom",
+              "order": 5,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 28820,
+              "name": "Moisés Ballesteros",
+              "order": 6,
+              "position": "C"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 17452,
+              "name": "Jose Siri",
+              "order": 7,
+              "position": "CF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 19953,
+              "name": "Josh Lowe",
+              "order": 8,
+              "position": "RF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 22823,
+              "name": "Oswald Peraza",
+              "order": 9,
+              "position": "2B"
+            }
+          ],
+          "status": "Confirmed lineup"
+        },
+        {
+          "name": "Orioles",
+          "players": [
+            {
+              "bats": "L",
+              "fangraphsId": 31695,
+              "name": "Dylan Beavers",
+              "order": 1,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 19251,
+              "name": "Pete Alonso",
+              "order": 2,
+              "position": "1B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 26289,
+              "name": "Gunnar Henderson",
+              "order": 3,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 30011,
+              "name": "Christian Encarnacion-Strand",
+              "order": 4,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 31781,
+              "name": "Jackson Holliday",
+              "order": 5,
+              "position": "SS"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 18900,
+              "name": "Leody Taveras",
+              "order": 6,
+              "position": "RF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 22239,
+              "name": "Jeremiah Jackson",
+              "order": 7,
+              "position": "2B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 29591,
+              "name": "Colton Cowser",
+              "order": 8,
+              "position": "CF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 18848,
+              "name": "Yohel Pozo",
+              "order": 9,
+              "position": "C"
+            }
+          ],
+          "status": "Confirmed lineup"
+        }
+      ]
+    },
+    {
+      "teams": [
+        {
+          "name": "Athletics",
+          "players": [
+            {
+              "bats": "R",
+              "fangraphsId": 31448,
+              "name": "Henry Bolte",
+              "order": 1,
+              "position": "CF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 35107,
+              "name": "Tommy White",
+              "order": 2,
+              "position": "1B"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 16930,
+              "name": "Jonah Heim",
+              "order": 3,
+              "position": "DH"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 27467,
+              "name": "Tyler Soderstrom",
+              "order": 4,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 29779,
+              "name": "Max Muncy",
+              "order": 5,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 22542,
+              "name": "Lawrence Butler",
+              "order": 6,
+              "position": "RF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 19422,
+              "name": "Brian Serven",
+              "order": 7,
+              "position": "C"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 27604,
+              "name": "Alika Williams",
+              "order": 8,
+              "position": "SS"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 24597,
+              "name": "Jonathan Ornelas",
+              "order": 9,
+              "position": "2B"
+            }
+          ],
+          "status": "Confirmed lineup"
+        },
+        {
+          "name": "Reds",
+          "players": [
+            {
+              "bats": "S",
+              "fangraphsId": 26668,
+              "name": "Elly De La Cruz",
+              "order": 1,
+              "position": "SS"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 31505,
+              "name": "Sal Stewart",
+              "order": 2,
+              "position": "1B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 26368,
+              "name": "JJ Bleday",
+              "order": 3,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 17988,
+              "name": "Tyler Stephenson",
+              "order": 4,
+              "position": "C"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 12552,
+              "name": "Eugenio Suárez",
+              "order": 5,
+              "position": "3B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 22054,
+              "name": "Dane Myers",
+              "order": 6,
+              "position": "CF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 29189,
+              "name": "Héctor Rodríguez",
+              "order": 7,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 26517,
+              "name": "Noelvi Marte",
+              "order": 8,
+              "position": "RF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 29695,
+              "name": "Matt McLain",
+              "order": 9,
+              "position": "2B"
+            }
+          ],
+          "status": "Confirmed lineup"
+        }
+      ]
+    },
+    {
+      "teams": [
+        {
+          "name": "Mets",
+          "players": [
+            {
+              "bats": "S",
+              "fangraphsId": 12916,
+              "name": "Francisco Lindor",
+              "order": 1,
+              "position": "SS"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 19612,
+              "name": "Bo Bichette",
+              "order": 2,
+              "position": "3B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 20043,
+              "name": "Luis Robert Jr.",
+              "order": 3,
+              "position": "CF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 35177,
+              "name": "Carson Benge",
+              "order": 4,
+              "position": "RF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 26121,
+              "name": "Francisco Alvarez",
+              "order": 5,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 12533,
+              "name": "Marcus Semien",
+              "order": 6,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 23395,
+              "name": "Eric Wagaman",
+              "order": 7,
+              "position": "1B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 15905,
+              "name": "Luis Torrens",
+              "order": 8,
+              "position": "C"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 19948,
+              "name": "Cristian Pache",
+              "order": 9,
+              "position": "LF"
+            }
+          ],
+          "status": "Confirmed lineup"
+        },
+        {
+          "name": "Guardians",
+          "players": [
+            {
+              "bats": "L",
+              "fangraphsId": 34967,
+              "name": "Travis Bazzana",
+              "order": 1,
+              "position": "DH"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 32127,
+              "name": "Chase DeLauter",
+              "order": 2,
+              "position": "RF"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 13510,
+              "name": "José Ramírez",
+              "order": 3,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 19566,
+              "name": "Nathaniel Lowe",
+              "order": 4,
+              "position": "1B"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 26540,
+              "name": "Angel Martínez",
+              "order": 5,
+              "position": "LF"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 23690,
+              "name": "Brayan Rocchio",
+              "order": 6,
+              "position": "SS"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 27931,
+              "name": "Petey Halpin",
+              "order": 7,
+              "position": "CF"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 27478,
+              "name": "Patrick Bailey",
+              "order": 8,
+              "position": "C"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 28811,
+              "name": "Angel Genao",
+              "order": 9,
+              "position": "2B"
+            }
+          ],
+          "status": "Confirmed lineup"
+        }
+      ]
+    },
+    {
+      "teams": [
+        {
+          "name": "Blue Jays",
+          "players": [
+            {
+              "bats": "R",
+              "fangraphsId": 16622,
+              "name": "Luis Urías",
+              "order": 1,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 19611,
+              "name": "Vladimir Guerrero Jr.",
+              "order": 2,
+              "position": "1B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 37123,
+              "name": "Kazuma Okamoto",
+              "order": 3,
+              "position": "3B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 12856,
+              "name": "George Springer",
+              "order": 4,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 22581,
+              "name": "Alejandro Kirk",
+              "order": 5,
+              "position": "C"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 20352,
+              "name": "Ernie Clement",
+              "order": 6,
+              "position": "SS"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 18123,
+              "name": "Nathan Lukes",
+              "order": 7,
+              "position": "RF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 17620,
+              "name": "Myles Straw",
+              "order": 8,
+              "position": "CF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 23565,
+              "name": "Davis Schneider",
+              "order": 9,
+              "position": "LF"
+            }
+          ],
+          "status": "Projected lineup"
+        },
+        {
+          "name": "Cubs",
+          "players": [
+            {
+              "bats": "L",
+              "fangraphsId": 27769,
+              "name": "Pete Crow-Armstrong",
+              "order": 1,
+              "position": "CF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 30116,
+              "name": "Seiya Suzuki",
+              "order": 2,
+              "position": "RF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 26319,
+              "name": "Michael Busch",
+              "order": 3,
+              "position": "1B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 17678,
+              "name": "Alex Bregman",
+              "order": 4,
+              "position": "3B"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 17919,
+              "name": "Ian Happ",
+              "order": 5,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 21479,
+              "name": "Nico Hoerner",
+              "order": 6,
+              "position": "2B"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 29218,
+              "name": "Pedro Ramírez",
+              "order": 7,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 13620,
+              "name": "Carson Kelly",
+              "order": 8,
+              "position": "C"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 18314,
+              "name": "Dansby Swanson",
+              "order": 9,
+              "position": "SS"
+            }
+          ],
+          "status": "Projected lineup"
+        }
+      ]
+    },
+    {
+      "teams": [
+        {
+          "name": "Pirates",
+          "players": [
+            {
+              "bats": "S",
+              "fangraphsId": 26202,
+              "name": "Jake Mangum",
+              "order": 1,
+              "position": "CF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 18882,
+              "name": "Brandon Lowe",
+              "order": 2,
+              "position": "2B"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 19326,
+              "name": "Bryan Reynolds",
+              "order": 3,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 29005,
+              "name": "Esmerlyn Valdez",
+              "order": 4,
+              "position": "RF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 26477,
+              "name": "Spencer Horwitz",
+              "order": 5,
+              "position": "1B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 27490,
+              "name": "Nick Gonzales",
+              "order": 6,
+              "position": "3B"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 25332,
+              "name": "Endy Rodríguez",
+              "order": 7,
+              "position": "C"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 33225,
+              "name": "Jacob Gonzalez",
+              "order": 8,
+              "position": "SS"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 25346,
+              "name": "Ronny Simon",
+              "order": 9,
+              "position": "DH"
+            }
+          ],
+          "status": "Projected lineup"
+        },
+        {
+          "name": "Brewers",
+          "players": [
+            {
+              "bats": "L",
+              "fangraphsId": 22186,
+              "name": "Brice Turang",
+              "order": 1,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 28806,
+              "name": "Jackson Chourio",
+              "order": 2,
+              "position": "LF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 15194,
+              "name": "Jake Bauers",
+              "order": 3,
+              "position": "1B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 20503,
+              "name": "William Contreras",
+              "order": 4,
+              "position": "C"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 27555,
+              "name": "Garrett Mitchell",
+              "order": 5,
+              "position": "CF"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 30675,
+              "name": "Luis Lara",
+              "order": 6,
+              "position": "RF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 11477,
+              "name": "Christian Yelich",
+              "order": 7,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 33530,
+              "name": "Cooper Pratt",
+              "order": 8,
+              "position": "SS"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 27531,
+              "name": "David Hamilton",
+              "order": 9,
+              "position": "3B"
+            }
+          ],
+          "status": "Projected lineup"
+        }
+      ]
+    },
+    {
+      "teams": [
+        {
+          "name": "Tigers",
+          "players": [
+            {
+              "bats": "L",
+              "fangraphsId": 33572,
+              "name": "Kevin McGonigle",
+              "order": 1,
+              "position": "3B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 16997,
+              "name": "Gleyber Torres",
+              "order": 2,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 27464,
+              "name": "Dillon Dingler",
+              "order": 3,
+              "position": "C"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 25976,
+              "name": "Riley Greene",
+              "order": 4,
+              "position": "LF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 27899,
+              "name": "Colt Keith",
+              "order": 5,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 27465,
+              "name": "Spencer Torkelson",
+              "order": 6,
+              "position": "1B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 33381,
+              "name": "Max Clark",
+              "order": 7,
+              "position": "CF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 12979,
+              "name": "Javier Báez",
+              "order": 8,
+              "position": "SS"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 19392,
+              "name": "Zach McKinstry",
+              "order": 9,
+              "position": "RF"
+            }
+          ],
+          "status": "Projected lineup"
+        },
+        {
+          "name": "Mariners",
+          "players": [
+            {
+              "bats": "R",
+              "fangraphsId": 17548,
+              "name": "Taylor Ward",
+              "order": 1,
+              "position": "RF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 19290,
+              "name": "Randy Arozarena",
+              "order": 2,
+              "position": "LF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 26438,
+              "name": "Dominic Canzone",
+              "order": 3,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 23697,
+              "name": "Julio Rodríguez",
+              "order": 4,
+              "position": "CF"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 21534,
+              "name": "Cal Raleigh",
+              "order": 5,
+              "position": "C"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 18839,
+              "name": "Josh Naylor",
+              "order": 6,
+              "position": "1B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 31680,
+              "name": "Cole Young",
+              "order": 7,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 19358,
+              "name": "Weston Wilson",
+              "order": 8,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 33575,
+              "name": "Colt Emerson",
+              "order": 9,
+              "position": "SS"
+            }
+          ],
+          "status": "Projected lineup"
+        }
+      ]
+    },
+    {
+      "teams": [
+        {
+          "name": "Nationals",
+          "players": [
+            {
+              "bats": "R",
+              "fangraphsId": 33541,
+              "name": "Dylan Crews",
+              "order": 1,
+              "position": "RF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 21797,
+              "name": "Andrés Chaparro",
+              "order": 2,
+              "position": "1B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 29993,
+              "name": "Brady House",
+              "order": 3,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 25768,
+              "name": "CJ Abrams",
+              "order": 4,
+              "position": "SS"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 29958,
+              "name": "Harry Ford",
+              "order": 5,
+              "position": "C"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 29931,
+              "name": "Jacob Young",
+              "order": 6,
+              "position": "CF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 29995,
+              "name": "Daylen Lile",
+              "order": 7,
+              "position": "DH"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 25979,
+              "name": "Nasim Nuñez",
+              "order": 8,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 33357,
+              "name": "Andrew Pinckney",
+              "order": 9,
+              "position": "LF"
+            }
+          ],
+          "status": "Projected lineup"
+        },
+        {
+          "name": "Phillies",
+          "players": [
+            {
+              "bats": "L",
+              "fangraphsId": 16478,
+              "name": "Kyle Schwarber",
+              "order": 1,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 16252,
+              "name": "Trea Turner",
+              "order": 2,
+              "position": "SS"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 11579,
+              "name": "Bryce Harper",
+              "order": 3,
+              "position": "RF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 18568,
+              "name": "Luis Arraez",
+              "order": 4,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 21618,
+              "name": "Alec Bohm",
+              "order": 5,
+              "position": "1B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 20202,
+              "name": "Brandon Marsh",
+              "order": 6,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 11739,
+              "name": "J.T. Realmuto",
+              "order": 7,
+              "position": "C"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 26294,
+              "name": "Bryson Stott",
+              "order": 8,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 31791,
+              "name": "Justin Crawford",
+              "order": 9,
+              "position": "CF"
+            }
+          ],
+          "status": "Projected lineup"
+        }
+      ]
+    },
+    {
+      "teams": [
+        {
+          "name": "White Sox",
+          "players": [
+            {
+              "bats": "R",
+              "fangraphsId": 31580,
+              "name": "Chase Meidroth",
+              "order": 1,
+              "position": "2B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 37120,
+              "name": "Munetaka Murakami",
+              "order": 2,
+              "position": "1B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 20178,
+              "name": "Miguel Vargas",
+              "order": 3,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 10243,
+              "name": "Randal Grichuk",
+              "order": 4,
+              "position": "LF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 29712,
+              "name": "Colson Montgomery",
+              "order": 5,
+              "position": "3B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 21524,
+              "name": "Joey Bart",
+              "order": 6,
+              "position": "C"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 25479,
+              "name": "Brenton Doyle",
+              "order": 7,
+              "position": "CF"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 35423,
+              "name": "Braden Montgomery",
+              "order": 8,
+              "position": "RF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 26548,
+              "name": "Luisangel Acuña",
+              "order": 9,
+              "position": "SS"
+            }
+          ],
+          "status": "Projected lineup"
+        },
+        {
+          "name": "Red Sox",
+          "players": [
+            {
+              "bats": "S",
+              "fangraphsId": 25483,
+              "name": "Nick Sogard",
+              "order": 1,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 24262,
+              "name": "Ceddanne Rafaela",
+              "order": 2,
+              "position": "CF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 23772,
+              "name": "Wilyer Abreu",
+              "order": 3,
+              "position": "RF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 11609,
+              "name": "Willson Contreras",
+              "order": 4,
+              "position": "1B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 31837,
+              "name": "Masataka Yoshida",
+              "order": 5,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 29646,
+              "name": "Caleb Durbin",
+              "order": 6,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 24617,
+              "name": "Jarren Duran",
+              "order": 7,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 19455,
+              "name": "Andruw Monasterio",
+              "order": 8,
+              "position": "SS"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 19896,
+              "name": "Connor Wong",
+              "order": 9,
+              "position": "C"
+            }
+          ],
+          "status": "Projected lineup"
+        }
+      ]
+    },
+    {
+      "teams": [
+        {
+          "name": "Marlins",
+          "players": [
+            {
+              "bats": "R",
+              "fangraphsId": 19608,
+              "name": "Otto Lopez",
+              "order": 1,
+              "position": "SS"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 24878,
+              "name": "Heriberto Hernández",
+              "order": 2,
+              "position": "DH"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 26151,
+              "name": "Kyle Stowers",
+              "order": 3,
+              "position": "1B"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 22266,
+              "name": "Xavier Edwards",
+              "order": 4,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 23782,
+              "name": "Leo Jiménez",
+              "order": 5,
+              "position": "3B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 28253,
+              "name": "Javier Sanoja",
+              "order": 6,
+              "position": "RF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 21626,
+              "name": "Griffin Conine",
+              "order": 7,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 21780,
+              "name": "Esteury Ruiz",
+              "order": 8,
+              "position": "CF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 29780,
+              "name": "Joe Mack",
+              "order": 9,
+              "position": "C"
+            }
+          ],
+          "status": "Projected lineup"
+        },
+        {
+          "name": "Braves",
+          "players": [
+            {
+              "bats": "L",
+              "fangraphsId": 31539,
+              "name": "Drake Baldwin",
+              "order": 1,
+              "position": "C"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 18401,
+              "name": "Ronald Acuña Jr.",
+              "order": 2,
+              "position": "RF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 14344,
+              "name": "Matt Olson",
+              "order": 3,
+              "position": "1B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 25931,
+              "name": "Michael Harris II",
+              "order": 4,
+              "position": "CF"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 16556,
+              "name": "Ozzie Albies",
+              "order": 5,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 16530,
+              "name": "Mauricio Dubón",
+              "order": 6,
+              "position": "LF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 14854,
+              "name": "Mike Yastrzemski",
+              "order": 7,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 18360,
+              "name": "Austin Riley",
+              "order": 8,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 33492,
+              "name": "Jim Jarvis",
+              "order": 9,
+              "position": "SS"
+            }
+          ],
+          "status": "Projected lineup"
+        }
+      ]
+    },
+    {
+      "teams": [
+        {
+          "name": "Twins",
+          "players": [
+            {
+              "bats": "L",
+              "fangraphsId": 21501,
+              "name": "Trevor Larnach",
+              "order": 1,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 24618,
+              "name": "Ryan Jeffers",
+              "order": 2,
+              "position": "C"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 13145,
+              "name": "Josh Bell",
+              "order": 3,
+              "position": "DH"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 20572,
+              "name": "Kody Clemens",
+              "order": 4,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 20437,
+              "name": "Royce Lewis",
+              "order": 5,
+              "position": "1B"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 31595,
+              "name": "Brooks Lee",
+              "order": 6,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 31564,
+              "name": "Alan Roden",
+              "order": 7,
+              "position": "RF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 33321,
+              "name": "Luke Keaschall",
+              "order": 8,
+              "position": "CF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 25867,
+              "name": "Ryan Kreidler",
+              "order": 9,
+              "position": "SS"
+            }
+          ],
+          "status": "Projected lineup"
+        },
+        {
+          "name": "Royals",
+          "players": [
+            {
+              "bats": "L",
+              "fangraphsId": 29478,
+              "name": "Carter Jensen",
+              "order": 1,
+              "position": "C"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 25764,
+              "name": "Bobby Witt Jr.",
+              "order": 2,
+              "position": "SS"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 35041,
+              "name": "Jac Caglianone",
+              "order": 3,
+              "position": "1B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 7304,
+              "name": "Salvador Perez",
+              "order": 4,
+              "position": "DH"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 27684,
+              "name": "Michael Massey",
+              "order": 5,
+              "position": "2B"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 25477,
+              "name": "Isaac Collins",
+              "order": 6,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 27630,
+              "name": "Nick Loftin",
+              "order": 7,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 26284,
+              "name": "John Rave",
+              "order": 8,
+              "position": "RF"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 21614,
+              "name": "Kyle Isbel",
+              "order": 9,
+              "position": "CF"
+            }
+          ],
+          "status": "Projected lineup"
+        }
+      ]
+    },
+    {
+      "teams": [
+        {
+          "name": "Padres",
+          "players": [
+            {
+              "bats": "R",
+              "fangraphsId": 19709,
+              "name": "Fernando Tatis Jr.",
+              "order": 1,
+              "position": "RF"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 19858,
+              "name": "Luis Rengifo",
+              "order": 2,
+              "position": "DH"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 11493,
+              "name": "Manny Machado",
+              "order": 3,
+              "position": "3B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 17982,
+              "name": "Ty France",
+              "order": 4,
+              "position": "1B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 29490,
+              "name": "Jackson Merrill",
+              "order": 5,
+              "position": "CF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 12161,
+              "name": "Xander Bogaerts",
+              "order": 6,
+              "position": "SS"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 22217,
+              "name": "Luis Campusano",
+              "order": 7,
+              "position": "C"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 18036,
+              "name": "Jake Cronenworth",
+              "order": 8,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 26047,
+              "name": "Jase Bowen",
+              "order": 9,
+              "position": "LF"
+            }
+          ],
+          "status": "Projected lineup"
+        },
+        {
+          "name": "Diamondbacks",
+          "players": [
+            {
+              "bats": "L",
+              "fangraphsId": 21454,
+              "name": "Lars Nootbaar",
+              "order": 1,
+              "position": "DH"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 25878,
+              "name": "Corbin Carroll",
+              "order": 2,
+              "position": "RF"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 22799,
+              "name": "Geraldo Perdomo",
+              "order": 3,
+              "position": "SS"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 22664,
+              "name": "Gabriel Moreno",
+              "order": 4,
+              "position": "C"
+            },
+            {
+              "bats": "S",
+              "fangraphsId": 13613,
+              "name": "Ketel Marte",
+              "order": 5,
+              "position": "2B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 9777,
+              "name": "Nolan Arenado",
+              "order": 6,
+              "position": "3B"
+            },
+            {
+              "bats": "L",
+              "fangraphsId": 12144,
+              "name": "Max Kepler",
+              "order": 7,
+              "position": "LF"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 29571,
+              "name": "Tim Tawa",
+              "order": 8,
+              "position": "1B"
+            },
+            {
+              "bats": "R",
+              "fangraphsId": 35061,
+              "name": "Ryan Waldschmidt",
+              "order": 9,
+              "position": "CF"
+            }
+          ],
+          "status": "Projected lineup"
+        }
+      ]
+    }
+  ],
+  "fetchedAt": "2026-08-06T15:57:32.125Z",
+  "source": "https://www.fangraphs.com/scores?date=2026-08-06"
+}
