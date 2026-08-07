@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { workbookPaWeights } from "../app/modelWeights.ts";
+import { applyRateOverrides, workbookPaWeights } from "../app/modelWeights.ts";
 
 test("Héctor Rodríguez regression: current and ROS PA weights match the workbook rule", () => {
   const weights = workbookPaWeights(3, 120, 526, 195);
@@ -25,4 +25,14 @@ test("pitcher PA% uses full-season TBF, never remaining ROS TBF alone", () => {
   const weights = workbookPaWeights(3, 120, 526, 195);
   assert.ok(weights.pitcherPaPct < 1);
   assert.notEqual(weights.pitcherPaPct, 526 / 195);
+});
+
+test("manual EXP-rate edits change downstream hit and out probabilities", () => {
+  const row={k:.25,bb:.08,hr:.03,babip:.3,nonHrHit:.189,out:.7218};
+  const edited=applyRateOverrides(row,{k:.35,babip:.34});
+  assert.equal(edited.k,.35);
+  assert.equal(edited.babip,.34);
+  assert.notEqual(edited.nonHrHit,row.nonHrHit);
+  assert.notEqual(edited.out,row.out);
+  assert.ok(edited.nonHrHit+edited.hr>=0);
 });
