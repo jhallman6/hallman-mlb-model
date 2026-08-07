@@ -147,5 +147,6 @@ for (const filename of required) {
   if (!Array.isArray(data.rows) || data.rows.length === 0) throw new Error(`${filename} is empty`);
   if (!String(data.fetchedAt ?? "").startsWith(today)) throw new Error(`${filename} was not refreshed today`);
 }
+await run("npm.cmd", ["run", "validate:data"]);
 await run("npm.cmd", ["run", "build"]);
 console.log("Daily refresh and validation succeeded. The site is ready to publish.");

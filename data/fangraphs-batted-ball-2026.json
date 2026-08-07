@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "minPA": 1,
-  "fetchedAt": "2026-08-06T15:50:53.954Z",
+  "fetchedAt": "2026-08-07T16:59:41.778Z",
   "sourceUrl": "https://www.fangraphs.com/leaders/major-league?pos=all&qual=1&type=2&month=0&season=2026&season1=2026&pageitems=2000",
   "rows": [
     {
@@ -66,16 +66,6 @@
     },
     {
       "rank": 7,
-      "playerId": 19422,
-      "name": "Brian Serven",
-      "team": "ATH",
-      "gbPct": 0.7,
-      "fbPct": 0.3,
-      "hardHitPct": 0.6,
-      "pullPct": 0.3
-    },
-    {
-      "rank": 8,
       "playerId": 15679,
       "name": "Rowdy Tellez",
       "team": "ATL",
@@ -83,6 +73,16 @@
       "fbPct": 0.7140000000000001,
       "hardHitPct": 0.5710000000000001,
       "pullPct": 0.14300000000000002
+    },
+    {
+      "rank": 8,
+      "playerId": 19422,
+      "name": "Brian Serven",
+      "team": "ATH",
+      "gbPct": 0.5710000000000001,
+      "fbPct": 0.429,
+      "hardHitPct": 0.5710000000000001,
+      "pullPct": 0.35700000000000004
     },
     {
       "rank": 9,
@@ -206,6 +206,16 @@
     },
     {
       "rank": 21,
+      "playerId": 24597,
+      "name": "Jonathan Ornelas",
+      "team": "ATH",
+      "gbPct": 0.667,
+      "fbPct": 0.33299999999999996,
+      "hardHitPct": 0.5,
+      "pullPct": 0.5
+    },
+    {
+      "rank": 22,
       "playerId": 27569,
       "name": "Trei Cruz",
       "team": "DET",
@@ -215,7 +225,17 @@
       "pullPct": 0.5
     },
     {
-      "rank": 22,
+      "rank": 23,
+      "playerId": 28811,
+      "name": "Angel Genao",
+      "team": "CLE",
+      "gbPct": 0.375,
+      "fbPct": 0.25,
+      "hardHitPct": 0.5,
+      "pullPct": 0.125
+    },
+    {
+      "rank": 24,
       "playerId": 29547,
       "name": "Ryan Bliss",
       "team": "SEA",
@@ -225,7 +245,17 @@
       "pullPct": 0.16699999999999998
     },
     {
-      "rank": 23,
+      "rank": 25,
+      "playerId": 33357,
+      "name": "Andrew Pinckney",
+      "team": "WSN",
+      "gbPct": 0.5,
+      "fbPct": 0.5,
+      "hardHitPct": 0.5,
+      "pullPct": 0.5
+    },
+    {
+      "rank": 26,
       "playerId": 33433,
       "name": "George Lombard Jr.",
       "team": "NYY",
@@ -235,7 +265,7 @@
       "pullPct": 0.75
     },
     {
-      "rank": 24,
+      "rank": 27,
       "playerId": 31354,
       "name": "Jimmy Crooks",
       "team": "STL",
@@ -245,7 +275,7 @@
       "pullPct": 0.41
     },
     {
-      "rank": 25,
+      "rank": 28,
       "playerId": 22197,
       "name": "MJ Melendez",
       "team": "NYM",
@@ -255,7 +285,7 @@
       "pullPct": 0.5
     },
     {
-      "rank": 26,
+      "rank": 29,
       "playerId": 27534,
       "name": "Edouard Julien",
       "team": "COL",
@@ -265,7 +295,7 @@
       "pullPct": 0.366
     },
     {
-      "rank": 27,
+      "rank": 30,
       "playerId": 27496,
       "name": "Owen Caissie",
       "team": "MIA",
@@ -275,7 +305,7 @@
       "pullPct": 0.348
     },
     {
-      "rank": 28,
+      "rank": 31,
       "playerId": 35110,
       "name": "Nick Kurtz",
       "team": "ATH",
@@ -285,27 +315,27 @@
       "pullPct": 0.332
     },
     {
-      "rank": 29,
+      "rank": 32,
       "playerId": 30011,
       "name": "Christian Encarnacion-St...",
       "team": "BAL",
-      "gbPct": 0.34299999999999997,
-      "fbPct": 0.429,
-      "hardHitPct": 0.47200000000000003,
-      "pullPct": 0.41700000000000004
+      "gbPct": 0.35100000000000003,
+      "fbPct": 0.43200000000000005,
+      "hardHitPct": 0.474,
+      "pullPct": 0.42100000000000004
     },
     {
-      "rank": 30,
+      "rank": 33,
       "playerId": 21626,
       "name": "Griffin Conine",
       "team": "MIA",
-      "gbPct": 0.47100000000000003,
-      "fbPct": 0.322,
-      "hardHitPct": 0.47100000000000003,
-      "pullPct": 0.46
+      "gbPct": 0.47200000000000003,
+      "fbPct": 0.326,
+      "hardHitPct": 0.47200000000000003,
+      "pullPct": 0.449
     },
     {
-      "rank": 31,
+      "rank": 34,
       "playerId": 29005,
       "name": "Esmerlyn Valdez",
       "team": "PIT",
@@ -315,7 +345,7 @@
       "pullPct": 0.322
     },
     {
-      "rank": 32,
+      "rank": 35,
       "playerId": 14366,
       "name": "Joey Meneses",
       "team": "ATH",
@@ -325,7 +355,7 @@
       "pullPct": 0.588
     },
     {
-      "rank": 33,
+      "rank": 36,
       "playerId": 21711,
       "name": "Oneil Cruz",
       "team": "PIT",
@@ -335,17 +365,7 @@
       "pullPct": 0.428
     },
     {
-      "rank": 34,
-      "playerId": 26668,
-      "name": "Elly De La Cruz",
-      "team": "CIN",
-      "gbPct": 0.465,
-      "fbPct": 0.327,
-      "hardHitPct": 0.465,
-      "pullPct": 0.35
-    },
-    {
-      "rank": 35,
+      "rank": 37,
       "playerId": 19755,
       "name": "Shohei Ohtani",
       "team": "LAD",
@@ -355,7 +375,17 @@
       "pullPct": 0.488
     },
     {
-      "rank": 36,
+      "rank": 38,
+      "playerId": 26668,
+      "name": "Elly De La Cruz",
+      "team": "CIN",
+      "gbPct": 0.462,
+      "fbPct": 0.33299999999999996,
+      "hardHitPct": 0.462,
+      "pullPct": 0.348
+    },
+    {
+      "rank": 39,
       "playerId": 15640,
       "name": "Aaron Judge",
       "team": "NYY",
@@ -365,7 +395,7 @@
       "pullPct": 0.434
     },
     {
-      "rank": 37,
+      "rank": 40,
       "playerId": 27573,
       "name": "Gage Workman",
       "team": "2 Tms",
@@ -375,7 +405,17 @@
       "pullPct": 0.33299999999999996
     },
     {
-      "rank": 38,
+      "rank": 41,
+      "playerId": 21797,
+      "name": "Andrés Chaparro",
+      "team": "WSN",
+      "gbPct": 0.456,
+      "fbPct": 0.426,
+      "hardHitPct": 0.456,
+      "pullPct": 0.515
+    },
+    {
+      "rank": 42,
       "playerId": 12927,
       "name": "Brandon Nimmo",
       "team": "TEX",
@@ -385,7 +425,7 @@
       "pullPct": 0.32
     },
     {
-      "rank": 39,
+      "rank": 43,
       "playerId": 25055,
       "name": "Nate Eaton",
       "team": "BOS",
@@ -395,7 +435,7 @@
       "pullPct": 0.6
     },
     {
-      "rank": 40,
+      "rank": 44,
       "playerId": 28163,
       "name": "Junior Caminero",
       "team": "TBR",
@@ -405,27 +445,17 @@
       "pullPct": 0.494
     },
     {
-      "rank": 41,
-      "playerId": 21797,
-      "name": "Andrés Chaparro",
-      "team": "WSN",
-      "gbPct": 0.431,
-      "fbPct": 0.446,
-      "hardHitPct": 0.446,
-      "pullPct": 0.508
-    },
-    {
-      "rank": 42,
+      "rank": 45,
       "playerId": 24878,
       "name": "Heriberto Hernández",
       "team": "MIA",
       "gbPct": 0.415,
-      "fbPct": 0.415,
+      "fbPct": 0.41,
       "hardHitPct": 0.446,
-      "pullPct": 0.48700000000000004
+      "pullPct": 0.49700000000000005
     },
     {
-      "rank": 43,
+      "rank": 46,
       "playerId": 19627,
       "name": "Brent Rooker",
       "team": "ATH",
@@ -435,7 +465,7 @@
       "pullPct": 0.402
     },
     {
-      "rank": 44,
+      "rank": 47,
       "playerId": 22558,
       "name": "Jarred Kelenic",
       "team": "2 Tms",
@@ -445,7 +475,7 @@
       "pullPct": 0.25
     },
     {
-      "rank": 45,
+      "rank": 48,
       "playerId": 31855,
       "name": "Colby Thomas",
       "team": "ATH",
@@ -455,17 +485,17 @@
       "pullPct": 0.316
     },
     {
-      "rank": 46,
+      "rank": 49,
       "playerId": 19251,
       "name": "Pete Alonso",
       "team": "BAL",
-      "gbPct": 0.41200000000000003,
-      "fbPct": 0.373,
+      "gbPct": 0.41,
+      "fbPct": 0.374,
       "hardHitPct": 0.442,
-      "pullPct": 0.364
+      "pullPct": 0.365
     },
     {
-      "rank": 47,
+      "rank": 50,
       "playerId": 33390,
       "name": "Bryce Eldridge",
       "team": "SFG",
@@ -475,17 +505,17 @@
       "pullPct": 0.41600000000000004
     },
     {
-      "rank": 48,
-      "playerId": 20572,
-      "name": "Kody Clemens",
-      "team": "MIN",
-      "gbPct": 0.389,
-      "fbPct": 0.436,
-      "hardHitPct": 0.436,
-      "pullPct": 0.479
+      "rank": 51,
+      "playerId": 16478,
+      "name": "Kyle Schwarber",
+      "team": "PHI",
+      "gbPct": 0.275,
+      "fbPct": 0.467,
+      "hardHitPct": 0.43799999999999994,
+      "pullPct": 0.563
     },
     {
-      "rank": 49,
+      "rank": 52,
       "playerId": 11899,
       "name": "Joc Pederson",
       "team": "TEX",
@@ -495,7 +525,17 @@
       "pullPct": 0.418
     },
     {
-      "rank": 50,
+      "rank": 53,
+      "playerId": 20572,
+      "name": "Kody Clemens",
+      "team": "MIN",
+      "gbPct": 0.385,
+      "fbPct": 0.442,
+      "hardHitPct": 0.435,
+      "pullPct": 0.474
+    },
+    {
+      "rank": 54,
       "playerId": 13602,
       "name": "Patrick Wisdom",
       "team": "SEA",
@@ -505,7 +545,17 @@
       "pullPct": 0.304
     },
     {
-      "rank": 51,
+      "rank": 55,
+      "playerId": 16376,
+      "name": "Michael Conforto",
+      "team": "CHC",
+      "gbPct": 0.348,
+      "fbPct": 0.452,
+      "hardHitPct": 0.435,
+      "pullPct": 0.496
+    },
+    {
+      "rank": 56,
       "playerId": 28848,
       "name": "Tanner Murray",
       "team": "CHW",
@@ -515,37 +565,47 @@
       "pullPct": 0.391
     },
     {
-      "rank": 52,
+      "rank": 57,
+      "playerId": 11579,
+      "name": "Bryce Harper",
+      "team": "PHI",
+      "gbPct": 0.433,
+      "fbPct": 0.37200000000000005,
+      "hardHitPct": 0.433,
+      "pullPct": 0.40399999999999997
+    },
+    {
+      "rank": 58,
+      "playerId": 26438,
+      "name": "Dominic Canzone",
+      "team": "SEA",
+      "gbPct": 0.45,
+      "fbPct": 0.36200000000000004,
+      "hardHitPct": 0.43200000000000005,
+      "pullPct": 0.428
+    },
+    {
+      "rank": 59,
       "playerId": 25764,
       "name": "Bobby Witt Jr.",
       "team": "KCR",
-      "gbPct": 0.353,
-      "fbPct": 0.431,
-      "hardHitPct": 0.435,
-      "pullPct": 0.327
+      "gbPct": 0.355,
+      "fbPct": 0.429,
+      "hardHitPct": 0.43200000000000005,
+      "pullPct": 0.32899999999999996
     },
     {
-      "rank": 53,
-      "playerId": 16478,
-      "name": "Kyle Schwarber",
-      "team": "PHI",
-      "gbPct": 0.27,
-      "fbPct": 0.473,
-      "hardHitPct": 0.435,
-      "pullPct": 0.557
+      "rank": 60,
+      "playerId": 26151,
+      "name": "Kyle Stowers",
+      "team": "MIA",
+      "gbPct": 0.35200000000000004,
+      "fbPct": 0.447,
+      "hardHitPct": 0.43200000000000005,
+      "pullPct": 0.47700000000000004
     },
     {
-      "rank": 54,
-      "playerId": 16376,
-      "name": "Michael Conforto",
-      "team": "CHC",
-      "gbPct": 0.345,
-      "fbPct": 0.451,
-      "hardHitPct": 0.434,
-      "pullPct": 0.496
-    },
-    {
-      "rank": 55,
+      "rank": 61,
       "playerId": 21842,
       "name": "Carlos Cortes",
       "team": "ATH",
@@ -555,17 +615,7 @@
       "pullPct": 0.359
     },
     {
-      "rank": 56,
-      "playerId": 11579,
-      "name": "Bryce Harper",
-      "team": "PHI",
-      "gbPct": 0.43700000000000006,
-      "fbPct": 0.375,
-      "hardHitPct": 0.43,
-      "pullPct": 0.401
-    },
-    {
-      "rank": 57,
+      "rank": 62,
       "playerId": 27475,
       "name": "Jordan Walker",
       "team": "STL",
@@ -575,17 +625,7 @@
       "pullPct": 0.408
     },
     {
-      "rank": 58,
-      "playerId": 17982,
-      "name": "Ty France",
-      "team": "SDP",
-      "gbPct": 0.439,
-      "fbPct": 0.36,
-      "hardHitPct": 0.43,
-      "pullPct": 0.41600000000000004
-    },
-    {
-      "rank": 59,
+      "rank": 63,
       "playerId": 21707,
       "name": "Oswaldo Cabrera",
       "team": "NYY",
@@ -595,7 +635,7 @@
       "pullPct": 0.429
     },
     {
-      "rank": 60,
+      "rank": 64,
       "playerId": 22563,
       "name": "Gabriel Arias",
       "team": "CLE",
@@ -605,7 +645,7 @@
       "pullPct": 0.371
     },
     {
-      "rank": 61,
+      "rank": 65,
       "playerId": 23989,
       "name": "Junior Perez",
       "team": "CHW",
@@ -615,47 +655,17 @@
       "pullPct": 0.33299999999999996
     },
     {
-      "rank": 62,
-      "playerId": 26151,
-      "name": "Kyle Stowers",
-      "team": "MIA",
-      "gbPct": 0.35600000000000004,
-      "fbPct": 0.444,
-      "hardHitPct": 0.429,
-      "pullPct": 0.479
-    },
-    {
-      "rank": 63,
-      "playerId": 26438,
-      "name": "Dominic Canzone",
-      "team": "SEA",
-      "gbPct": 0.445,
-      "fbPct": 0.366,
-      "hardHitPct": 0.42700000000000005,
-      "pullPct": 0.423
-    },
-    {
-      "rank": 64,
-      "playerId": 26197,
-      "name": "Andrew Vaughn",
-      "team": "MIL",
-      "gbPct": 0.43200000000000005,
-      "fbPct": 0.358,
-      "hardHitPct": 0.426,
-      "pullPct": 0.377
-    },
-    {
-      "rank": 65,
-      "playerId": 27555,
-      "name": "Garrett Mitchell",
-      "team": "MIL",
-      "gbPct": 0.5529999999999999,
-      "fbPct": 0.243,
-      "hardHitPct": 0.425,
-      "pullPct": 0.33799999999999997
-    },
-    {
       "rank": 66,
+      "playerId": 17982,
+      "name": "Ty France",
+      "team": "SDP",
+      "gbPct": 0.436,
+      "fbPct": 0.36700000000000005,
+      "hardHitPct": 0.42700000000000005,
+      "pullPct": 0.413
+    },
+    {
+      "rank": 67,
       "playerId": 20123,
       "name": "Juan Soto",
       "team": "NYM",
@@ -665,7 +675,27 @@
       "pullPct": 0.42100000000000004
     },
     {
-      "rank": 67,
+      "rank": 68,
+      "playerId": 31448,
+      "name": "Henry Bolte",
+      "team": "ATH",
+      "gbPct": 0.62,
+      "fbPct": 0.23399999999999999,
+      "hardHitPct": 0.425,
+      "pullPct": 0.319
+    },
+    {
+      "rank": 69,
+      "playerId": 27769,
+      "name": "Pete Crow-Armstrong",
+      "team": "CHC",
+      "gbPct": 0.303,
+      "fbPct": 0.485,
+      "hardHitPct": 0.424,
+      "pullPct": 0.507
+    },
+    {
+      "rank": 70,
       "playerId": 25816,
       "name": "Shea Langeliers",
       "team": "ATH",
@@ -675,27 +705,17 @@
       "pullPct": 0.39899999999999997
     },
     {
-      "rank": 68,
+      "rank": 71,
       "playerId": 29576,
       "name": "Ben Rice",
       "team": "NYY",
       "gbPct": 0.41600000000000004,
       "fbPct": 0.39899999999999997,
       "hardHitPct": 0.423,
-      "pullPct": 0.478
+      "pullPct": 0.474
     },
     {
-      "rank": 69,
-      "playerId": 27769,
-      "name": "Pete Crow-Armstrong",
-      "team": "CHC",
-      "gbPct": 0.303,
-      "fbPct": 0.486,
-      "hardHitPct": 0.42200000000000004,
-      "pullPct": 0.508
-    },
-    {
-      "rank": 70,
+      "rank": 72,
       "playerId": 29715,
       "name": "Hunter Goodman",
       "team": "COL",
@@ -705,27 +725,37 @@
       "pullPct": 0.518
     },
     {
-      "rank": 71,
+      "rank": 73,
+      "playerId": 31505,
+      "name": "Sal Stewart",
+      "team": "CIN",
+      "gbPct": 0.442,
+      "fbPct": 0.376,
+      "hardHitPct": 0.42100000000000004,
+      "pullPct": 0.33899999999999997
+    },
+    {
+      "rank": 74,
+      "playerId": 26197,
+      "name": "Andrew Vaughn",
+      "team": "MIL",
+      "gbPct": 0.433,
+      "fbPct": 0.354,
+      "hardHitPct": 0.42100000000000004,
+      "pullPct": 0.37799999999999995
+    },
+    {
+      "rank": 75,
       "playerId": 37120,
       "name": "Munetaka Murakami",
       "team": "CHW",
-      "gbPct": 0.392,
-      "fbPct": 0.452,
-      "hardHitPct": 0.42200000000000004,
-      "pullPct": 0.428
-    },
-    {
-      "rank": 72,
-      "playerId": 31448,
-      "name": "Henry Bolte",
-      "team": "ATH",
-      "gbPct": 0.632,
-      "fbPct": 0.23199999999999998,
+      "gbPct": 0.402,
+      "fbPct": 0.444,
       "hardHitPct": 0.42,
-      "pullPct": 0.325
+      "pullPct": 0.43799999999999994
     },
     {
-      "rank": 73,
+      "rank": 76,
       "playerId": 19287,
       "name": "Adolis García",
       "team": "PHI",
@@ -735,7 +765,17 @@
       "pullPct": 0.38
     },
     {
-      "rank": 74,
+      "rank": 77,
+      "playerId": 26284,
+      "name": "John Rave",
+      "team": "KCR",
+      "gbPct": 0.44799999999999995,
+      "fbPct": 0.483,
+      "hardHitPct": 0.419,
+      "pullPct": 0.613
+    },
+    {
+      "rank": 78,
       "playerId": 28312,
       "name": "Coby Mayo",
       "team": "BAL",
@@ -745,7 +785,27 @@
       "pullPct": 0.521
     },
     {
-      "rank": 75,
+      "rank": 79,
+      "playerId": 27555,
+      "name": "Garrett Mitchell",
+      "team": "MIL",
+      "gbPct": 0.55,
+      "fbPct": 0.244,
+      "hardHitPct": 0.419,
+      "pullPct": 0.33299999999999996
+    },
+    {
+      "rank": 80,
+      "playerId": 35041,
+      "name": "Jac Caglianone",
+      "team": "KCR",
+      "gbPct": 0.461,
+      "fbPct": 0.303,
+      "hardHitPct": 0.41700000000000004,
+      "pullPct": 0.483
+    },
+    {
+      "rank": 81,
       "playerId": 33549,
       "name": "Kyle Teel",
       "team": "CHW",
@@ -755,7 +815,17 @@
       "pullPct": 0.389
     },
     {
-      "rank": 76,
+      "rank": 82,
+      "playerId": 17988,
+      "name": "Tyler Stephenson",
+      "team": "CIN",
+      "gbPct": 0.335,
+      "fbPct": 0.426,
+      "hardHitPct": 0.41600000000000004,
+      "pullPct": 0.371
+    },
+    {
+      "rank": 83,
       "playerId": 26299,
       "name": "Josh Jung",
       "team": "TEX",
@@ -765,27 +835,7 @@
       "pullPct": 0.392
     },
     {
-      "rank": 77,
-      "playerId": 31505,
-      "name": "Sal Stewart",
-      "team": "CIN",
-      "gbPct": 0.446,
-      "fbPct": 0.373,
-      "hardHitPct": 0.41600000000000004,
-      "pullPct": 0.33899999999999997
-    },
-    {
-      "rank": 78,
-      "playerId": 35041,
-      "name": "Jac Caglianone",
-      "team": "KCR",
-      "gbPct": 0.461,
-      "fbPct": 0.303,
-      "hardHitPct": 0.41600000000000004,
-      "pullPct": 0.479
-    },
-    {
-      "rank": 79,
+      "rank": 84,
       "playerId": 13624,
       "name": "Corey Seager",
       "team": "TEX",
@@ -795,7 +845,7 @@
       "pullPct": 0.486
     },
     {
-      "rank": 80,
+      "rank": 85,
       "playerId": 33252,
       "name": "Kyle Karros",
       "team": "COL",
@@ -805,37 +855,17 @@
       "pullPct": 0.39899999999999997
     },
     {
-      "rank": 81,
-      "playerId": 10155,
-      "name": "Mike Trout",
-      "team": "LAA",
-      "gbPct": 0.36,
-      "fbPct": 0.466,
+      "rank": 86,
+      "playerId": 20178,
+      "name": "Miguel Vargas",
+      "team": "CHW",
+      "gbPct": 0.301,
+      "fbPct": 0.513,
       "hardHitPct": 0.415,
-      "pullPct": 0.41100000000000003
+      "pullPct": 0.46
     },
     {
-      "rank": 82,
-      "playerId": 26284,
-      "name": "John Rave",
-      "team": "KCR",
-      "gbPct": 0.48100000000000004,
-      "fbPct": 0.444,
-      "hardHitPct": 0.414,
-      "pullPct": 0.621
-    },
-    {
-      "rank": 83,
-      "playerId": 18882,
-      "name": "Brandon Lowe",
-      "team": "PIT",
-      "gbPct": 0.34299999999999997,
-      "fbPct": 0.43700000000000006,
-      "hardHitPct": 0.413,
-      "pullPct": 0.49
-    },
-    {
-      "rank": 84,
+      "rank": 87,
       "playerId": 19354,
       "name": "Luke Raley",
       "team": "SEA",
@@ -845,7 +875,7 @@
       "pullPct": 0.45899999999999996
     },
     {
-      "rank": 85,
+      "rank": 88,
       "playerId": 31382,
       "name": "Dalton Rushing",
       "team": "LAD",
@@ -855,37 +885,37 @@
       "pullPct": 0.45899999999999996
     },
     {
-      "rank": 86,
+      "rank": 89,
+      "playerId": 18882,
+      "name": "Brandon Lowe",
+      "team": "PIT",
+      "gbPct": 0.342,
+      "fbPct": 0.439,
+      "hardHitPct": 0.41200000000000003,
+      "pullPct": 0.488
+    },
+    {
+      "rank": 90,
+      "playerId": 10155,
+      "name": "Mike Trout",
+      "team": "LAA",
+      "gbPct": 0.35700000000000004,
+      "fbPct": 0.466,
+      "hardHitPct": 0.41200000000000003,
+      "pullPct": 0.408
+    },
+    {
+      "rank": 91,
       "playerId": 31539,
       "name": "Drake Baldwin",
       "team": "ATL",
-      "gbPct": 0.466,
-      "fbPct": 0.325,
+      "gbPct": 0.47600000000000003,
+      "fbPct": 0.319,
       "hardHitPct": 0.41,
-      "pullPct": 0.321
+      "pullPct": 0.322
     },
     {
-      "rank": 87,
-      "playerId": 17988,
-      "name": "Tyler Stephenson",
-      "team": "CIN",
-      "gbPct": 0.33299999999999996,
-      "fbPct": 0.426,
-      "hardHitPct": 0.41,
-      "pullPct": 0.374
-    },
-    {
-      "rank": 88,
-      "playerId": 20178,
-      "name": "Miguel Vargas",
-      "team": "CHW",
-      "gbPct": 0.298,
-      "fbPct": 0.515,
-      "hardHitPct": 0.41,
-      "pullPct": 0.461
-    },
-    {
-      "rank": 89,
+      "rank": 92,
       "playerId": 15194,
       "name": "Jake Bauers",
       "team": "MIL",
@@ -895,7 +925,7 @@
       "pullPct": 0.446
     },
     {
-      "rank": 90,
+      "rank": 93,
       "playerId": 35126,
       "name": "Lucas Spence",
       "team": "HOU",
@@ -905,7 +935,27 @@
       "pullPct": 0.455
     },
     {
-      "rank": 91,
+      "rank": 94,
+      "playerId": 17350,
+      "name": "Rafael Devers",
+      "team": "SFG",
+      "gbPct": 0.401,
+      "fbPct": 0.43,
+      "hardHitPct": 0.406,
+      "pullPct": 0.368
+    },
+    {
+      "rank": 95,
+      "playerId": 22515,
+      "name": "Heliot Ramos",
+      "team": "2 Tms",
+      "gbPct": 0.542,
+      "fbPct": 0.27399999999999997,
+      "hardHitPct": 0.406,
+      "pullPct": 0.373
+    },
+    {
+      "rank": 96,
       "playerId": 13301,
       "name": "Max Muncy",
       "team": "LAD",
@@ -915,7 +965,7 @@
       "pullPct": 0.546
     },
     {
-      "rank": 92,
+      "rank": 97,
       "playerId": 19238,
       "name": "Lourdes Gurriel Jr.",
       "team": "ARI",
@@ -925,17 +975,37 @@
       "pullPct": 0.406
     },
     {
-      "rank": 93,
-      "playerId": 14854,
-      "name": "Mike Yastrzemski",
+      "rank": 98,
+      "playerId": 14344,
+      "name": "Matt Olson",
       "team": "ATL",
-      "gbPct": 0.382,
-      "fbPct": 0.446,
-      "hardHitPct": 0.40399999999999997,
-      "pullPct": 0.5
+      "gbPct": 0.35600000000000004,
+      "fbPct": 0.475,
+      "hardHitPct": 0.405,
+      "pullPct": 0.396
     },
     {
-      "rank": 94,
+      "rank": 99,
+      "playerId": 10243,
+      "name": "Randal Grichuk",
+      "team": "2 Tms",
+      "gbPct": 0.405,
+      "fbPct": 0.389,
+      "hardHitPct": 0.405,
+      "pullPct": 0.508
+    },
+    {
+      "rank": 100,
+      "playerId": 13611,
+      "name": "Mookie Betts",
+      "team": "LAD",
+      "gbPct": 0.29600000000000004,
+      "fbPct": 0.48700000000000004,
+      "hardHitPct": 0.40399999999999997,
+      "pullPct": 0.386
+    },
+    {
+      "rank": 101,
       "playerId": 5361,
       "name": "Freddie Freeman",
       "team": "LAD",
@@ -945,27 +1015,7 @@
       "pullPct": 0.355
     },
     {
-      "rank": 95,
-      "playerId": 17350,
-      "name": "Rafael Devers",
-      "team": "SFG",
-      "gbPct": 0.401,
-      "fbPct": 0.43,
-      "hardHitPct": 0.40299999999999997,
-      "pullPct": 0.368
-    },
-    {
-      "rank": 96,
-      "playerId": 26289,
-      "name": "Gunnar Henderson",
-      "team": "BAL",
-      "gbPct": 0.455,
-      "fbPct": 0.386,
-      "hardHitPct": 0.40299999999999997,
-      "pullPct": 0.452
-    },
-    {
-      "rank": 97,
+      "rank": 102,
       "playerId": 23792,
       "name": "Alek Thomas",
       "team": "ARI",
@@ -975,27 +1025,37 @@
       "pullPct": 0.33299999999999996
     },
     {
-      "rank": 98,
-      "playerId": 22515,
-      "name": "Heliot Ramos",
-      "team": "2 Tms",
-      "gbPct": 0.542,
-      "fbPct": 0.27399999999999997,
-      "hardHitPct": 0.401,
-      "pullPct": 0.373
+      "rank": 103,
+      "playerId": 14854,
+      "name": "Mike Yastrzemski",
+      "team": "ATL",
+      "gbPct": 0.38,
+      "fbPct": 0.449,
+      "hardHitPct": 0.402,
+      "pullPct": 0.49700000000000005
     },
     {
-      "rank": 99,
-      "playerId": 13611,
-      "name": "Mookie Betts",
-      "team": "LAD",
-      "gbPct": 0.29600000000000004,
-      "fbPct": 0.48700000000000004,
-      "hardHitPct": 0.401,
-      "pullPct": 0.386
+      "rank": 104,
+      "playerId": 26289,
+      "name": "Gunnar Henderson",
+      "team": "BAL",
+      "gbPct": 0.45399999999999996,
+      "fbPct": 0.387,
+      "hardHitPct": 0.402,
+      "pullPct": 0.45399999999999996
     },
     {
-      "rank": 100,
+      "rank": 105,
+      "playerId": 28806,
+      "name": "Jackson Chourio",
+      "team": "MIL",
+      "gbPct": 0.45399999999999996,
+      "fbPct": 0.39,
+      "hardHitPct": 0.402,
+      "pullPct": 0.317
+    },
+    {
+      "rank": 106,
       "playerId": 22275,
       "name": "Jake Burger",
       "team": "TEX",
@@ -1005,17 +1065,7 @@
       "pullPct": 0.47
     },
     {
-      "rank": 101,
-      "playerId": 22186,
-      "name": "Brice Turang",
-      "team": "MIL",
-      "gbPct": 0.45299999999999996,
-      "fbPct": 0.31,
-      "hardHitPct": 0.401,
-      "pullPct": 0.29
-    },
-    {
-      "rank": 102,
+      "rank": 107,
       "playerId": 13621,
       "name": "Jeimer Candelario",
       "team": "LAA",
@@ -1025,7 +1075,7 @@
       "pullPct": 0.6
     },
     {
-      "rank": 103,
+      "rank": 108,
       "playerId": 14161,
       "name": "Byron Buxton",
       "team": "MIN",
@@ -1035,7 +1085,7 @@
       "pullPct": 0.506
     },
     {
-      "rank": 104,
+      "rank": 109,
       "playerId": 17484,
       "name": "Eloy Jiménez",
       "team": "TOR",
@@ -1045,7 +1095,7 @@
       "pullPct": 0.52
     },
     {
-      "rank": 105,
+      "rank": 110,
       "playerId": 20321,
       "name": "Stuart Fairchild",
       "team": "2 Tms",
@@ -1055,7 +1105,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 106,
+      "rank": 111,
       "playerId": 21587,
       "name": "César Salazar",
       "team": "HOU",
@@ -1065,7 +1115,7 @@
       "pullPct": 0.5329999999999999
     },
     {
-      "rank": 107,
+      "rank": 112,
       "playerId": 27593,
       "name": "Ivan Johnson",
       "team": "CIN",
@@ -1075,7 +1125,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 108,
+      "rank": 113,
       "playerId": 30038,
       "name": "Carson Williams",
       "team": "TBR",
@@ -1085,7 +1135,7 @@
       "pullPct": 0.35
     },
     {
-      "rank": 109,
+      "rank": 114,
       "playerId": 31583,
       "name": "Zach Cole",
       "team": "HOU",
@@ -1095,37 +1145,17 @@
       "pullPct": 0.5
     },
     {
-      "rank": 110,
-      "playerId": 14344,
-      "name": "Matt Olson",
-      "team": "ATL",
-      "gbPct": 0.359,
-      "fbPct": 0.474,
+      "rank": 115,
+      "playerId": 23772,
+      "name": "Wilyer Abreu",
+      "team": "BOS",
+      "gbPct": 0.32799999999999996,
+      "fbPct": 0.496,
       "hardHitPct": 0.39899999999999997,
-      "pullPct": 0.396
+      "pullPct": 0.342
     },
     {
-      "rank": 111,
-      "playerId": 26121,
-      "name": "Francisco Alvarez",
-      "team": "NYM",
-      "gbPct": 0.457,
-      "fbPct": 0.34700000000000003,
-      "hardHitPct": 0.39899999999999997,
-      "pullPct": 0.462
-    },
-    {
-      "rank": 112,
-      "playerId": 25878,
-      "name": "Corbin Carroll",
-      "team": "ARI",
-      "gbPct": 0.42100000000000004,
-      "fbPct": 0.418,
-      "hardHitPct": 0.39899999999999997,
-      "pullPct": 0.49200000000000005
-    },
-    {
-      "rank": 113,
+      "rank": 116,
       "playerId": 16442,
       "name": "Ryan O'Hearn",
       "team": "PIT",
@@ -1135,7 +1165,47 @@
       "pullPct": 0.41700000000000004
     },
     {
-      "rank": 114,
+      "rank": 117,
+      "playerId": 25878,
+      "name": "Corbin Carroll",
+      "team": "ARI",
+      "gbPct": 0.424,
+      "fbPct": 0.414,
+      "hardHitPct": 0.39799999999999996,
+      "pullPct": 0.49
+    },
+    {
+      "rank": 118,
+      "playerId": 23782,
+      "name": "Leo Jiménez",
+      "team": "MIA",
+      "gbPct": 0.563,
+      "fbPct": 0.272,
+      "hardHitPct": 0.39799999999999996,
+      "pullPct": 0.379
+    },
+    {
+      "rank": 119,
+      "playerId": 19455,
+      "name": "Andruw Monasterio",
+      "team": "BOS",
+      "gbPct": 0.313,
+      "fbPct": 0.436,
+      "hardHitPct": 0.39799999999999996,
+      "pullPct": 0.42200000000000004
+    },
+    {
+      "rank": 120,
+      "playerId": 35423,
+      "name": "Braden Montgomery",
+      "team": "CHW",
+      "gbPct": 0.585,
+      "fbPct": 0.285,
+      "hardHitPct": 0.397,
+      "pullPct": 0.374
+    },
+    {
+      "rank": 121,
       "playerId": 27562,
       "name": "Austin Wells",
       "team": "NYY",
@@ -1145,7 +1215,7 @@
       "pullPct": 0.478
     },
     {
-      "rank": 115,
+      "rank": 122,
       "playerId": 16578,
       "name": "Yandy Díaz",
       "team": "TBR",
@@ -1155,37 +1225,37 @@
       "pullPct": 0.247
     },
     {
-      "rank": 116,
-      "playerId": 29779,
-      "name": "Max Muncy",
-      "team": "ATH",
-      "gbPct": 0.455,
-      "fbPct": 0.376,
-      "hardHitPct": 0.396,
-      "pullPct": 0.475
-    },
-    {
-      "rank": 117,
-      "playerId": 25332,
-      "name": "Endy Rodríguez",
-      "team": "PIT",
-      "gbPct": 0.36700000000000005,
-      "fbPct": 0.433,
-      "hardHitPct": 0.396,
-      "pullPct": 0.451
-    },
-    {
-      "rank": 118,
-      "playerId": 10243,
-      "name": "Randal Grichuk",
-      "team": "2 Tms",
-      "gbPct": 0.40299999999999997,
-      "fbPct": 0.395,
+      "rank": 123,
+      "playerId": 22186,
+      "name": "Brice Turang",
+      "team": "MIL",
+      "gbPct": 0.45399999999999996,
+      "fbPct": 0.313,
       "hardHitPct": 0.395,
-      "pullPct": 0.508
+      "pullPct": 0.289
     },
     {
-      "rank": 119,
+      "rank": 124,
+      "playerId": 26121,
+      "name": "Francisco Alvarez",
+      "team": "NYM",
+      "gbPct": 0.45799999999999996,
+      "fbPct": 0.35,
+      "hardHitPct": 0.395,
+      "pullPct": 0.45799999999999996
+    },
+    {
+      "rank": 125,
+      "playerId": 28199,
+      "name": "Blaze Jordan",
+      "team": "STL",
+      "gbPct": 0.45399999999999996,
+      "fbPct": 0.336,
+      "hardHitPct": 0.395,
+      "pullPct": 0.345
+    },
+    {
+      "rank": 126,
       "playerId": 27449,
       "name": "Ryan Ward",
       "team": "LAD",
@@ -1195,7 +1265,7 @@
       "pullPct": 0.5529999999999999
     },
     {
-      "rank": 120,
+      "rank": 127,
       "playerId": 31812,
       "name": "Roman Anthony",
       "team": "BOS",
@@ -1205,37 +1275,27 @@
       "pullPct": 0.368
     },
     {
-      "rank": 121,
-      "playerId": 23772,
-      "name": "Wilyer Abreu",
-      "team": "BOS",
-      "gbPct": 0.326,
-      "fbPct": 0.495,
-      "hardHitPct": 0.395,
-      "pullPct": 0.34299999999999997
-    },
-    {
-      "rank": 122,
-      "playerId": 29478,
-      "name": "Carter Jensen",
-      "team": "KCR",
-      "gbPct": 0.344,
-      "fbPct": 0.504,
-      "hardHitPct": 0.395,
-      "pullPct": 0.402
-    },
-    {
-      "rank": 123,
-      "playerId": 28806,
-      "name": "Jackson Chourio",
-      "team": "MIL",
-      "gbPct": 0.455,
-      "fbPct": 0.386,
+      "rank": 128,
+      "playerId": 21636,
+      "name": "Jeremy Peña",
+      "team": "HOU",
+      "gbPct": 0.43700000000000006,
+      "fbPct": 0.32899999999999996,
       "hardHitPct": 0.39399999999999996,
-      "pullPct": 0.321
+      "pullPct": 0.484
     },
     {
-      "rank": 124,
+      "rank": 129,
+      "playerId": 27464,
+      "name": "Dillon Dingler",
+      "team": "DET",
+      "gbPct": 0.36200000000000004,
+      "fbPct": 0.433,
+      "hardHitPct": 0.39399999999999996,
+      "pullPct": 0.41700000000000004
+    },
+    {
+      "rank": 130,
       "playerId": 23789,
       "name": "Blaze Alexander",
       "team": "BAL",
@@ -1245,27 +1305,17 @@
       "pullPct": 0.34700000000000003
     },
     {
-      "rank": 125,
-      "playerId": 19290,
-      "name": "Randy Arozarena",
-      "team": "SEA",
-      "gbPct": 0.5,
-      "fbPct": 0.301,
+      "rank": 131,
+      "playerId": 29478,
+      "name": "Carter Jensen",
+      "team": "KCR",
+      "gbPct": 0.34,
+      "fbPct": 0.506,
       "hardHitPct": 0.39399999999999996,
-      "pullPct": 0.377
+      "pullPct": 0.409
     },
     {
-      "rank": 126,
-      "playerId": 35423,
-      "name": "Braden Montgomery",
-      "team": "CHW",
-      "gbPct": 0.5710000000000001,
-      "fbPct": 0.294,
-      "hardHitPct": 0.39399999999999996,
-      "pullPct": 0.37799999999999995
-    },
-    {
-      "rank": 127,
+      "rank": 132,
       "playerId": 21837,
       "name": "Jonathan Aranda",
       "team": "TBR",
@@ -1275,17 +1325,17 @@
       "pullPct": 0.284
     },
     {
-      "rank": 128,
-      "playerId": 27899,
-      "name": "Colt Keith",
-      "team": "DET",
-      "gbPct": 0.397,
-      "fbPct": 0.405,
+      "rank": 133,
+      "playerId": 33541,
+      "name": "Dylan Crews",
+      "team": "WSN",
+      "gbPct": 0.41,
+      "fbPct": 0.449,
       "hardHitPct": 0.39299999999999996,
-      "pullPct": 0.384
+      "pullPct": 0.371
     },
     {
-      "rank": 129,
+      "rank": 134,
       "playerId": 26664,
       "name": "Yohendrick Piñango",
       "team": "TOR",
@@ -1295,17 +1345,17 @@
       "pullPct": 0.32
     },
     {
-      "rank": 130,
-      "playerId": 19455,
-      "name": "Andruw Monasterio",
-      "team": "BOS",
-      "gbPct": 0.31,
-      "fbPct": 0.44299999999999995,
+      "rank": 135,
+      "playerId": 19290,
+      "name": "Randy Arozarena",
+      "team": "SEA",
+      "gbPct": 0.5,
+      "fbPct": 0.303,
       "hardHitPct": 0.391,
-      "pullPct": 0.41600000000000004
+      "pullPct": 0.37799999999999995
     },
     {
-      "rank": 131,
+      "rank": 136,
       "playerId": 35094,
       "name": "Sean Keys",
       "team": "TOR",
@@ -1315,77 +1365,37 @@
       "pullPct": 0.304
     },
     {
-      "rank": 132,
-      "playerId": 15711,
-      "name": "Tyler O'Neill",
-      "team": "BAL",
-      "gbPct": 0.281,
-      "fbPct": 0.547,
-      "hardHitPct": 0.391,
-      "pullPct": 0.47700000000000004
-    },
-    {
-      "rank": 133,
-      "playerId": 23782,
-      "name": "Leo Jiménez",
-      "team": "MIA",
-      "gbPct": 0.57,
-      "fbPct": 0.27,
-      "hardHitPct": 0.39,
-      "pullPct": 0.38
-    },
-    {
-      "rank": 134,
-      "playerId": 33541,
-      "name": "Dylan Crews",
-      "team": "WSN",
-      "gbPct": 0.41200000000000003,
-      "fbPct": 0.452,
-      "hardHitPct": 0.39,
-      "pullPct": 0.36700000000000005
-    },
-    {
-      "rank": 135,
-      "playerId": 21636,
-      "name": "Jeremy Peña",
-      "team": "HOU",
-      "gbPct": 0.43700000000000006,
-      "fbPct": 0.32899999999999996,
-      "hardHitPct": 0.39,
-      "pullPct": 0.484
-    },
-    {
-      "rank": 136,
-      "playerId": 27464,
-      "name": "Dillon Dingler",
-      "team": "DET",
-      "gbPct": 0.363,
-      "fbPct": 0.43200000000000005,
-      "hardHitPct": 0.389,
-      "pullPct": 0.419
-    },
-    {
       "rank": 137,
       "playerId": 16930,
       "name": "Jonah Heim",
       "team": "2 Tms",
-      "gbPct": 0.41100000000000003,
-      "fbPct": 0.41600000000000004,
-      "hardHitPct": 0.389,
-      "pullPct": 0.42700000000000005
+      "gbPct": 0.41700000000000004,
+      "fbPct": 0.41200000000000003,
+      "hardHitPct": 0.39,
+      "pullPct": 0.428
     },
     {
       "rank": 138,
-      "playerId": 19913,
-      "name": "Jesús Sánchez",
-      "team": "TOR",
-      "gbPct": 0.434,
-      "fbPct": 0.354,
-      "hardHitPct": 0.389,
-      "pullPct": 0.354
+      "playerId": 18401,
+      "name": "Ronald Acuña Jr.",
+      "team": "ATL",
+      "gbPct": 0.40700000000000003,
+      "fbPct": 0.401,
+      "hardHitPct": 0.39,
+      "pullPct": 0.37200000000000005
     },
     {
       "rank": 139,
+      "playerId": 27615,
+      "name": "Alec Burleson",
+      "team": "STL",
+      "gbPct": 0.43799999999999994,
+      "fbPct": 0.355,
+      "hardHitPct": 0.39,
+      "pullPct": 0.503
+    },
+    {
+      "rank": 140,
       "playerId": 27676,
       "name": "Vinnie Pasquantino",
       "team": "KCR",
@@ -1395,17 +1405,37 @@
       "pullPct": 0.43
     },
     {
-      "rank": 140,
+      "rank": 141,
+      "playerId": 15711,
+      "name": "Tyler O'Neill",
+      "team": "BAL",
+      "gbPct": 0.27899999999999997,
+      "fbPct": 0.5429999999999999,
+      "hardHitPct": 0.38799999999999996,
+      "pullPct": 0.473
+    },
+    {
+      "rank": 142,
+      "playerId": 25332,
+      "name": "Endy Rodríguez",
+      "team": "PIT",
+      "gbPct": 0.359,
+      "fbPct": 0.435,
+      "hardHitPct": 0.387,
+      "pullPct": 0.441
+    },
+    {
+      "rank": 143,
       "playerId": 24617,
       "name": "Jarren Duran",
       "team": "BOS",
-      "gbPct": 0.45899999999999996,
-      "fbPct": 0.375,
-      "hardHitPct": 0.38799999999999996,
-      "pullPct": 0.429
+      "gbPct": 0.45799999999999996,
+      "fbPct": 0.374,
+      "hardHitPct": 0.387,
+      "pullPct": 0.425
     },
     {
-      "rank": 141,
+      "rank": 144,
       "playerId": 19956,
       "name": "Mickey Moniak",
       "team": "COL",
@@ -1415,27 +1445,27 @@
       "pullPct": 0.513
     },
     {
-      "rank": 142,
-      "playerId": 27615,
-      "name": "Alec Burleson",
-      "team": "STL",
-      "gbPct": 0.43799999999999994,
-      "fbPct": 0.355,
-      "hardHitPct": 0.387,
-      "pullPct": 0.506
+      "rank": 145,
+      "playerId": 27899,
+      "name": "Colt Keith",
+      "team": "DET",
+      "gbPct": 0.39399999999999996,
+      "fbPct": 0.39799999999999996,
+      "hardHitPct": 0.386,
+      "pullPct": 0.386
     },
     {
-      "rank": 143,
-      "playerId": 28199,
-      "name": "Blaze Jordan",
-      "team": "STL",
-      "gbPct": 0.45399999999999996,
-      "fbPct": 0.336,
-      "hardHitPct": 0.387,
-      "pullPct": 0.345
+      "rank": 146,
+      "playerId": 19709,
+      "name": "Fernando Tatis Jr.",
+      "team": "SDP",
+      "gbPct": 0.506,
+      "fbPct": 0.304,
+      "hardHitPct": 0.386,
+      "pullPct": 0.366
     },
     {
-      "rank": 144,
+      "rank": 147,
       "playerId": 33253,
       "name": "Cole Carrigg",
       "team": "COL",
@@ -1445,97 +1475,47 @@
       "pullPct": 0.45899999999999996
     },
     {
-      "rank": 145,
-      "playerId": 12856,
-      "name": "George Springer",
-      "team": "TOR",
-      "gbPct": 0.436,
-      "fbPct": 0.405,
-      "hardHitPct": 0.385,
-      "pullPct": 0.42
-    },
-    {
-      "rank": 146,
-      "playerId": 29993,
-      "name": "Brady House",
-      "team": "WSN",
-      "gbPct": 0.48100000000000004,
-      "fbPct": 0.33299999999999996,
-      "hardHitPct": 0.385,
-      "pullPct": 0.33299999999999996
-    },
-    {
-      "rank": 147,
-      "playerId": 19709,
-      "name": "Fernando Tatis Jr.",
-      "team": "SDP",
-      "gbPct": 0.509,
-      "fbPct": 0.302,
-      "hardHitPct": 0.385,
-      "pullPct": 0.365
-    },
-    {
       "rank": 148,
-      "playerId": 25976,
-      "name": "Riley Greene",
-      "team": "DET",
-      "gbPct": 0.353,
-      "fbPct": 0.42,
+      "playerId": 29779,
+      "name": "Max Muncy",
+      "team": "ATH",
+      "gbPct": 0.442,
+      "fbPct": 0.385,
       "hardHitPct": 0.385,
-      "pullPct": 0.381
+      "pullPct": 0.47100000000000003
     },
     {
       "rank": 149,
-      "playerId": 37123,
-      "name": "Kazuma Okamoto",
+      "playerId": 19913,
+      "name": "Jesús Sánchez",
       "team": "TOR",
-      "gbPct": 0.369,
-      "fbPct": 0.465,
+      "gbPct": 0.435,
+      "fbPct": 0.35600000000000004,
       "hardHitPct": 0.384,
-      "pullPct": 0.524
+      "pullPct": 0.35
     },
     {
       "rank": 150,
-      "playerId": 18401,
-      "name": "Ronald Acuña Jr.",
-      "team": "ATL",
-      "gbPct": 0.413,
-      "fbPct": 0.389,
-      "hardHitPct": 0.38299999999999995,
-      "pullPct": 0.371
+      "playerId": 29993,
+      "name": "Brady House",
+      "team": "WSN",
+      "gbPct": 0.485,
+      "fbPct": 0.331,
+      "hardHitPct": 0.382,
+      "pullPct": 0.33799999999999997
     },
     {
       "rank": 151,
-      "playerId": 26319,
-      "name": "Michael Busch",
-      "team": "CHC",
-      "gbPct": 0.406,
-      "fbPct": 0.397,
-      "hardHitPct": 0.38299999999999995,
-      "pullPct": 0.38299999999999995
+      "playerId": 25976,
+      "name": "Riley Greene",
+      "team": "DET",
+      "gbPct": 0.354,
+      "fbPct": 0.42,
+      "hardHitPct": 0.382,
+      "pullPct": 0.385
     },
     {
       "rank": 152,
-      "playerId": 13613,
-      "name": "Ketel Marte",
-      "team": "ARI",
-      "gbPct": 0.42200000000000004,
-      "fbPct": 0.392,
-      "hardHitPct": 0.382,
-      "pullPct": 0.532
-    },
-    {
-      "rank": 153,
-      "playerId": 18360,
-      "name": "Austin Riley",
-      "team": "ATL",
-      "gbPct": 0.37799999999999995,
-      "fbPct": 0.444,
-      "hardHitPct": 0.381,
-      "pullPct": 0.4
-    },
-    {
-      "rank": 154,
       "playerId": 21865,
       "name": "Bo Naylor",
       "team": "CLE",
@@ -1545,7 +1525,7 @@
       "pullPct": 0.381
     },
     {
-      "rank": 155,
+      "rank": 153,
       "playerId": 31532,
       "name": "Spencer Jones",
       "team": "NYY",
@@ -1555,7 +1535,47 @@
       "pullPct": 0.317
     },
     {
+      "rank": 154,
+      "playerId": 37123,
+      "name": "Kazuma Okamoto",
+      "team": "TOR",
+      "gbPct": 0.37,
+      "fbPct": 0.465,
+      "hardHitPct": 0.381,
+      "pullPct": 0.524
+    },
+    {
+      "rank": 155,
+      "playerId": 26319,
+      "name": "Michael Busch",
+      "team": "CHC",
+      "gbPct": 0.40700000000000003,
+      "fbPct": 0.39799999999999996,
+      "hardHitPct": 0.381,
+      "pullPct": 0.381
+    },
+    {
       "rank": 156,
+      "playerId": 13613,
+      "name": "Ketel Marte",
+      "team": "ARI",
+      "gbPct": 0.42200000000000004,
+      "fbPct": 0.39,
+      "hardHitPct": 0.38,
+      "pullPct": 0.532
+    },
+    {
+      "rank": 157,
+      "playerId": 11493,
+      "name": "Manny Machado",
+      "team": "SDP",
+      "gbPct": 0.39399999999999996,
+      "fbPct": 0.451,
+      "hardHitPct": 0.379,
+      "pullPct": 0.439
+    },
+    {
+      "rank": 158,
       "playerId": 22272,
       "name": "Raynel Delgado",
       "team": "HOU",
@@ -1565,17 +1585,7 @@
       "pullPct": 0.44799999999999995
     },
     {
-      "rank": 157,
-      "playerId": 25768,
-      "name": "CJ Abrams",
-      "team": "WSN",
-      "gbPct": 0.354,
-      "fbPct": 0.451,
-      "hardHitPct": 0.379,
-      "pullPct": 0.442
-    },
-    {
-      "rank": 158,
+      "rank": 159,
       "playerId": 13419,
       "name": "Christian Walker",
       "team": "HOU",
@@ -1585,37 +1595,47 @@
       "pullPct": 0.44799999999999995
     },
     {
-      "rank": 159,
-      "playerId": 27501,
-      "name": "Justin Foscue",
-      "team": "TEX",
-      "gbPct": 0.389,
-      "fbPct": 0.43200000000000005,
-      "hardHitPct": 0.379,
-      "pullPct": 0.45299999999999996
-    },
-    {
       "rank": 160,
-      "playerId": 7304,
-      "name": "Salvador Perez",
-      "team": "KCR",
-      "gbPct": 0.375,
-      "fbPct": 0.42700000000000005,
+      "playerId": 12856,
+      "name": "George Springer",
+      "team": "TOR",
+      "gbPct": 0.44299999999999995,
+      "fbPct": 0.401,
       "hardHitPct": 0.37799999999999995,
-      "pullPct": 0.436
+      "pullPct": 0.42700000000000005
     },
     {
       "rank": 161,
-      "playerId": 12161,
-      "name": "Xander Bogaerts",
-      "team": "SDP",
-      "gbPct": 0.537,
-      "fbPct": 0.303,
+      "playerId": 27465,
+      "name": "Spencer Torkelson",
+      "team": "DET",
+      "gbPct": 0.319,
+      "fbPct": 0.498,
       "hardHitPct": 0.377,
-      "pullPct": 0.46
+      "pullPct": 0.486
     },
     {
       "rank": 162,
+      "playerId": 18360,
+      "name": "Austin Riley",
+      "team": "ATL",
+      "gbPct": 0.377,
+      "fbPct": 0.447,
+      "hardHitPct": 0.377,
+      "pullPct": 0.396
+    },
+    {
+      "rank": 163,
+      "playerId": 25768,
+      "name": "CJ Abrams",
+      "team": "WSN",
+      "gbPct": 0.355,
+      "fbPct": 0.452,
+      "hardHitPct": 0.377,
+      "pullPct": 0.442
+    },
+    {
+      "rank": 164,
       "playerId": 20391,
       "name": "Luis García Jr.",
       "team": "2 Tms",
@@ -1625,17 +1645,7 @@
       "pullPct": 0.44799999999999995
     },
     {
-      "rank": 163,
-      "playerId": 27465,
-      "name": "Spencer Torkelson",
-      "team": "DET",
-      "gbPct": 0.318,
-      "fbPct": 0.498,
-      "hardHitPct": 0.376,
-      "pullPct": 0.48200000000000004
-    },
-    {
-      "rank": 164,
+      "rank": 165,
       "playerId": 28824,
       "name": "Samuel Basallo",
       "team": "BAL",
@@ -1645,17 +1655,27 @@
       "pullPct": 0.46
     },
     {
-      "rank": 165,
+      "rank": 166,
       "playerId": 29780,
       "name": "Joe Mack",
       "team": "MIA",
       "gbPct": 0.469,
       "fbPct": 0.33799999999999997,
       "hardHitPct": 0.376,
-      "pullPct": 0.49
+      "pullPct": 0.483
     },
     {
-      "rank": 166,
+      "rank": 167,
+      "playerId": 21454,
+      "name": "Lars Nootbaar",
+      "team": "2 Tms",
+      "gbPct": 0.496,
+      "fbPct": 0.33899999999999997,
+      "hardHitPct": 0.375,
+      "pullPct": 0.38299999999999995
+    },
+    {
+      "rank": 168,
       "playerId": 31991,
       "name": "Rafael Flores Jr.",
       "team": "PIT",
@@ -1665,7 +1685,27 @@
       "pullPct": 0.43799999999999994
     },
     {
-      "rank": 167,
+      "rank": 169,
+      "playerId": 7304,
+      "name": "Salvador Perez",
+      "team": "KCR",
+      "gbPct": 0.37799999999999995,
+      "fbPct": 0.426,
+      "hardHitPct": 0.375,
+      "pullPct": 0.435
+    },
+    {
+      "rank": 170,
+      "playerId": 22664,
+      "name": "Gabriel Moreno",
+      "team": "ARI",
+      "gbPct": 0.41700000000000004,
+      "fbPct": 0.355,
+      "hardHitPct": 0.375,
+      "pullPct": 0.382
+    },
+    {
+      "rank": 171,
       "playerId": 23986,
       "name": "Curtis Mead",
       "team": "2 Tms",
@@ -1675,27 +1715,17 @@
       "pullPct": 0.486
     },
     {
-      "rank": 168,
-      "playerId": 11493,
-      "name": "Manny Machado",
+      "rank": 172,
+      "playerId": 12161,
+      "name": "Xander Bogaerts",
       "team": "SDP",
-      "gbPct": 0.389,
-      "fbPct": 0.455,
+      "gbPct": 0.531,
+      "fbPct": 0.3,
       "hardHitPct": 0.373,
-      "pullPct": 0.44
+      "pullPct": 0.45899999999999996
     },
     {
-      "rank": 169,
-      "playerId": 32127,
-      "name": "Chase DeLauter",
-      "team": "CLE",
-      "gbPct": 0.41200000000000003,
-      "fbPct": 0.38,
-      "hardHitPct": 0.373,
-      "pullPct": 0.39
-    },
-    {
-      "rank": 170,
+      "rank": 173,
       "playerId": 19326,
       "name": "Bryan Reynolds",
       "team": "PIT",
@@ -1705,17 +1735,7 @@
       "pullPct": 0.408
     },
     {
-      "rank": 171,
-      "playerId": 22664,
-      "name": "Gabriel Moreno",
-      "team": "ARI",
-      "gbPct": 0.42,
-      "fbPct": 0.35700000000000004,
-      "hardHitPct": 0.373,
-      "pullPct": 0.38
-    },
-    {
-      "rank": 172,
+      "rank": 174,
       "playerId": 35108,
       "name": "Cam Smith",
       "team": "HOU",
@@ -1725,7 +1745,7 @@
       "pullPct": 0.38299999999999995
     },
     {
-      "rank": 173,
+      "rank": 175,
       "playerId": 18564,
       "name": "Trent Grisham",
       "team": "NYY",
@@ -1735,7 +1755,17 @@
       "pullPct": 0.461
     },
     {
-      "rank": 174,
+      "rank": 176,
+      "playerId": 12552,
+      "name": "Eugenio Suárez",
+      "team": "CIN",
+      "gbPct": 0.36,
+      "fbPct": 0.41700000000000004,
+      "hardHitPct": 0.371,
+      "pullPct": 0.474
+    },
+    {
+      "rank": 177,
       "playerId": 13066,
       "name": "Teoscar Hernández",
       "team": "LAD",
@@ -1745,7 +1775,7 @@
       "pullPct": 0.342
     },
     {
-      "rank": 175,
+      "rank": 178,
       "playerId": 11609,
       "name": "Willson Contreras",
       "team": "BOS",
@@ -1755,27 +1785,47 @@
       "pullPct": 0.527
     },
     {
-      "rank": 176,
-      "playerId": 33656,
-      "name": "A.J. Ewing",
-      "team": "NYM",
-      "gbPct": 0.456,
-      "fbPct": 0.33299999999999996,
+      "rank": 179,
+      "playerId": 32127,
+      "name": "Chase DeLauter",
+      "team": "CLE",
+      "gbPct": 0.413,
+      "fbPct": 0.377,
       "hardHitPct": 0.371,
-      "pullPct": 0.376
+      "pullPct": 0.39
     },
     {
-      "rank": 177,
+      "rank": 180,
+      "playerId": 12144,
+      "name": "Max Kepler",
+      "team": "ARI",
+      "gbPct": 0.264,
+      "fbPct": 0.5,
+      "hardHitPct": 0.37,
+      "pullPct": 0.466
+    },
+    {
+      "rank": 181,
       "playerId": 27467,
       "name": "Tyler Soderstrom",
       "team": "ATH",
-      "gbPct": 0.46,
+      "gbPct": 0.462,
       "fbPct": 0.363,
       "hardHitPct": 0.37,
-      "pullPct": 0.36700000000000005
+      "pullPct": 0.366
     },
     {
-      "rank": 178,
+      "rank": 182,
+      "playerId": 27604,
+      "name": "Alika Williams",
+      "team": "ATH",
+      "gbPct": 0.444,
+      "fbPct": 0.4,
+      "hardHitPct": 0.37,
+      "pullPct": 0.402
+    },
+    {
+      "rank": 183,
       "playerId": 15518,
       "name": "Amed Rosario",
       "team": "NYY",
@@ -1785,27 +1835,27 @@
       "pullPct": 0.369
     },
     {
-      "rank": 179,
-      "playerId": 29490,
-      "name": "Jackson Merrill",
-      "team": "SDP",
-      "gbPct": 0.391,
-      "fbPct": 0.38799999999999996,
-      "hardHitPct": 0.369,
-      "pullPct": 0.4
-    },
-    {
-      "rank": 180,
-      "playerId": 12552,
-      "name": "Eugenio Suárez",
-      "team": "CIN",
-      "gbPct": 0.36200000000000004,
-      "fbPct": 0.414,
+      "rank": 184,
+      "playerId": 27501,
+      "name": "Justin Foscue",
+      "team": "TEX",
+      "gbPct": 0.389,
+      "fbPct": 0.43200000000000005,
       "hardHitPct": 0.368,
-      "pullPct": 0.47100000000000003
+      "pullPct": 0.45299999999999996
     },
     {
-      "rank": 181,
+      "rank": 185,
+      "playerId": 29571,
+      "name": "Tim Tawa",
+      "team": "ARI",
+      "gbPct": 0.479,
+      "fbPct": 0.40299999999999997,
+      "hardHitPct": 0.368,
+      "pullPct": 0.43200000000000005
+    },
+    {
+      "rank": 186,
       "playerId": 26143,
       "name": "Troy Johnston",
       "team": "COL",
@@ -1815,7 +1865,27 @@
       "pullPct": 0.391
     },
     {
-      "rank": 182,
+      "rank": 187,
+      "playerId": 29490,
+      "name": "Jackson Merrill",
+      "team": "SDP",
+      "gbPct": 0.389,
+      "fbPct": 0.392,
+      "hardHitPct": 0.368,
+      "pullPct": 0.39799999999999996
+    },
+    {
+      "rank": 188,
+      "playerId": 33656,
+      "name": "A.J. Ewing",
+      "team": "NYM",
+      "gbPct": 0.45899999999999996,
+      "fbPct": 0.332,
+      "hardHitPct": 0.36700000000000005,
+      "pullPct": 0.377
+    },
+    {
+      "rank": 189,
       "playerId": 19363,
       "name": "Austin Hays",
       "team": "CHW",
@@ -1825,7 +1895,7 @@
       "pullPct": 0.6
     },
     {
-      "rank": 183,
+      "rank": 190,
       "playerId": 33279,
       "name": "Tommy Troy",
       "team": "ARI",
@@ -1835,7 +1905,17 @@
       "pullPct": 0.344
     },
     {
-      "rank": 184,
+      "rank": 191,
+      "playerId": 28820,
+      "name": "Moisés Ballesteros",
+      "team": "2 Tms",
+      "gbPct": 0.489,
+      "fbPct": 0.321,
+      "hardHitPct": 0.366,
+      "pullPct": 0.382
+    },
+    {
+      "rank": 192,
       "playerId": 19611,
       "name": "Vladimir Guerrero Jr.",
       "team": "TOR",
@@ -1845,17 +1925,7 @@
       "pullPct": 0.40399999999999997
     },
     {
-      "rank": 185,
-      "playerId": 11477,
-      "name": "Christian Yelich",
-      "team": "MIL",
-      "gbPct": 0.562,
-      "fbPct": 0.281,
-      "hardHitPct": 0.366,
-      "pullPct": 0.32899999999999996
-    },
-    {
-      "rank": 186,
+      "rank": 193,
       "playerId": 15986,
       "name": "Willy Adames",
       "team": "SFG",
@@ -1865,17 +1935,7 @@
       "pullPct": 0.49
     },
     {
-      "rank": 187,
-      "playerId": 19608,
-      "name": "Otto Lopez",
-      "team": "MIA",
-      "gbPct": 0.509,
-      "fbPct": 0.332,
-      "hardHitPct": 0.365,
-      "pullPct": 0.316
-    },
-    {
-      "rank": 188,
+      "rank": 194,
       "playerId": 29794,
       "name": "Kyle Manzardo",
       "team": "CLE",
@@ -1885,7 +1945,17 @@
       "pullPct": 0.455
     },
     {
-      "rank": 189,
+      "rank": 195,
+      "playerId": 17678,
+      "name": "Alex Bregman",
+      "team": "CHC",
+      "gbPct": 0.384,
+      "fbPct": 0.405,
+      "hardHitPct": 0.365,
+      "pullPct": 0.48100000000000004
+    },
+    {
+      "rank": 196,
       "playerId": 18217,
       "name": "Brett Sullivan",
       "team": "COL",
@@ -1895,17 +1965,17 @@
       "pullPct": 0.551
     },
     {
-      "rank": 190,
-      "playerId": 17901,
-      "name": "Andrew Benintendi",
-      "team": "CHW",
-      "gbPct": 0.371,
-      "fbPct": 0.419,
+      "rank": 197,
+      "playerId": 20454,
+      "name": "Jazz Chisholm Jr.",
+      "team": "NYY",
+      "gbPct": 0.42100000000000004,
+      "fbPct": 0.409,
       "hardHitPct": 0.364,
-      "pullPct": 0.545
+      "pullPct": 0.56
     },
     {
-      "rank": 191,
+      "rank": 198,
       "playerId": 19643,
       "name": "Daniel Johnson",
       "team": "HOU",
@@ -1915,7 +1985,7 @@
       "pullPct": 0.455
     },
     {
-      "rank": 192,
+      "rank": 199,
       "playerId": 24759,
       "name": "Mickey Gasper",
       "team": "BOS",
@@ -1925,17 +1995,7 @@
       "pullPct": 0.466
     },
     {
-      "rank": 193,
-      "playerId": 27604,
-      "name": "Alika Williams",
-      "team": "ATH",
-      "gbPct": 0.419,
-      "fbPct": 0.419,
-      "hardHitPct": 0.364,
-      "pullPct": 0.39799999999999996
-    },
-    {
-      "rank": 194,
+      "rank": 200,
       "playerId": 28080,
       "name": "Jasson Domínguez",
       "team": "NYY",
@@ -1945,7 +2005,7 @@
       "pullPct": 0.48700000000000004
     },
     {
-      "rank": 195,
+      "rank": 201,
       "playerId": 15878,
       "name": "Miguel Andujar",
       "team": "SDP",
@@ -1955,67 +2015,67 @@
       "pullPct": 0.473
     },
     {
-      "rank": 196,
-      "playerId": 18314,
-      "name": "Dansby Swanson",
-      "team": "CHC",
-      "gbPct": 0.413,
-      "fbPct": 0.406,
-      "hardHitPct": 0.363,
-      "pullPct": 0.496
-    },
-    {
-      "rank": 197,
+      "rank": 202,
       "playerId": 25931,
       "name": "Michael Harris II",
       "team": "ATL",
-      "gbPct": 0.436,
-      "fbPct": 0.37799999999999995,
+      "gbPct": 0.435,
+      "fbPct": 0.375,
       "hardHitPct": 0.363,
-      "pullPct": 0.375
+      "pullPct": 0.37200000000000005
     },
     {
-      "rank": 198,
-      "playerId": 28820,
-      "name": "Moisés Ballesteros",
+      "rank": 203,
+      "playerId": 19608,
+      "name": "Otto Lopez",
+      "team": "MIA",
+      "gbPct": 0.51,
+      "fbPct": 0.33299999999999996,
+      "hardHitPct": 0.363,
+      "pullPct": 0.312
+    },
+    {
+      "rank": 204,
+      "playerId": 11477,
+      "name": "Christian Yelich",
+      "team": "MIL",
+      "gbPct": 0.561,
+      "fbPct": 0.278,
+      "hardHitPct": 0.363,
+      "pullPct": 0.33
+    },
+    {
+      "rank": 205,
+      "playerId": 18872,
+      "name": "Jahmai Jones",
       "team": "2 Tms",
-      "gbPct": 0.47200000000000003,
-      "fbPct": 0.331,
+      "gbPct": 0.391,
+      "fbPct": 0.391,
       "hardHitPct": 0.36200000000000004,
-      "pullPct": 0.386
+      "pullPct": 0.536
     },
     {
-      "rank": 199,
+      "rank": 206,
       "playerId": 25477,
       "name": "Isaac Collins",
       "team": "KCR",
       "gbPct": 0.382,
-      "fbPct": 0.445,
+      "fbPct": 0.44799999999999995,
       "hardHitPct": 0.36200000000000004,
-      "pullPct": 0.387
+      "pullPct": 0.386
     },
     {
-      "rank": 200,
-      "playerId": 24618,
-      "name": "Ryan Jeffers",
-      "team": "MIN",
-      "gbPct": 0.375,
-      "fbPct": 0.428,
-      "hardHitPct": 0.36200000000000004,
-      "pullPct": 0.414
-    },
-    {
-      "rank": 201,
-      "playerId": 26294,
-      "name": "Bryson Stott",
+      "rank": 207,
+      "playerId": 16252,
+      "name": "Trea Turner",
       "team": "PHI",
-      "gbPct": 0.397,
-      "fbPct": 0.413,
-      "hardHitPct": 0.36200000000000004,
-      "pullPct": 0.391
+      "gbPct": 0.469,
+      "fbPct": 0.35,
+      "hardHitPct": 0.361,
+      "pullPct": 0.342
     },
     {
-      "rank": 202,
+      "rank": 208,
       "playerId": 15112,
       "name": "Ryan McMahon",
       "team": "NYY",
@@ -2025,7 +2085,7 @@
       "pullPct": 0.414
     },
     {
-      "rank": 203,
+      "rank": 209,
       "playerId": 23813,
       "name": "Brandon Valenzuela",
       "team": "TOR",
@@ -2035,47 +2095,47 @@
       "pullPct": 0.436
     },
     {
-      "rank": 204,
+      "rank": 210,
+      "playerId": 11739,
+      "name": "J.T. Realmuto",
+      "team": "PHI",
+      "gbPct": 0.44299999999999995,
+      "fbPct": 0.32899999999999996,
+      "hardHitPct": 0.361,
+      "pullPct": 0.434
+    },
+    {
+      "rank": 211,
       "playerId": 26031,
       "name": "Vaughn Grissom",
       "team": "LAA",
-      "gbPct": 0.415,
-      "fbPct": 0.37200000000000005,
-      "hardHitPct": 0.361,
-      "pullPct": 0.418
+      "gbPct": 0.414,
+      "fbPct": 0.371,
+      "hardHitPct": 0.36,
+      "pullPct": 0.42700000000000005
     },
     {
-      "rank": 205,
-      "playerId": 16252,
-      "name": "Trea Turner",
-      "team": "PHI",
-      "gbPct": 0.46799999999999997,
-      "fbPct": 0.35200000000000004,
-      "hardHitPct": 0.361,
-      "pullPct": 0.33799999999999997
-    },
-    {
-      "rank": 206,
-      "playerId": 17919,
-      "name": "Ian Happ",
+      "rank": 212,
+      "playerId": 18314,
+      "name": "Dansby Swanson",
       "team": "CHC",
-      "gbPct": 0.395,
-      "fbPct": 0.45299999999999996,
+      "gbPct": 0.414,
+      "fbPct": 0.40700000000000003,
       "hardHitPct": 0.36,
-      "pullPct": 0.461
+      "pullPct": 0.5
     },
     {
-      "rank": 207,
-      "playerId": 20454,
-      "name": "Jazz Chisholm Jr.",
-      "team": "NYY",
-      "gbPct": 0.42100000000000004,
-      "fbPct": 0.409,
+      "rank": 213,
+      "playerId": 20220,
+      "name": "Jo Adell",
+      "team": "2 Tms",
+      "gbPct": 0.382,
+      "fbPct": 0.418,
       "hardHitPct": 0.36,
-      "pullPct": 0.56
+      "pullPct": 0.38799999999999996
     },
     {
-      "rank": 208,
+      "rank": 214,
       "playerId": 24574,
       "name": "Eduardo Valencia",
       "team": "DET",
@@ -2085,27 +2145,27 @@
       "pullPct": 0.4
     },
     {
-      "rank": 209,
-      "playerId": 17678,
-      "name": "Alex Bregman",
-      "team": "CHC",
-      "gbPct": 0.387,
-      "fbPct": 0.40299999999999997,
-      "hardHitPct": 0.36,
-      "pullPct": 0.47700000000000004
-    },
-    {
-      "rank": 210,
-      "playerId": 35177,
-      "name": "Carson Benge",
-      "team": "NYM",
-      "gbPct": 0.451,
-      "fbPct": 0.327,
+      "rank": 215,
+      "playerId": 24618,
+      "name": "Ryan Jeffers",
+      "team": "MIN",
+      "gbPct": 0.373,
+      "fbPct": 0.431,
       "hardHitPct": 0.359,
-      "pullPct": 0.36200000000000004
+      "pullPct": 0.41200000000000003
     },
     {
-      "rank": 211,
+      "rank": 216,
+      "playerId": 22239,
+      "name": "Jeremiah Jackson",
+      "team": "BAL",
+      "gbPct": 0.522,
+      "fbPct": 0.344,
+      "hardHitPct": 0.359,
+      "pullPct": 0.431
+    },
+    {
+      "rank": 217,
       "playerId": 26466,
       "name": "Matt Wallner",
       "team": "MIN",
@@ -2115,7 +2175,7 @@
       "pullPct": 0.478
     },
     {
-      "rank": 212,
+      "rank": 218,
       "playerId": 34985,
       "name": "JJ Wetherholt",
       "team": "STL",
@@ -2125,17 +2185,7 @@
       "pullPct": 0.361
     },
     {
-      "rank": 213,
-      "playerId": 11739,
-      "name": "J.T. Realmuto",
-      "team": "PHI",
-      "gbPct": 0.442,
-      "fbPct": 0.335,
-      "hardHitPct": 0.358,
-      "pullPct": 0.433
-    },
-    {
-      "rank": 214,
+      "rank": 219,
       "playerId": 26123,
       "name": "Brett Baty",
       "team": "NYM",
@@ -2145,7 +2195,27 @@
       "pullPct": 0.38
     },
     {
-      "rank": 215,
+      "rank": 220,
+      "playerId": 26294,
+      "name": "Bryson Stott",
+      "team": "PHI",
+      "gbPct": 0.396,
+      "fbPct": 0.409,
+      "hardHitPct": 0.358,
+      "pullPct": 0.39
+    },
+    {
+      "rank": 221,
+      "playerId": 17901,
+      "name": "Andrew Benintendi",
+      "team": "CHW",
+      "gbPct": 0.369,
+      "fbPct": 0.42100000000000004,
+      "hardHitPct": 0.35700000000000004,
+      "pullPct": 0.54
+    },
+    {
+      "rank": 222,
       "playerId": 20503,
       "name": "William Contreras",
       "team": "MIL",
@@ -2155,7 +2225,7 @@
       "pullPct": 0.37799999999999995
     },
     {
-      "rank": 216,
+      "rank": 223,
       "playerId": 10472,
       "name": "Enrique Hernández",
       "team": "LAD",
@@ -2165,7 +2235,7 @@
       "pullPct": 0.28600000000000003
     },
     {
-      "rank": 217,
+      "rank": 224,
       "playerId": 26599,
       "name": "Jonatan Clase",
       "team": "TOR",
@@ -2175,7 +2245,7 @@
       "pullPct": 0.7140000000000001
     },
     {
-      "rank": 218,
+      "rank": 225,
       "playerId": 33704,
       "name": "CJ Kayfus",
       "team": "CLE",
@@ -2185,7 +2255,7 @@
       "pullPct": 0.28600000000000003
     },
     {
-      "rank": 219,
+      "rank": 226,
       "playerId": 25180,
       "name": "Daniel Schneemann",
       "team": "CLE",
@@ -2195,7 +2265,7 @@
       "pullPct": 0.485
     },
     {
-      "rank": 220,
+      "rank": 227,
       "playerId": 19953,
       "name": "Josh Lowe",
       "team": "LAA",
@@ -2205,17 +2275,27 @@
       "pullPct": 0.371
     },
     {
-      "rank": 221,
-      "playerId": 23697,
-      "name": "Julio Rodríguez",
-      "team": "SEA",
-      "gbPct": 0.40299999999999997,
-      "fbPct": 0.38799999999999996,
+      "rank": 228,
+      "playerId": 17919,
+      "name": "Ian Happ",
+      "team": "CHC",
+      "gbPct": 0.395,
+      "fbPct": 0.456,
       "hardHitPct": 0.35600000000000004,
-      "pullPct": 0.391
+      "pullPct": 0.456
     },
     {
-      "rank": 222,
+      "rank": 229,
+      "playerId": 35177,
+      "name": "Carson Benge",
+      "team": "NYM",
+      "gbPct": 0.447,
+      "fbPct": 0.32799999999999996,
+      "hardHitPct": 0.35600000000000004,
+      "pullPct": 0.35600000000000004
+    },
+    {
+      "rank": 230,
       "playerId": 22165,
       "name": "Ryan Vilade",
       "team": "TBR",
@@ -2225,7 +2305,7 @@
       "pullPct": 0.371
     },
     {
-      "rank": 223,
+      "rank": 231,
       "playerId": 26323,
       "name": "Spencer Steer",
       "team": "CIN",
@@ -2235,57 +2315,27 @@
       "pullPct": 0.48
     },
     {
-      "rank": 224,
-      "playerId": 20220,
-      "name": "Jo Adell",
-      "team": "2 Tms",
-      "gbPct": 0.38299999999999995,
-      "fbPct": 0.41700000000000004,
-      "hardHitPct": 0.355,
-      "pullPct": 0.389
-    },
-    {
-      "rank": 225,
-      "playerId": 29571,
-      "name": "Tim Tawa",
-      "team": "ARI",
-      "gbPct": 0.475,
-      "fbPct": 0.40700000000000003,
-      "hardHitPct": 0.355,
-      "pullPct": 0.42700000000000005
-    },
-    {
-      "rank": 226,
-      "playerId": 20404,
-      "name": "Jared Young",
-      "team": "NYM",
-      "gbPct": 0.493,
-      "fbPct": 0.35200000000000004,
-      "hardHitPct": 0.354,
-      "pullPct": 0.389
-    },
-    {
-      "rank": 227,
-      "playerId": 22239,
-      "name": "Jeremiah Jackson",
-      "team": "BAL",
-      "gbPct": 0.525,
-      "fbPct": 0.33899999999999997,
-      "hardHitPct": 0.354,
-      "pullPct": 0.433
-    },
-    {
-      "rank": 228,
+      "rank": 232,
       "playerId": 16939,
       "name": "Lane Thomas",
       "team": "2 Tms",
-      "gbPct": 0.368,
-      "fbPct": 0.41,
-      "hardHitPct": 0.354,
+      "gbPct": 0.364,
+      "fbPct": 0.41100000000000003,
+      "hardHitPct": 0.355,
       "pullPct": 0.47200000000000003
     },
     {
-      "rank": 229,
+      "rank": 233,
+      "playerId": 25479,
+      "name": "Brenton Doyle",
+      "team": "2 Tms",
+      "gbPct": 0.5579999999999999,
+      "fbPct": 0.273,
+      "hardHitPct": 0.354,
+      "pullPct": 0.46799999999999997
+    },
+    {
+      "rank": 234,
       "playerId": 26288,
       "name": "Adley Rutschman",
       "team": "BAL",
@@ -2295,7 +2345,27 @@
       "pullPct": 0.373
     },
     {
-      "rank": 230,
+      "rank": 235,
+      "playerId": 26368,
+      "name": "JJ Bleday",
+      "team": "CIN",
+      "gbPct": 0.285,
+      "fbPct": 0.491,
+      "hardHitPct": 0.354,
+      "pullPct": 0.46299999999999997
+    },
+    {
+      "rank": 236,
+      "playerId": 17452,
+      "name": "Jose Siri",
+      "team": "LAA",
+      "gbPct": 0.425,
+      "fbPct": 0.413,
+      "hardHitPct": 0.354,
+      "pullPct": 0.451
+    },
+    {
+      "rank": 237,
       "playerId": 19722,
       "name": "Carlos Narváez",
       "team": "2 Tms",
@@ -2305,7 +2375,7 @@
       "pullPct": 0.345
     },
     {
-      "rank": 231,
+      "rank": 238,
       "playerId": 24816,
       "name": "Andy Pages",
       "team": "LAD",
@@ -2315,17 +2385,7 @@
       "pullPct": 0.35600000000000004
     },
     {
-      "rank": 232,
-      "playerId": 18872,
-      "name": "Jahmai Jones",
-      "team": "2 Tms",
-      "gbPct": 0.382,
-      "fbPct": 0.397,
-      "hardHitPct": 0.353,
-      "pullPct": 0.529
-    },
-    {
-      "rank": 233,
+      "rank": 239,
       "playerId": 19997,
       "name": "Santiago Espinal",
       "team": "LAD",
@@ -2335,7 +2395,17 @@
       "pullPct": 0.314
     },
     {
-      "rank": 234,
+      "rank": 240,
+      "playerId": 23697,
+      "name": "Julio Rodríguez",
+      "team": "SEA",
+      "gbPct": 0.402,
+      "fbPct": 0.384,
+      "hardHitPct": 0.353,
+      "pullPct": 0.39299999999999996
+    },
+    {
+      "rank": 241,
       "playerId": 30163,
       "name": "César Prieto",
       "team": "STL",
@@ -2345,7 +2415,7 @@
       "pullPct": 0.41200000000000003
     },
     {
-      "rank": 235,
+      "rank": 242,
       "playerId": 17022,
       "name": "Edmundo Sosa",
       "team": "PHI",
@@ -2355,27 +2425,7 @@
       "pullPct": 0.439
     },
     {
-      "rank": 236,
-      "playerId": 26368,
-      "name": "JJ Bleday",
-      "team": "CIN",
-      "gbPct": 0.28300000000000003,
-      "fbPct": 0.491,
-      "hardHitPct": 0.35200000000000004,
-      "pullPct": 0.46299999999999997
-    },
-    {
-      "rank": 237,
-      "playerId": 33225,
-      "name": "Jacob Gonzalez",
-      "team": "2 Tms",
-      "gbPct": 0.385,
-      "fbPct": 0.442,
-      "hardHitPct": 0.35200000000000004,
-      "pullPct": 0.419
-    },
-    {
-      "rank": 238,
+      "rank": 243,
       "playerId": 19197,
       "name": "Will Smith",
       "team": "LAD",
@@ -2385,7 +2435,7 @@
       "pullPct": 0.303
     },
     {
-      "rank": 239,
+      "rank": 244,
       "playerId": 27577,
       "name": "Casey Schmitt",
       "team": "SFG",
@@ -2395,7 +2445,17 @@
       "pullPct": 0.40299999999999997
     },
     {
-      "rank": 240,
+      "rank": 245,
+      "playerId": 27478,
+      "name": "Patrick Bailey",
+      "team": "2 Tms",
+      "gbPct": 0.444,
+      "fbPct": 0.377,
+      "hardHitPct": 0.35200000000000004,
+      "pullPct": 0.4
+    },
+    {
+      "rank": 246,
       "playerId": 33552,
       "name": "LuJames Groover",
       "team": "ARI",
@@ -2405,7 +2465,7 @@
       "pullPct": 0.37799999999999995
     },
     {
-      "rank": 241,
+      "rank": 247,
       "playerId": 23733,
       "name": "Ezequiel Duran",
       "team": "TEX",
@@ -2415,17 +2475,7 @@
       "pullPct": 0.39399999999999996
     },
     {
-      "rank": 242,
-      "playerId": 31837,
-      "name": "Masataka Yoshida",
-      "team": "BOS",
-      "gbPct": 0.49,
-      "fbPct": 0.337,
-      "hardHitPct": 0.35100000000000003,
-      "pullPct": 0.433
-    },
-    {
-      "rank": 243,
+      "rank": 248,
       "playerId": 25999,
       "name": "Victor Mesa Jr.",
       "team": "TBR",
@@ -2435,7 +2485,7 @@
       "pullPct": 0.42
     },
     {
-      "rank": 244,
+      "rank": 249,
       "playerId": 18839,
       "name": "Josh Naylor",
       "team": "SEA",
@@ -2445,7 +2495,7 @@
       "pullPct": 0.419
     },
     {
-      "rank": 245,
+      "rank": 250,
       "playerId": 18345,
       "name": "Kyle Tucker",
       "team": "LAD",
@@ -2455,17 +2505,17 @@
       "pullPct": 0.429
     },
     {
-      "rank": 246,
-      "playerId": 13145,
-      "name": "Josh Bell",
-      "team": "MIN",
-      "gbPct": 0.405,
-      "fbPct": 0.405,
+      "rank": 251,
+      "playerId": 11442,
+      "name": "Gary Sánchez",
+      "team": "MIL",
+      "gbPct": 0.39,
+      "fbPct": 0.455,
       "hardHitPct": 0.35,
-      "pullPct": 0.41700000000000004
+      "pullPct": 0.447
     },
     {
-      "rank": 247,
+      "rank": 252,
       "playerId": 19960,
       "name": "Taylor Trammell",
       "team": "HOU",
@@ -2475,7 +2525,7 @@
       "pullPct": 0.485
     },
     {
-      "rank": 248,
+      "rank": 253,
       "playerId": 23372,
       "name": "Hunter Feduccia",
       "team": "2 Tms",
@@ -2485,37 +2535,67 @@
       "pullPct": 0.34
     },
     {
-      "rank": 249,
-      "playerId": 12144,
-      "name": "Max Kepler",
-      "team": "ARI",
-      "gbPct": 0.265,
-      "fbPct": 0.485,
-      "hardHitPct": 0.348,
-      "pullPct": 0.449
-    },
-    {
-      "rank": 250,
-      "playerId": 14968,
-      "name": "Victor Caratini",
+      "rank": 254,
+      "playerId": 13145,
+      "name": "Josh Bell",
       "team": "MIN",
-      "gbPct": 0.44299999999999995,
-      "fbPct": 0.35200000000000004,
-      "hardHitPct": 0.348,
-      "pullPct": 0.386
+      "gbPct": 0.40700000000000003,
+      "fbPct": 0.40399999999999997,
+      "hardHitPct": 0.349,
+      "pullPct": 0.41700000000000004
     },
     {
-      "rank": 251,
+      "rank": 255,
+      "playerId": 20404,
+      "name": "Jared Young",
+      "team": "NYM",
+      "gbPct": 0.493,
+      "fbPct": 0.354,
+      "hardHitPct": 0.349,
+      "pullPct": 0.39
+    },
+    {
+      "rank": 256,
+      "playerId": 33225,
+      "name": "Jacob Gonzalez",
+      "team": "2 Tms",
+      "gbPct": 0.39,
+      "fbPct": 0.43799999999999994,
+      "hardHitPct": 0.349,
+      "pullPct": 0.425
+    },
+    {
+      "rank": 257,
+      "playerId": 20437,
+      "name": "Royce Lewis",
+      "team": "MIN",
+      "gbPct": 0.318,
+      "fbPct": 0.509,
+      "hardHitPct": 0.349,
+      "pullPct": 0.479
+    },
+    {
+      "rank": 258,
       "playerId": 17548,
       "name": "Taylor Ward",
       "team": "2 Tms",
-      "gbPct": 0.382,
-      "fbPct": 0.401,
+      "gbPct": 0.385,
+      "fbPct": 0.397,
       "hardHitPct": 0.34700000000000003,
       "pullPct": 0.33799999999999997
     },
     {
-      "rank": 252,
+      "rank": 259,
+      "playerId": 29591,
+      "name": "Colton Cowser",
+      "team": "BAL",
+      "gbPct": 0.42700000000000005,
+      "fbPct": 0.433,
+      "hardHitPct": 0.34600000000000003,
+      "pullPct": 0.405
+    },
+    {
+      "rank": 260,
       "playerId": 21524,
       "name": "Joey Bart",
       "team": "3 Tms",
@@ -2525,7 +2605,7 @@
       "pullPct": 0.462
     },
     {
-      "rank": 253,
+      "rank": 261,
       "playerId": 23800,
       "name": "Parker Meadows",
       "team": "DET",
@@ -2535,7 +2615,7 @@
       "pullPct": 0.308
     },
     {
-      "rank": 254,
+      "rank": 262,
       "playerId": 24605,
       "name": "Michael Helman",
       "team": "TEX",
@@ -2545,7 +2625,7 @@
       "pullPct": 0.423
     },
     {
-      "rank": 255,
+      "rank": 263,
       "playerId": 28344,
       "name": "Tsung-Che Cheng",
       "team": "BOS",
@@ -2555,27 +2635,27 @@
       "pullPct": 0.462
     },
     {
-      "rank": 256,
-      "playerId": 13510,
-      "name": "José Ramírez",
-      "team": "CLE",
-      "gbPct": 0.316,
-      "fbPct": 0.474,
+      "rank": 264,
+      "playerId": 14968,
+      "name": "Victor Caratini",
+      "team": "MIN",
+      "gbPct": 0.445,
+      "fbPct": 0.35100000000000003,
       "hardHitPct": 0.34600000000000003,
-      "pullPct": 0.496
+      "pullPct": 0.384
     },
     {
-      "rank": 257,
-      "playerId": 27478,
-      "name": "Patrick Bailey",
-      "team": "2 Tms",
-      "gbPct": 0.447,
-      "fbPct": 0.371,
+      "rank": 265,
+      "playerId": 31837,
+      "name": "Masataka Yoshida",
+      "team": "BOS",
+      "gbPct": 0.493,
+      "fbPct": 0.336,
       "hardHitPct": 0.34600000000000003,
-      "pullPct": 0.395
+      "pullPct": 0.431
     },
     {
-      "rank": 258,
+      "rank": 266,
       "playerId": 25867,
       "name": "Ryan Kreidler",
       "team": "MIN",
@@ -2585,17 +2665,7 @@
       "pullPct": 0.451
     },
     {
-      "rank": 259,
-      "playerId": 22581,
-      "name": "Alejandro Kirk",
-      "team": "TOR",
-      "gbPct": 0.483,
-      "fbPct": 0.336,
-      "hardHitPct": 0.345,
-      "pullPct": 0.276
-    },
-    {
-      "rank": 260,
+      "rank": 267,
       "playerId": 28763,
       "name": "Felix Reyes",
       "team": "PHI",
@@ -2605,7 +2675,7 @@
       "pullPct": 0.517
     },
     {
-      "rank": 261,
+      "rank": 268,
       "playerId": 29218,
       "name": "Pedro Ramírez",
       "team": "CHC",
@@ -2615,37 +2685,17 @@
       "pullPct": 0.368
     },
     {
-      "rank": 262,
-      "playerId": 29591,
-      "name": "Colton Cowser",
-      "team": "BAL",
-      "gbPct": 0.43200000000000005,
-      "fbPct": 0.426,
+      "rank": 269,
+      "playerId": 29617,
+      "name": "Henry Davis",
+      "team": "PIT",
+      "gbPct": 0.36,
+      "fbPct": 0.473,
       "hardHitPct": 0.344,
-      "pullPct": 0.41100000000000003
+      "pullPct": 0.565
     },
     {
-      "rank": 263,
-      "playerId": 21454,
-      "name": "Lars Nootbaar",
-      "team": "2 Tms",
-      "gbPct": 0.49200000000000005,
-      "fbPct": 0.33899999999999997,
-      "hardHitPct": 0.344,
-      "pullPct": 0.384
-    },
-    {
-      "rank": 264,
-      "playerId": 29577,
-      "name": "Ben Malgeri",
-      "team": "DET",
-      "gbPct": 0.43799999999999994,
-      "fbPct": 0.313,
-      "hardHitPct": 0.344,
-      "pullPct": 0.375
-    },
-    {
-      "rank": 265,
+      "rank": 270,
       "playerId": 15998,
       "name": "Cody Bellinger",
       "team": "NYY",
@@ -2655,7 +2705,7 @@
       "pullPct": 0.44
     },
     {
-      "rank": 266,
+      "rank": 271,
       "playerId": 21523,
       "name": "Jonathan India",
       "team": "KCR",
@@ -2665,7 +2715,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 267,
+      "rank": 272,
       "playerId": 33280,
       "name": "Brice Matthews",
       "team": "HOU",
@@ -2675,47 +2725,27 @@
       "pullPct": 0.386
     },
     {
-      "rank": 268,
-      "playerId": 20202,
-      "name": "Brandon Marsh",
-      "team": "PHI",
-      "gbPct": 0.41,
-      "fbPct": 0.369,
+      "rank": 273,
+      "playerId": 19566,
+      "name": "Nathaniel Lowe",
+      "team": "2 Tms",
+      "gbPct": 0.396,
+      "fbPct": 0.348,
       "hardHitPct": 0.342,
-      "pullPct": 0.39299999999999996
+      "pullPct": 0.39
     },
     {
-      "rank": 269,
-      "playerId": 29617,
-      "name": "Henry Davis",
-      "team": "PIT",
-      "gbPct": 0.358,
-      "fbPct": 0.473,
+      "rank": 274,
+      "playerId": 13510,
+      "name": "José Ramírez",
+      "team": "CLE",
+      "gbPct": 0.32,
+      "fbPct": 0.47200000000000003,
       "hardHitPct": 0.342,
-      "pullPct": 0.5720000000000001
+      "pullPct": 0.502
     },
     {
-      "rank": 270,
-      "playerId": 35101,
-      "name": "Sam Antonacci",
-      "team": "CHW",
-      "gbPct": 0.511,
-      "fbPct": 0.278,
-      "hardHitPct": 0.342,
-      "pullPct": 0.387
-    },
-    {
-      "rank": 271,
-      "playerId": 11442,
-      "name": "Gary Sánchez",
-      "team": "MIL",
-      "gbPct": 0.38299999999999995,
-      "fbPct": 0.45799999999999996,
-      "hardHitPct": 0.342,
-      "pullPct": 0.433
-    },
-    {
-      "rank": 272,
+      "rank": 275,
       "playerId": 17338,
       "name": "Willi Castro",
       "team": "COL",
@@ -2725,17 +2755,17 @@
       "pullPct": 0.45
     },
     {
-      "rank": 273,
+      "rank": 276,
       "playerId": 27684,
       "name": "Michael Massey",
       "team": "KCR",
       "gbPct": 0.35200000000000004,
-      "fbPct": 0.446,
+      "fbPct": 0.449,
       "hardHitPct": 0.342,
-      "pullPct": 0.512
+      "pullPct": 0.519
     },
     {
-      "rank": 274,
+      "rank": 277,
       "playerId": 29766,
       "name": "Zack Gelof",
       "team": "ATH",
@@ -2745,17 +2775,17 @@
       "pullPct": 0.449
     },
     {
-      "rank": 275,
-      "playerId": 21618,
-      "name": "Alec Bohm",
+      "rank": 278,
+      "playerId": 20202,
+      "name": "Brandon Marsh",
       "team": "PHI",
-      "gbPct": 0.48100000000000004,
-      "fbPct": 0.33799999999999997,
+      "gbPct": 0.40700000000000003,
+      "fbPct": 0.364,
       "hardHitPct": 0.341,
-      "pullPct": 0.312
+      "pullPct": 0.395
     },
     {
-      "rank": 276,
+      "rank": 279,
       "playerId": 17273,
       "name": "Jorge Mateo",
       "team": "ATL",
@@ -2765,7 +2795,7 @@
       "pullPct": 0.455
     },
     {
-      "rank": 277,
+      "rank": 280,
       "playerId": 31665,
       "name": "Alex Freeland",
       "team": "LAD",
@@ -2775,17 +2805,17 @@
       "pullPct": 0.348
     },
     {
-      "rank": 278,
-      "playerId": 20043,
-      "name": "Luis Robert Jr.",
-      "team": "NYM",
-      "gbPct": 0.462,
-      "fbPct": 0.374,
+      "rank": 281,
+      "playerId": 35101,
+      "name": "Sam Antonacci",
+      "team": "CHW",
+      "gbPct": 0.511,
+      "fbPct": 0.27399999999999997,
       "hardHitPct": 0.341,
-      "pullPct": 0.473
+      "pullPct": 0.38799999999999996
     },
     {
-      "rank": 279,
+      "rank": 282,
       "playerId": 23691,
       "name": "José Tena",
       "team": "WSN",
@@ -2795,17 +2825,7 @@
       "pullPct": 0.36200000000000004
     },
     {
-      "rank": 280,
-      "playerId": 19612,
-      "name": "Bo Bichette",
-      "team": "NYM",
-      "gbPct": 0.48100000000000004,
-      "fbPct": 0.316,
-      "hardHitPct": 0.341,
-      "pullPct": 0.27
-    },
-    {
-      "rank": 281,
+      "rank": 283,
       "playerId": 14162,
       "name": "Carlos Correa",
       "team": "HOU",
@@ -2815,17 +2835,17 @@
       "pullPct": 0.402
     },
     {
-      "rank": 282,
+      "rank": 284,
       "playerId": 26540,
       "name": "Angel Martínez",
       "team": "CLE",
-      "gbPct": 0.425,
-      "fbPct": 0.39399999999999996,
+      "gbPct": 0.423,
+      "fbPct": 0.39799999999999996,
       "hardHitPct": 0.34,
-      "pullPct": 0.49
+      "pullPct": 0.488
     },
     {
-      "rank": 283,
+      "rank": 285,
       "playerId": 21538,
       "name": "Nick Fortes",
       "team": "TBR",
@@ -2835,7 +2855,7 @@
       "pullPct": 0.493
     },
     {
-      "rank": 284,
+      "rank": 286,
       "playerId": 35376,
       "name": "Konnor Griffin",
       "team": "PIT",
@@ -2845,17 +2865,7 @@
       "pullPct": 0.43200000000000005
     },
     {
-      "rank": 285,
-      "playerId": 31347,
-      "name": "Zach Neto",
-      "team": "LAA",
-      "gbPct": 0.32299999999999995,
-      "fbPct": 0.473,
-      "hardHitPct": 0.33799999999999997,
-      "pullPct": 0.48
-    },
-    {
-      "rank": 286,
+      "rank": 287,
       "playerId": 7802,
       "name": "Miguel Rojas",
       "team": "LAD",
@@ -2865,27 +2875,37 @@
       "pullPct": 0.37200000000000005
     },
     {
-      "rank": 287,
-      "playerId": 25479,
-      "name": "Brenton Doyle",
-      "team": "2 Tms",
-      "gbPct": 0.547,
-      "fbPct": 0.28,
-      "hardHitPct": 0.33799999999999997,
-      "pullPct": 0.46799999999999997
-    },
-    {
       "rank": 288,
-      "playerId": 17452,
-      "name": "Jose Siri",
-      "team": "LAA",
-      "gbPct": 0.423,
-      "fbPct": 0.41,
+      "playerId": 19612,
+      "name": "Bo Bichette",
+      "team": "NYM",
+      "gbPct": 0.48,
+      "fbPct": 0.316,
       "hardHitPct": 0.33799999999999997,
-      "pullPct": 0.43799999999999994
+      "pullPct": 0.271
     },
     {
       "rank": 289,
+      "playerId": 21618,
+      "name": "Alec Bohm",
+      "team": "PHI",
+      "gbPct": 0.48200000000000004,
+      "fbPct": 0.34,
+      "hardHitPct": 0.337,
+      "pullPct": 0.314
+    },
+    {
+      "rank": 290,
+      "playerId": 31347,
+      "name": "Zach Neto",
+      "team": "LAA",
+      "gbPct": 0.322,
+      "fbPct": 0.47700000000000004,
+      "hardHitPct": 0.337,
+      "pullPct": 0.484
+    },
+    {
+      "rank": 291,
       "playerId": 19346,
       "name": "Eli White",
       "team": "2 Tms",
@@ -2895,47 +2915,7 @@
       "pullPct": 0.40399999999999997
     },
     {
-      "rank": 290,
-      "playerId": 20437,
-      "name": "Royce Lewis",
-      "team": "MIN",
-      "gbPct": 0.319,
-      "fbPct": 0.51,
-      "hardHitPct": 0.336,
-      "pullPct": 0.474
-    },
-    {
-      "rank": 291,
-      "playerId": 27490,
-      "name": "Nick Gonzales",
-      "team": "PIT",
-      "gbPct": 0.525,
-      "fbPct": 0.28,
-      "hardHitPct": 0.335,
-      "pullPct": 0.409
-    },
-    {
       "rank": 292,
-      "playerId": 19566,
-      "name": "Nathaniel Lowe",
-      "team": "2 Tms",
-      "gbPct": 0.4,
-      "fbPct": 0.34600000000000003,
-      "hardHitPct": 0.335,
-      "pullPct": 0.389
-    },
-    {
-      "rank": 293,
-      "playerId": 22542,
-      "name": "Lawrence Butler",
-      "team": "ATH",
-      "gbPct": 0.49,
-      "fbPct": 0.284,
-      "hardHitPct": 0.335,
-      "pullPct": 0.369
-    },
-    {
-      "rank": 294,
       "playerId": 9241,
       "name": "Starling Marte",
       "team": "KCR",
@@ -2945,7 +2925,7 @@
       "pullPct": 0.33299999999999996
     },
     {
-      "rank": 295,
+      "rank": 293,
       "playerId": 14813,
       "name": "Kyle Farmer",
       "team": "ATL",
@@ -2955,7 +2935,17 @@
       "pullPct": 0.5
     },
     {
-      "rank": 296,
+      "rank": 294,
+      "playerId": 16472,
+      "name": "Rhys Hoskins",
+      "team": "CLE",
+      "gbPct": 0.248,
+      "fbPct": 0.556,
+      "hardHitPct": 0.33299999999999996,
+      "pullPct": 0.562
+    },
+    {
+      "rank": 295,
       "playerId": 19968,
       "name": "Jared Oliva",
       "team": "SFG",
@@ -2965,17 +2955,7 @@
       "pullPct": 0.5
     },
     {
-      "rank": 297,
-      "playerId": 24597,
-      "name": "Jonathan Ornelas",
-      "team": "ATH",
-      "gbPct": 0.5,
-      "fbPct": 0.5,
-      "hardHitPct": 0.33299999999999996,
-      "pullPct": 0.667
-    },
-    {
-      "rank": 298,
+      "rank": 296,
       "playerId": 25971,
       "name": "Kevin Alcántara",
       "team": "CHC",
@@ -2985,7 +2965,7 @@
       "pullPct": 0.667
     },
     {
-      "rank": 299,
+      "rank": 297,
       "playerId": 26047,
       "name": "Jase Bowen",
       "team": "SDP",
@@ -2995,7 +2975,17 @@
       "pullPct": 0.5
     },
     {
-      "rank": 300,
+      "rank": 298,
+      "playerId": 29577,
+      "name": "Ben Malgeri",
+      "team": "DET",
+      "gbPct": 0.424,
+      "fbPct": 0.33299999999999996,
+      "hardHitPct": 0.33299999999999996,
+      "pullPct": 0.364
+    },
+    {
+      "rank": 299,
       "playerId": 29795,
       "name": "James Triantos",
       "team": "CHC",
@@ -3005,7 +2995,7 @@
       "pullPct": 0.33299999999999996
     },
     {
-      "rank": 301,
+      "rank": 300,
       "playerId": 31443,
       "name": "Sterlin Thompson",
       "team": "COL",
@@ -3015,17 +3005,7 @@
       "pullPct": 0.43799999999999994
     },
     {
-      "rank": 302,
-      "playerId": 31781,
-      "name": "Jackson Holliday",
-      "team": "BAL",
-      "gbPct": 0.425,
-      "fbPct": 0.36700000000000005,
-      "hardHitPct": 0.33299999999999996,
-      "pullPct": 0.392
-    },
-    {
-      "rank": 303,
+      "rank": 301,
       "playerId": 32054,
       "name": "Shawn Ross",
       "team": "PIT",
@@ -3033,6 +3013,26 @@
       "fbPct": 0.667,
       "hardHitPct": 0.33299999999999996,
       "pullPct": 0.667
+    },
+    {
+      "rank": 302,
+      "playerId": 35107,
+      "name": "Tommy White",
+      "team": "ATH",
+      "gbPct": 0.55,
+      "fbPct": 0.217,
+      "hardHitPct": 0.33299999999999996,
+      "pullPct": 0.3
+    },
+    {
+      "rank": 303,
+      "playerId": 27490,
+      "name": "Nick Gonzales",
+      "team": "PIT",
+      "gbPct": 0.52,
+      "fbPct": 0.281,
+      "hardHitPct": 0.332,
+      "pullPct": 0.408
     },
     {
       "rank": 304,
@@ -3066,6 +3066,16 @@
     },
     {
       "rank": 307,
+      "playerId": 22581,
+      "name": "Alejandro Kirk",
+      "team": "TOR",
+      "gbPct": 0.488,
+      "fbPct": 0.322,
+      "hardHitPct": 0.331,
+      "pullPct": 0.281
+    },
+    {
+      "rank": 308,
       "playerId": 19470,
       "name": "Tommy Edman",
       "team": "LAD",
@@ -3075,7 +3085,27 @@
       "pullPct": 0.49
     },
     {
-      "rank": 308,
+      "rank": 309,
+      "playerId": 33197,
+      "name": "Ben Williamson",
+      "team": "TBR",
+      "gbPct": 0.557,
+      "fbPct": 0.21100000000000002,
+      "hardHitPct": 0.33,
+      "pullPct": 0.289
+    },
+    {
+      "rank": 310,
+      "playerId": 12916,
+      "name": "Francisco Lindor",
+      "team": "NYM",
+      "gbPct": 0.35200000000000004,
+      "fbPct": 0.45299999999999996,
+      "hardHitPct": 0.33,
+      "pullPct": 0.46399999999999997
+    },
+    {
+      "rank": 311,
       "playerId": 24064,
       "name": "Ezequiel Tovar",
       "team": "COL",
@@ -3085,27 +3115,7 @@
       "pullPct": 0.36700000000000005
     },
     {
-      "rank": 309,
-      "playerId": 12916,
-      "name": "Francisco Lindor",
-      "team": "NYM",
-      "gbPct": 0.358,
-      "fbPct": 0.449,
-      "hardHitPct": 0.33,
-      "pullPct": 0.46
-    },
-    {
-      "rank": 310,
-      "playerId": 16472,
-      "name": "Rhys Hoskins",
-      "team": "CLE",
-      "gbPct": 0.25,
-      "fbPct": 0.5529999999999999,
-      "hardHitPct": 0.32899999999999996,
-      "pullPct": 0.5660000000000001
-    },
-    {
-      "rank": 311,
+      "rank": 312,
       "playerId": 29630,
       "name": "Joey Loperfido",
       "team": "HOU",
@@ -3115,17 +3125,17 @@
       "pullPct": 0.301
     },
     {
-      "rank": 312,
-      "playerId": 19610,
-      "name": "Keibert Ruiz",
-      "team": "WSN",
-      "gbPct": 0.39799999999999996,
-      "fbPct": 0.41200000000000003,
+      "rank": 313,
+      "playerId": 22542,
+      "name": "Lawrence Butler",
+      "team": "ATH",
+      "gbPct": 0.495,
+      "fbPct": 0.284,
       "hardHitPct": 0.32899999999999996,
-      "pullPct": 0.601
+      "pullPct": 0.36700000000000005
     },
     {
-      "rank": 313,
+      "rank": 314,
       "playerId": 25779,
       "name": "Tyler Tolbert",
       "team": "KCR",
@@ -3135,17 +3145,17 @@
       "pullPct": 0.44299999999999995
     },
     {
-      "rank": 314,
+      "rank": 315,
       "playerId": 31680,
       "name": "Cole Young",
       "team": "SEA",
-      "gbPct": 0.38,
-      "fbPct": 0.397,
+      "gbPct": 0.382,
+      "fbPct": 0.39899999999999997,
       "hardHitPct": 0.32899999999999996,
-      "pullPct": 0.45799999999999996
+      "pullPct": 0.46
     },
     {
-      "rank": 315,
+      "rank": 316,
       "playerId": 27790,
       "name": "Evan Carter",
       "team": "TEX",
@@ -3153,16 +3163,6 @@
       "fbPct": 0.466,
       "hardHitPct": 0.32799999999999996,
       "pullPct": 0.402
-    },
-    {
-      "rank": 316,
-      "playerId": 31695,
-      "name": "Dylan Beavers",
-      "team": "BAL",
-      "gbPct": 0.392,
-      "fbPct": 0.4,
-      "hardHitPct": 0.32799999999999996,
-      "pullPct": 0.382
     },
     {
       "rank": 317,
@@ -3176,6 +3176,26 @@
     },
     {
       "rank": 318,
+      "playerId": 31781,
+      "name": "Jackson Holliday",
+      "team": "BAL",
+      "gbPct": 0.426,
+      "fbPct": 0.369,
+      "hardHitPct": 0.32799999999999996,
+      "pullPct": 0.39299999999999996
+    },
+    {
+      "rank": 319,
+      "playerId": 30116,
+      "name": "Seiya Suzuki",
+      "team": "CHC",
+      "gbPct": 0.342,
+      "fbPct": 0.444,
+      "hardHitPct": 0.327,
+      "pullPct": 0.444
+    },
+    {
+      "rank": 320,
       "playerId": 25961,
       "name": "Kerry Carpenter",
       "team": "DET",
@@ -3185,17 +3205,7 @@
       "pullPct": 0.428
     },
     {
-      "rank": 319,
-      "playerId": 30116,
-      "name": "Seiya Suzuki",
-      "team": "CHC",
-      "gbPct": 0.33799999999999997,
-      "fbPct": 0.445,
-      "hardHitPct": 0.327,
-      "pullPct": 0.445
-    },
-    {
-      "rank": 320,
+      "rank": 321,
       "playerId": 13324,
       "name": "Ildemaro Vargas",
       "team": "ARI",
@@ -3205,7 +3215,7 @@
       "pullPct": 0.465
     },
     {
-      "rank": 321,
+      "rank": 322,
       "playerId": 20599,
       "name": "Iván Herrera",
       "team": "STL",
@@ -3215,7 +3225,17 @@
       "pullPct": 0.40299999999999997
     },
     {
-      "rank": 322,
+      "rank": 323,
+      "playerId": 31695,
+      "name": "Dylan Beavers",
+      "team": "BAL",
+      "gbPct": 0.389,
+      "fbPct": 0.405,
+      "hardHitPct": 0.326,
+      "pullPct": 0.379
+    },
+    {
+      "rank": 324,
       "playerId": 11737,
       "name": "Nick Castellanos",
       "team": "SDP",
@@ -3225,7 +3245,7 @@
       "pullPct": 0.53
     },
     {
-      "rank": 323,
+      "rank": 325,
       "playerId": 21897,
       "name": "Christopher Morel",
       "team": "MIA",
@@ -3235,17 +3255,7 @@
       "pullPct": 0.525
     },
     {
-      "rank": 324,
-      "playerId": 33197,
-      "name": "Ben Williamson",
-      "team": "TBR",
-      "gbPct": 0.557,
-      "fbPct": 0.21100000000000002,
-      "hardHitPct": 0.325,
-      "pullPct": 0.289
-    },
-    {
-      "rank": 325,
+      "rank": 326,
       "playerId": 21534,
       "name": "Cal Raleigh",
       "team": "SEA",
@@ -3253,16 +3263,6 @@
       "fbPct": 0.5760000000000001,
       "hardHitPct": 0.325,
       "pullPct": 0.565
-    },
-    {
-      "rank": 326,
-      "playerId": 22823,
-      "name": "Oswald Peraza",
-      "team": "LAA",
-      "gbPct": 0.484,
-      "fbPct": 0.321,
-      "hardHitPct": 0.324,
-      "pullPct": 0.37799999999999995
     },
     {
       "rank": 327,
@@ -3276,6 +3276,16 @@
     },
     {
       "rank": 328,
+      "playerId": 19610,
+      "name": "Keibert Ruiz",
+      "team": "WSN",
+      "gbPct": 0.39299999999999996,
+      "fbPct": 0.40700000000000003,
+      "hardHitPct": 0.324,
+      "pullPct": 0.602
+    },
+    {
+      "rank": 329,
       "playerId": 19562,
       "name": "Zack Short",
       "team": "2 Tms",
@@ -3285,7 +3295,7 @@
       "pullPct": 0.382
     },
     {
-      "rank": 329,
+      "rank": 330,
       "playerId": 20084,
       "name": "J.C. Escarra",
       "team": "NYY",
@@ -3295,7 +3305,7 @@
       "pullPct": 0.309
     },
     {
-      "rank": 330,
+      "rank": 331,
       "playerId": 26693,
       "name": "Juan Brito",
       "team": "CLE",
@@ -3305,7 +3315,7 @@
       "pullPct": 0.529
     },
     {
-      "rank": 331,
+      "rank": 332,
       "playerId": 27479,
       "name": "Masyn Winn",
       "team": "STL",
@@ -3315,7 +3325,17 @@
       "pullPct": 0.32
     },
     {
-      "rank": 332,
+      "rank": 333,
+      "playerId": 20043,
+      "name": "Luis Robert Jr.",
+      "team": "NYM",
+      "gbPct": 0.469,
+      "fbPct": 0.365,
+      "hardHitPct": 0.32299999999999995,
+      "pullPct": 0.49
+    },
+    {
+      "rank": 334,
       "playerId": 28142,
       "name": "Jhostynxon Garcia",
       "team": "PIT",
@@ -3325,27 +3345,17 @@
       "pullPct": 0.419
     },
     {
-      "rank": 333,
+      "rank": 335,
       "playerId": 15905,
       "name": "Luis Torrens",
       "team": "NYM",
-      "gbPct": 0.544,
-      "fbPct": 0.252,
+      "gbPct": 0.5329999999999999,
+      "fbPct": 0.267,
       "hardHitPct": 0.322,
-      "pullPct": 0.336
+      "pullPct": 0.32899999999999996
     },
     {
-      "rank": 334,
-      "playerId": 27630,
-      "name": "Nick Loftin",
-      "team": "KCR",
-      "gbPct": 0.415,
-      "fbPct": 0.415,
-      "hardHitPct": 0.322,
-      "pullPct": 0.48
-    },
-    {
-      "rank": 335,
+      "rank": 336,
       "playerId": 16535,
       "name": "Danny Jansen",
       "team": "TEX",
@@ -3355,7 +3365,7 @@
       "pullPct": 0.595
     },
     {
-      "rank": 336,
+      "rank": 337,
       "playerId": 29976,
       "name": "Jordan Lawlar",
       "team": "ARI",
@@ -3365,22 +3375,12 @@
       "pullPct": 0.5
     },
     {
-      "rank": 337,
-      "playerId": 35107,
-      "name": "Tommy White",
-      "team": "ATH",
-      "gbPct": 0.518,
-      "fbPct": 0.23199999999999998,
-      "hardHitPct": 0.321,
-      "pullPct": 0.304
-    },
-    {
       "rank": 338,
       "playerId": 19901,
       "name": "Gavin Sheets",
       "team": "SDP",
-      "gbPct": 0.461,
-      "fbPct": 0.391,
+      "gbPct": 0.45899999999999996,
+      "fbPct": 0.39399999999999996,
       "hardHitPct": 0.321,
       "pullPct": 0.40700000000000003
     },
@@ -3406,6 +3406,16 @@
     },
     {
       "rank": 341,
+      "playerId": 16530,
+      "name": "Mauricio Dubón",
+      "team": "ATL",
+      "gbPct": 0.41,
+      "fbPct": 0.39799999999999996,
+      "hardHitPct": 0.32,
+      "pullPct": 0.326
+    },
+    {
+      "rank": 342,
       "playerId": 33795,
       "name": "Rikuu Nishida",
       "team": "CHW",
@@ -3415,47 +3425,27 @@
       "pullPct": 0.16
     },
     {
-      "rank": 342,
-      "playerId": 17620,
-      "name": "Myles Straw",
-      "team": "TOR",
-      "gbPct": 0.39799999999999996,
-      "fbPct": 0.41600000000000004,
-      "hardHitPct": 0.319,
-      "pullPct": 0.39799999999999996
-    },
-    {
       "rank": 343,
-      "playerId": 29712,
-      "name": "Colson Montgomery",
-      "team": "CHW",
-      "gbPct": 0.311,
-      "fbPct": 0.518,
+      "playerId": 16725,
+      "name": "Jose Trevino",
+      "team": "CIN",
+      "gbPct": 0.58,
+      "fbPct": 0.304,
       "hardHitPct": 0.319,
-      "pullPct": 0.51
+      "pullPct": 0.34700000000000003
     },
     {
       "rank": 344,
-      "playerId": 34967,
-      "name": "Travis Bazzana",
-      "team": "CLE",
-      "gbPct": 0.409,
-      "fbPct": 0.391,
-      "hardHitPct": 0.319,
-      "pullPct": 0.405
+      "playerId": 33572,
+      "name": "Kevin McGonigle",
+      "team": "DET",
+      "gbPct": 0.318,
+      "fbPct": 0.462,
+      "hardHitPct": 0.318,
+      "pullPct": 0.377
     },
     {
       "rank": 345,
-      "playerId": 16530,
-      "name": "Mauricio Dubón",
-      "team": "ATL",
-      "gbPct": 0.409,
-      "fbPct": 0.4,
-      "hardHitPct": 0.318,
-      "pullPct": 0.33
-    },
-    {
-      "rank": 346,
       "playerId": 17232,
       "name": "Yoán Moncada",
       "team": "LAA",
@@ -3465,14 +3455,24 @@
       "pullPct": 0.439
     },
     {
-      "rank": 347,
-      "playerId": 29995,
-      "name": "Daylen Lile",
-      "team": "WSN",
-      "gbPct": 0.34700000000000003,
-      "fbPct": 0.474,
+      "rank": 346,
+      "playerId": 29844,
+      "name": "Liam Hicks",
+      "team": "2 Tms",
+      "gbPct": 0.456,
+      "fbPct": 0.379,
       "hardHitPct": 0.318,
-      "pullPct": 0.446
+      "pullPct": 0.44799999999999995
+    },
+    {
+      "rank": 347,
+      "playerId": 35061,
+      "name": "Ryan Waldschmidt",
+      "team": "ARI",
+      "gbPct": 0.303,
+      "fbPct": 0.385,
+      "hardHitPct": 0.318,
+      "pullPct": 0.355
     },
     {
       "rank": 348,
@@ -3486,16 +3486,26 @@
     },
     {
       "rank": 349,
-      "playerId": 35061,
-      "name": "Ryan Waldschmidt",
-      "team": "ARI",
-      "gbPct": 0.292,
-      "fbPct": 0.387,
+      "playerId": 22823,
+      "name": "Oswald Peraza",
+      "team": "LAA",
+      "gbPct": 0.484,
+      "fbPct": 0.324,
       "hardHitPct": 0.318,
-      "pullPct": 0.355
+      "pullPct": 0.375
     },
     {
       "rank": 350,
+      "playerId": 17620,
+      "name": "Myles Straw",
+      "team": "TOR",
+      "gbPct": 0.409,
+      "fbPct": 0.409,
+      "hardHitPct": 0.318,
+      "pullPct": 0.39399999999999996
+    },
+    {
+      "rank": 351,
       "playerId": 31357,
       "name": "Nathan Church",
       "team": "STL",
@@ -3505,7 +3515,27 @@
       "pullPct": 0.365
     },
     {
-      "rank": 351,
+      "rank": 352,
+      "playerId": 34967,
+      "name": "Travis Bazzana",
+      "team": "CLE",
+      "gbPct": 0.40700000000000003,
+      "fbPct": 0.39399999999999996,
+      "hardHitPct": 0.318,
+      "pullPct": 0.40299999999999997
+    },
+    {
+      "rank": 353,
+      "playerId": 29995,
+      "name": "Daylen Lile",
+      "team": "WSN",
+      "gbPct": 0.34600000000000003,
+      "fbPct": 0.47600000000000003,
+      "hardHitPct": 0.317,
+      "pullPct": 0.445
+    },
+    {
+      "rank": 354,
       "playerId": 14221,
       "name": "Jorge Soler",
       "team": "LAA",
@@ -3515,7 +3545,37 @@
       "pullPct": 0.535
     },
     {
-      "rank": 352,
+      "rank": 355,
+      "playerId": 27630,
+      "name": "Nick Loftin",
+      "team": "KCR",
+      "gbPct": 0.415,
+      "fbPct": 0.415,
+      "hardHitPct": 0.317,
+      "pullPct": 0.48
+    },
+    {
+      "rank": 356,
+      "playerId": 22266,
+      "name": "Xavier Edwards",
+      "team": "MIA",
+      "gbPct": 0.45899999999999996,
+      "fbPct": 0.335,
+      "hardHitPct": 0.317,
+      "pullPct": 0.32
+    },
+    {
+      "rank": 357,
+      "playerId": 29712,
+      "name": "Colson Montgomery",
+      "team": "CHW",
+      "gbPct": 0.313,
+      "fbPct": 0.511,
+      "hardHitPct": 0.317,
+      "pullPct": 0.511
+    },
+    {
+      "rank": 358,
       "playerId": 27504,
       "name": "Nick Yorke",
       "team": "PIT",
@@ -3525,7 +3585,7 @@
       "pullPct": 0.267
     },
     {
-      "rank": 353,
+      "rank": 359,
       "playerId": 28022,
       "name": "Edgar Quero",
       "team": "CHW",
@@ -3535,17 +3595,17 @@
       "pullPct": 0.331
     },
     {
-      "rank": 354,
-      "playerId": 22266,
-      "name": "Xavier Edwards",
-      "team": "MIA",
-      "gbPct": 0.45899999999999996,
-      "fbPct": 0.337,
+      "rank": 360,
+      "playerId": 23985,
+      "name": "Osleivis Basabe",
+      "team": "SFG",
+      "gbPct": 0.368,
+      "fbPct": 0.526,
       "hardHitPct": 0.316,
-      "pullPct": 0.319
+      "pullPct": 0.368
     },
     {
-      "rank": 355,
+      "rank": 361,
       "playerId": 25705,
       "name": "Dustin Harris",
       "team": "2 Tms",
@@ -3555,17 +3615,7 @@
       "pullPct": 0.6579999999999999
     },
     {
-      "rank": 356,
-      "playerId": 29844,
-      "name": "Liam Hicks",
-      "team": "2 Tms",
-      "gbPct": 0.456,
-      "fbPct": 0.379,
-      "hardHitPct": 0.315,
-      "pullPct": 0.44799999999999995
-    },
-    {
-      "rank": 357,
+      "rank": 362,
       "playerId": 18030,
       "name": "Harrison Bader",
       "team": "SFG",
@@ -3575,7 +3625,7 @@
       "pullPct": 0.507
     },
     {
-      "rank": 358,
+      "rank": 363,
       "playerId": 15491,
       "name": "J.P. Crawford",
       "team": "SEA",
@@ -3585,7 +3635,7 @@
       "pullPct": 0.38299999999999995
     },
     {
-      "rank": 359,
+      "rank": 364,
       "playerId": 22184,
       "name": "Mark Vientos",
       "team": "NYM",
@@ -3595,17 +3645,17 @@
       "pullPct": 0.376
     },
     {
-      "rank": 360,
-      "playerId": 33572,
-      "name": "Kevin McGonigle",
-      "team": "DET",
-      "gbPct": 0.317,
-      "fbPct": 0.462,
-      "hardHitPct": 0.314,
-      "pullPct": 0.377
+      "rank": 365,
+      "playerId": 24262,
+      "name": "Ceddanne Rafaela",
+      "team": "BOS",
+      "gbPct": 0.418,
+      "fbPct": 0.34,
+      "hardHitPct": 0.315,
+      "pullPct": 0.38
     },
     {
-      "rank": 361,
+      "rank": 366,
       "playerId": 22054,
       "name": "Dane Myers",
       "team": "CIN",
@@ -3615,27 +3665,7 @@
       "pullPct": 0.28
     },
     {
-      "rank": 362,
-      "playerId": 29695,
-      "name": "Matt McLain",
-      "team": "CIN",
-      "gbPct": 0.316,
-      "fbPct": 0.485,
-      "hardHitPct": 0.313,
-      "pullPct": 0.353
-    },
-    {
-      "rank": 363,
-      "playerId": 24262,
-      "name": "Ceddanne Rafaela",
-      "team": "BOS",
-      "gbPct": 0.418,
-      "fbPct": 0.33899999999999997,
-      "hardHitPct": 0.313,
-      "pullPct": 0.38299999999999995
-    },
-    {
-      "rank": 364,
+      "rank": 367,
       "playerId": 2396,
       "name": "Carlos Santana",
       "team": "ARI",
@@ -3645,7 +3675,7 @@
       "pullPct": 0.43799999999999994
     },
     {
-      "rank": 365,
+      "rank": 368,
       "playerId": 22217,
       "name": "Luis Campusano",
       "team": "SDP",
@@ -3655,7 +3685,7 @@
       "pullPct": 0.475
     },
     {
-      "rank": 366,
+      "rank": 369,
       "playerId": 29614,
       "name": "Chad Stevens",
       "team": "COL",
@@ -3665,7 +3695,7 @@
       "pullPct": 0.313
     },
     {
-      "rank": 367,
+      "rank": 370,
       "playerId": 29858,
       "name": "Denzel Clarke",
       "team": "ATH",
@@ -3675,7 +3705,7 @@
       "pullPct": 0.563
     },
     {
-      "rank": 368,
+      "rank": 371,
       "playerId": 18577,
       "name": "Ke'Bryan Hayes",
       "team": "CIN",
@@ -3685,17 +3715,7 @@
       "pullPct": 0.29600000000000004
     },
     {
-      "rank": 369,
-      "playerId": 26517,
-      "name": "Noelvi Marte",
-      "team": "CIN",
-      "gbPct": 0.56,
-      "fbPct": 0.336,
-      "hardHitPct": 0.312,
-      "pullPct": 0.48
-    },
-    {
-      "rank": 370,
+      "rank": 372,
       "playerId": 29554,
       "name": "Adrian Del Castillo",
       "team": "ARI",
@@ -3705,7 +3725,17 @@
       "pullPct": 0.392
     },
     {
-      "rank": 371,
+      "rank": 373,
+      "playerId": 29695,
+      "name": "Matt McLain",
+      "team": "CIN",
+      "gbPct": 0.315,
+      "fbPct": 0.48700000000000004,
+      "hardHitPct": 0.312,
+      "pullPct": 0.35100000000000003
+    },
+    {
+      "rank": 374,
       "playerId": 15161,
       "name": "Mitch Garver",
       "team": "SEA",
@@ -3715,7 +3745,17 @@
       "pullPct": 0.5579999999999999
     },
     {
-      "rank": 372,
+      "rank": 375,
+      "playerId": 33575,
+      "name": "Colt Emerson",
+      "team": "SEA",
+      "gbPct": 0.439,
+      "fbPct": 0.386,
+      "hardHitPct": 0.311,
+      "pullPct": 0.42200000000000004
+    },
+    {
+      "rank": 376,
       "playerId": 21464,
       "name": "Bryan Torres",
       "team": "STL",
@@ -3725,17 +3765,7 @@
       "pullPct": 0.486
     },
     {
-      "rank": 373,
-      "playerId": 11680,
-      "name": "Elias Díaz",
-      "team": "2 Tms",
-      "gbPct": 0.35,
-      "fbPct": 0.43,
-      "hardHitPct": 0.311,
-      "pullPct": 0.38799999999999996
-    },
-    {
-      "rank": 374,
+      "rank": 377,
       "playerId": 21853,
       "name": "Will Benson",
       "team": "CIN",
@@ -3745,7 +3775,17 @@
       "pullPct": 0.414
     },
     {
-      "rank": 375,
+      "rank": 378,
+      "playerId": 26517,
+      "name": "Noelvi Marte",
+      "team": "CIN",
+      "gbPct": 0.5579999999999999,
+      "fbPct": 0.341,
+      "hardHitPct": 0.31,
+      "pullPct": 0.488
+    },
+    {
+      "rank": 379,
       "playerId": 10324,
       "name": "Marcell Ozuna",
       "team": "PIT",
@@ -3755,7 +3795,7 @@
       "pullPct": 0.38
     },
     {
-      "rank": 376,
+      "rank": 380,
       "playerId": 33380,
       "name": "Drew Cavanaugh",
       "team": "SFG",
@@ -3765,7 +3805,7 @@
       "pullPct": 0.262
     },
     {
-      "rank": 377,
+      "rank": 381,
       "playerId": 21558,
       "name": "Matt Vierling",
       "team": "DET",
@@ -3775,17 +3815,7 @@
       "pullPct": 0.345
     },
     {
-      "rank": 378,
-      "playerId": 12533,
-      "name": "Marcus Semien",
-      "team": "NYM",
-      "gbPct": 0.342,
-      "fbPct": 0.431,
-      "hardHitPct": 0.309,
-      "pullPct": 0.49200000000000005
-    },
-    {
-      "rank": 379,
+      "rank": 382,
       "playerId": 19921,
       "name": "Blake Perkins",
       "team": "MIL",
@@ -3795,17 +3825,7 @@
       "pullPct": 0.426
     },
     {
-      "rank": 380,
-      "playerId": 13620,
-      "name": "Carson Kelly",
-      "team": "CHC",
-      "gbPct": 0.465,
-      "fbPct": 0.355,
-      "hardHitPct": 0.309,
-      "pullPct": 0.37799999999999995
-    },
-    {
-      "rank": 381,
+      "rank": 383,
       "playerId": 28816,
       "name": "Denzer Guzman",
       "team": "LAA",
@@ -3815,17 +3835,17 @@
       "pullPct": 0.467
     },
     {
-      "rank": 382,
-      "playerId": 19802,
-      "name": "Jhonny Pereda",
-      "team": "SEA",
-      "gbPct": 0.34600000000000003,
-      "fbPct": 0.308,
+      "rank": 384,
+      "playerId": 23003,
+      "name": "Yainer Diaz",
+      "team": "HOU",
+      "gbPct": 0.5489999999999999,
+      "fbPct": 0.28600000000000003,
       "hardHitPct": 0.308,
-      "pullPct": 0.327
+      "pullPct": 0.39
     },
     {
-      "rank": 383,
+      "rank": 385,
       "playerId": 31431,
       "name": "Jordan Beck",
       "team": "COL",
@@ -3835,7 +3855,27 @@
       "pullPct": 0.415
     },
     {
-      "rank": 384,
+      "rank": 386,
+      "playerId": 13620,
+      "name": "Carson Kelly",
+      "team": "CHC",
+      "gbPct": 0.46299999999999997,
+      "fbPct": 0.353,
+      "hardHitPct": 0.307,
+      "pullPct": 0.376
+    },
+    {
+      "rank": 387,
+      "playerId": 12533,
+      "name": "Marcus Semien",
+      "team": "NYM",
+      "gbPct": 0.34,
+      "fbPct": 0.434,
+      "hardHitPct": 0.307,
+      "pullPct": 0.498
+    },
+    {
+      "rank": 388,
       "playerId": 22715,
       "name": "Maikel Garcia",
       "team": "KCR",
@@ -3845,7 +3885,7 @@
       "pullPct": 0.35100000000000003
     },
     {
-      "rank": 385,
+      "rank": 389,
       "playerId": 16505,
       "name": "Matt Chapman",
       "team": "SFG",
@@ -3855,37 +3895,27 @@
       "pullPct": 0.415
     },
     {
-      "rank": 386,
-      "playerId": 16725,
-      "name": "Jose Trevino",
-      "team": "CIN",
-      "gbPct": 0.58,
-      "fbPct": 0.304,
+      "rank": 390,
+      "playerId": 33189,
+      "name": "Nolan Schanuel",
+      "team": "LAA",
+      "gbPct": 0.457,
+      "fbPct": 0.297,
       "hardHitPct": 0.306,
-      "pullPct": 0.34700000000000003
+      "pullPct": 0.452
     },
     {
-      "rank": 387,
-      "playerId": 30080,
-      "name": "Hao-Yu Lee",
-      "team": "DET",
-      "gbPct": 0.37799999999999995,
-      "fbPct": 0.434,
-      "hardHitPct": 0.306,
-      "pullPct": 0.326
+      "rank": 391,
+      "playerId": 21614,
+      "name": "Kyle Isbel",
+      "team": "KCR",
+      "gbPct": 0.43700000000000006,
+      "fbPct": 0.381,
+      "hardHitPct": 0.304,
+      "pullPct": 0.304
     },
     {
-      "rank": 388,
-      "playerId": 9218,
-      "name": "Paul Goldschmidt",
-      "team": "NYY",
-      "gbPct": 0.45,
-      "fbPct": 0.377,
-      "hardHitPct": 0.305,
-      "pullPct": 0.345
-    },
-    {
-      "rank": 389,
+      "rank": 392,
       "playerId": 30675,
       "name": "Luis Lara",
       "team": "MIL",
@@ -3895,17 +3925,7 @@
       "pullPct": 0.326
     },
     {
-      "rank": 390,
-      "playerId": 31490,
-      "name": "Wade Meckler",
-      "team": "LAA",
-      "gbPct": 0.491,
-      "fbPct": 0.24600000000000002,
-      "hardHitPct": 0.304,
-      "pullPct": 0.374
-    },
-    {
-      "rank": 391,
+      "rank": 393,
       "playerId": 19918,
       "name": "Daulton Varsho",
       "team": "2 Tms",
@@ -3915,17 +3935,7 @@
       "pullPct": 0.415
     },
     {
-      "rank": 392,
-      "playerId": 21614,
-      "name": "Kyle Isbel",
-      "team": "KCR",
-      "gbPct": 0.431,
-      "fbPct": 0.382,
-      "hardHitPct": 0.304,
-      "pullPct": 0.29600000000000004
-    },
-    {
-      "rank": 393,
+      "rank": 394,
       "playerId": 29905,
       "name": "Kahlil Watson",
       "team": "CLE",
@@ -3935,7 +3945,7 @@
       "pullPct": 0.39299999999999996
     },
     {
-      "rank": 394,
+      "rank": 395,
       "playerId": 31958,
       "name": "Gabriel Rincones Jr.",
       "team": "PHI",
@@ -3945,27 +3955,7 @@
       "pullPct": 0.321
     },
     {
-      "rank": 395,
-      "playerId": 31595,
-      "name": "Brooks Lee",
-      "team": "MIN",
-      "gbPct": 0.40299999999999997,
-      "fbPct": 0.406,
-      "hardHitPct": 0.303,
-      "pullPct": 0.45299999999999996
-    },
-    {
       "rank": 396,
-      "playerId": 33189,
-      "name": "Nolan Schanuel",
-      "team": "LAA",
-      "gbPct": 0.45299999999999996,
-      "fbPct": 0.297,
-      "hardHitPct": 0.303,
-      "pullPct": 0.451
-    },
-    {
-      "rank": 397,
       "playerId": 17128,
       "name": "Ramón Laureano",
       "team": "SDP",
@@ -3975,7 +3965,7 @@
       "pullPct": 0.37799999999999995
     },
     {
-      "rank": 398,
+      "rank": 397,
       "playerId": 26468,
       "name": "Victor Bericoto",
       "team": "SFG",
@@ -3985,17 +3975,7 @@
       "pullPct": 0.37200000000000005
     },
     {
-      "rank": 399,
-      "playerId": 23003,
-      "name": "Yainer Diaz",
-      "team": "HOU",
-      "gbPct": 0.5489999999999999,
-      "fbPct": 0.28600000000000003,
-      "hardHitPct": 0.302,
-      "pullPct": 0.39
-    },
-    {
-      "rank": 400,
+      "rank": 398,
       "playerId": 16947,
       "name": "Derek Hill",
       "team": "2 Tms",
@@ -4005,7 +3985,57 @@
       "pullPct": 0.41700000000000004
     },
     {
+      "rank": 399,
+      "playerId": 15653,
+      "name": "Dominic Smith",
+      "team": "ATL",
+      "gbPct": 0.409,
+      "fbPct": 0.365,
+      "hardHitPct": 0.301,
+      "pullPct": 0.37799999999999995
+    },
+    {
+      "rank": 400,
+      "playerId": 30080,
+      "name": "Hao-Yu Lee",
+      "team": "DET",
+      "gbPct": 0.37200000000000005,
+      "fbPct": 0.434,
+      "hardHitPct": 0.301,
+      "pullPct": 0.336
+    },
+    {
       "rank": 401,
+      "playerId": 11680,
+      "name": "Elias Díaz",
+      "team": "2 Tms",
+      "gbPct": 0.35,
+      "fbPct": 0.43,
+      "hardHitPct": 0.301,
+      "pullPct": 0.38799999999999996
+    },
+    {
+      "rank": 402,
+      "playerId": 23802,
+      "name": "Anthony Seigler",
+      "team": "BOS",
+      "gbPct": 0.431,
+      "fbPct": 0.34299999999999997,
+      "hardHitPct": 0.301,
+      "pullPct": 0.35
+    },
+    {
+      "rank": 403,
+      "playerId": 9218,
+      "name": "Paul Goldschmidt",
+      "team": "NYY",
+      "gbPct": 0.45,
+      "fbPct": 0.377,
+      "hardHitPct": 0.3,
+      "pullPct": 0.345
+    },
+    {
+      "rank": 404,
       "playerId": 13355,
       "name": "Luke Maile",
       "team": "KCR",
@@ -4015,7 +4045,7 @@
       "pullPct": 0.3
     },
     {
-      "rank": 402,
+      "rank": 405,
       "playerId": 22896,
       "name": "Lenyn Sosa",
       "team": "2 Tms",
@@ -4025,7 +4055,7 @@
       "pullPct": 0.42200000000000004
     },
     {
-      "rank": 403,
+      "rank": 406,
       "playerId": 34979,
       "name": "Christian Moore",
       "team": "LAA",
@@ -4035,37 +4065,47 @@
       "pullPct": 0.1
     },
     {
-      "rank": 404,
-      "playerId": 15653,
-      "name": "Dominic Smith",
-      "team": "ATL",
-      "gbPct": 0.408,
-      "fbPct": 0.369,
-      "hardHitPct": 0.3,
-      "pullPct": 0.377
-    },
-    {
-      "rank": 405,
-      "playerId": 26546,
-      "name": "Agustín Ramírez",
-      "team": "MIA",
-      "gbPct": 0.506,
-      "fbPct": 0.322,
-      "hardHitPct": 0.299,
-      "pullPct": 0.43700000000000006
-    },
-    {
-      "rank": 406,
-      "playerId": 23565,
-      "name": "Davis Schneider",
-      "team": "TOR",
-      "gbPct": 0.303,
-      "fbPct": 0.591,
-      "hardHitPct": 0.299,
-      "pullPct": 0.358
-    },
-    {
       "rank": 407,
+      "playerId": 31595,
+      "name": "Brooks Lee",
+      "team": "MIN",
+      "gbPct": 0.40399999999999997,
+      "fbPct": 0.40399999999999997,
+      "hardHitPct": 0.3,
+      "pullPct": 0.457
+    },
+    {
+      "rank": 408,
+      "playerId": 18848,
+      "name": "Yohel Pozo",
+      "team": "2 Tms",
+      "gbPct": 0.43200000000000005,
+      "fbPct": 0.35100000000000003,
+      "hardHitPct": 0.297,
+      "pullPct": 0.297
+    },
+    {
+      "rank": 409,
+      "playerId": 22799,
+      "name": "Geraldo Perdomo",
+      "team": "ARI",
+      "gbPct": 0.408,
+      "fbPct": 0.355,
+      "hardHitPct": 0.297,
+      "pullPct": 0.46299999999999997
+    },
+    {
+      "rank": 410,
+      "playerId": 19802,
+      "name": "Jhonny Pereda",
+      "team": "SEA",
+      "gbPct": 0.37,
+      "fbPct": 0.29600000000000004,
+      "hardHitPct": 0.29600000000000004,
+      "pullPct": 0.33299999999999996
+    },
+    {
+      "rank": 411,
       "playerId": 29573,
       "name": "Billy Cook",
       "team": "PIT",
@@ -4075,7 +4115,7 @@
       "pullPct": 0.29600000000000004
     },
     {
-      "rank": 408,
+      "rank": 412,
       "playerId": 19314,
       "name": "Donovan Walton",
       "team": "2 Tms",
@@ -4085,27 +4125,27 @@
       "pullPct": 0.45899999999999996
     },
     {
-      "rank": 409,
-      "playerId": 33575,
-      "name": "Colt Emerson",
-      "team": "SEA",
-      "gbPct": 0.442,
-      "fbPct": 0.38799999999999996,
-      "hardHitPct": 0.295,
-      "pullPct": 0.41700000000000004
+      "rank": 413,
+      "playerId": 19896,
+      "name": "Connor Wong",
+      "team": "BOS",
+      "gbPct": 0.444,
+      "fbPct": 0.33299999999999996,
+      "hardHitPct": 0.29600000000000004,
+      "pullPct": 0.48700000000000004
     },
     {
-      "rank": 410,
-      "playerId": 22799,
-      "name": "Geraldo Perdomo",
-      "team": "ARI",
-      "gbPct": 0.409,
-      "fbPct": 0.353,
+      "rank": 414,
+      "playerId": 29931,
+      "name": "Jacob Young",
+      "team": "WSN",
+      "gbPct": 0.40700000000000003,
+      "fbPct": 0.375,
       "hardHitPct": 0.295,
-      "pullPct": 0.46399999999999997
+      "pullPct": 0.382
     },
     {
-      "rank": 411,
+      "rank": 415,
       "playerId": 19892,
       "name": "Pavin Smith",
       "team": "ARI",
@@ -4115,37 +4155,17 @@
       "pullPct": 0.44299999999999995
     },
     {
-      "rank": 412,
-      "playerId": 9777,
-      "name": "Nolan Arenado",
-      "team": "ARI",
-      "gbPct": 0.386,
-      "fbPct": 0.428,
-      "hardHitPct": 0.295,
-      "pullPct": 0.46299999999999997
-    },
-    {
-      "rank": 413,
-      "playerId": 19896,
-      "name": "Connor Wong",
-      "team": "BOS",
-      "gbPct": 0.44799999999999995,
-      "fbPct": 0.33299999999999996,
-      "hardHitPct": 0.295,
-      "pullPct": 0.473
-    },
-    {
-      "rank": 414,
-      "playerId": 18848,
-      "name": "Yohel Pozo",
-      "team": "2 Tms",
-      "gbPct": 0.47100000000000003,
-      "fbPct": 0.294,
+      "rank": 416,
+      "playerId": 23565,
+      "name": "Davis Schneider",
+      "team": "TOR",
+      "gbPct": 0.313,
+      "fbPct": 0.5820000000000001,
       "hardHitPct": 0.294,
-      "pullPct": 0.294
+      "pullPct": 0.368
     },
     {
-      "rank": 415,
+      "rank": 417,
       "playerId": 23695,
       "name": "Everson Pereira",
       "team": "CHW",
@@ -4155,7 +4175,7 @@
       "pullPct": 0.431
     },
     {
-      "rank": 416,
+      "rank": 418,
       "playerId": 24488,
       "name": "Max Schuemann",
       "team": "NYY",
@@ -4165,17 +4185,7 @@
       "pullPct": 0.392
     },
     {
-      "rank": 417,
-      "playerId": 29931,
-      "name": "Jacob Young",
-      "team": "WSN",
-      "gbPct": 0.40700000000000003,
-      "fbPct": 0.374,
-      "hardHitPct": 0.294,
-      "pullPct": 0.385
-    },
-    {
-      "rank": 418,
+      "rank": 419,
       "playerId": 24934,
       "name": "David Fry",
       "team": "CLE",
@@ -4185,7 +4195,7 @@
       "pullPct": 0.5760000000000001
     },
     {
-      "rank": 419,
+      "rank": 420,
       "playerId": 12859,
       "name": "James McCann",
       "team": "ARI",
@@ -4195,7 +4205,7 @@
       "pullPct": 0.32
     },
     {
-      "rank": 420,
+      "rank": 421,
       "playerId": 27690,
       "name": "Joey Wiemer",
       "team": "WSN",
@@ -4205,7 +4215,27 @@
       "pullPct": 0.439
     },
     {
-      "rank": 421,
+      "rank": 422,
+      "playerId": 29646,
+      "name": "Caleb Durbin",
+      "team": "BOS",
+      "gbPct": 0.478,
+      "fbPct": 0.342,
+      "hardHitPct": 0.293,
+      "pullPct": 0.45
+    },
+    {
+      "rank": 423,
+      "playerId": 26546,
+      "name": "Agustín Ramírez",
+      "team": "MIA",
+      "gbPct": 0.506,
+      "fbPct": 0.326,
+      "hardHitPct": 0.292,
+      "pullPct": 0.43799999999999994
+    },
+    {
+      "rank": 424,
       "playerId": 27915,
       "name": "Alejandro Osuna",
       "team": "TEX",
@@ -4215,7 +4245,57 @@
       "pullPct": 0.261
     },
     {
-      "rank": 422,
+      "rank": 425,
+      "playerId": 9777,
+      "name": "Nolan Arenado",
+      "team": "ARI",
+      "gbPct": 0.382,
+      "fbPct": 0.434,
+      "hardHitPct": 0.292,
+      "pullPct": 0.45799999999999996
+    },
+    {
+      "rank": 426,
+      "playerId": 31490,
+      "name": "Wade Meckler",
+      "team": "LAA",
+      "gbPct": 0.496,
+      "fbPct": 0.244,
+      "hardHitPct": 0.292,
+      "pullPct": 0.375
+    },
+    {
+      "rank": 427,
+      "playerId": 33530,
+      "name": "Cooper Pratt",
+      "team": "MIL",
+      "gbPct": 0.43,
+      "fbPct": 0.29,
+      "hardHitPct": 0.29100000000000004,
+      "pullPct": 0.33
+    },
+    {
+      "rank": 428,
+      "playerId": 19877,
+      "name": "Tristan Gray",
+      "team": "MIN",
+      "gbPct": 0.325,
+      "fbPct": 0.41200000000000003,
+      "hardHitPct": 0.29100000000000004,
+      "pullPct": 0.45299999999999996
+    },
+    {
+      "rank": 429,
+      "playerId": 27462,
+      "name": "Austin Martin",
+      "team": "MIN",
+      "gbPct": 0.48100000000000004,
+      "fbPct": 0.332,
+      "hardHitPct": 0.29,
+      "pullPct": 0.405
+    },
+    {
+      "rank": 430,
       "playerId": 29592,
       "name": "Connor Norby",
       "team": "MIA",
@@ -4225,27 +4305,17 @@
       "pullPct": 0.42700000000000005
     },
     {
-      "rank": 423,
-      "playerId": 33530,
-      "name": "Cooper Pratt",
-      "team": "MIL",
-      "gbPct": 0.44299999999999995,
-      "fbPct": 0.289,
+      "rank": 431,
+      "playerId": 19452,
+      "name": "Jake Rogers",
+      "team": "3 Tms",
+      "gbPct": 0.324,
+      "fbPct": 0.515,
       "hardHitPct": 0.29,
-      "pullPct": 0.34
+      "pullPct": 0.449
     },
     {
-      "rank": 424,
-      "playerId": 29646,
-      "name": "Caleb Durbin",
-      "team": "BOS",
-      "gbPct": 0.478,
-      "fbPct": 0.34299999999999997,
-      "hardHitPct": 0.29,
-      "pullPct": 0.45
-    },
-    {
-      "rank": 425,
+      "rank": 432,
       "playerId": 21562,
       "name": "Romy Gonzalez",
       "team": "BOS",
@@ -4255,47 +4325,27 @@
       "pullPct": 0.222
     },
     {
-      "rank": 426,
-      "playerId": 26548,
-      "name": "Luisangel Acuña",
-      "team": "CHW",
-      "gbPct": 0.59,
-      "fbPct": 0.21600000000000003,
-      "hardHitPct": 0.28800000000000003,
-      "pullPct": 0.41
-    },
-    {
-      "rank": 427,
-      "playerId": 19877,
-      "name": "Tristan Gray",
-      "team": "MIN",
-      "gbPct": 0.33,
-      "fbPct": 0.402,
-      "hardHitPct": 0.287,
-      "pullPct": 0.461
-    },
-    {
-      "rank": 428,
+      "rank": 433,
       "playerId": 16556,
       "name": "Ozzie Albies",
       "team": "ATL",
-      "gbPct": 0.341,
-      "fbPct": 0.46399999999999997,
+      "gbPct": 0.34299999999999997,
+      "fbPct": 0.462,
       "hardHitPct": 0.28600000000000003,
-      "pullPct": 0.48700000000000004
+      "pullPct": 0.488
     },
     {
-      "rank": 429,
-      "playerId": 23802,
-      "name": "Anthony Seigler",
-      "team": "BOS",
-      "gbPct": 0.45399999999999996,
-      "fbPct": 0.34,
+      "rank": 434,
+      "playerId": 26548,
+      "name": "Luisangel Acuña",
+      "team": "CHW",
+      "gbPct": 0.585,
+      "fbPct": 0.222,
       "hardHitPct": 0.28600000000000003,
-      "pullPct": 0.337
+      "pullPct": 0.414
     },
     {
-      "rank": 430,
+      "rank": 435,
       "playerId": 33270,
       "name": "Jonah Cox",
       "team": "SFG",
@@ -4305,37 +4355,17 @@
       "pullPct": 0.14300000000000002
     },
     {
-      "rank": 431,
+      "rank": 436,
       "playerId": 21840,
       "name": "Freddy Fermin",
       "team": "SDP",
-      "gbPct": 0.374,
-      "fbPct": 0.435,
-      "hardHitPct": 0.285,
-      "pullPct": 0.445
-    },
-    {
-      "rank": 432,
-      "playerId": 27462,
-      "name": "Austin Martin",
-      "team": "MIN",
-      "gbPct": 0.47600000000000003,
-      "fbPct": 0.335,
+      "gbPct": 0.37,
+      "fbPct": 0.43700000000000006,
       "hardHitPct": 0.284,
-      "pullPct": 0.39899999999999997
+      "pullPct": 0.447
     },
     {
-      "rank": 433,
-      "playerId": 19734,
-      "name": "Josh Rojas",
-      "team": "KCR",
-      "gbPct": 0.40399999999999997,
-      "fbPct": 0.48100000000000004,
-      "hardHitPct": 0.28300000000000003,
-      "pullPct": 0.28300000000000003
-    },
-    {
-      "rank": 434,
+      "rank": 437,
       "playerId": 35121,
       "name": "Joshua Kuroda-Grauer",
       "team": "ATH",
@@ -4345,7 +4375,7 @@
       "pullPct": 0.434
     },
     {
-      "rank": 435,
+      "rank": 438,
       "playerId": 31370,
       "name": "Jakob Marsee",
       "team": "MIA",
@@ -4355,7 +4385,7 @@
       "pullPct": 0.41700000000000004
     },
     {
-      "rank": 436,
+      "rank": 439,
       "playerId": 12564,
       "name": "Trevor Story",
       "team": "BOS",
@@ -4365,7 +4395,7 @@
       "pullPct": 0.473
     },
     {
-      "rank": 437,
+      "rank": 440,
       "playerId": 31441,
       "name": "Daniel Susac",
       "team": "SFG",
@@ -4375,7 +4405,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 438,
+      "rank": 441,
       "playerId": 33824,
       "name": "Jung Hoo Lee",
       "team": "SFG",
@@ -4385,7 +4415,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 439,
+      "rank": 442,
       "playerId": 22741,
       "name": "Eliezer Alfonzo",
       "team": "LAD",
@@ -4395,7 +4425,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 440,
+      "rank": 443,
       "playerId": 5417,
       "name": "Jose Altuve",
       "team": "HOU",
@@ -4405,27 +4435,7 @@
       "pullPct": 0.498
     },
     {
-      "rank": 441,
-      "playerId": 16997,
-      "name": "Gleyber Torres",
-      "team": "DET",
-      "gbPct": 0.441,
-      "fbPct": 0.366,
-      "hardHitPct": 0.28,
-      "pullPct": 0.205
-    },
-    {
-      "rank": 442,
-      "playerId": 19452,
-      "name": "Jake Rogers",
-      "team": "2 Tms",
-      "gbPct": 0.32799999999999996,
-      "fbPct": 0.507,
-      "hardHitPct": 0.27899999999999997,
-      "pullPct": 0.456
-    },
-    {
-      "rank": 443,
+      "rank": 444,
       "playerId": 17276,
       "name": "Alex Jackson",
       "team": "MIN",
@@ -4435,7 +4445,37 @@
       "pullPct": 0.465
     },
     {
-      "rank": 444,
+      "rank": 445,
+      "playerId": 24770,
+      "name": "James Outman",
+      "team": "2 Tms",
+      "gbPct": 0.37200000000000005,
+      "fbPct": 0.45299999999999996,
+      "hardHitPct": 0.27899999999999997,
+      "pullPct": 0.5579999999999999
+    },
+    {
+      "rank": 446,
+      "playerId": 31580,
+      "name": "Chase Meidroth",
+      "team": "CHW",
+      "gbPct": 0.495,
+      "fbPct": 0.28300000000000003,
+      "hardHitPct": 0.278,
+      "pullPct": 0.41700000000000004
+    },
+    {
+      "rank": 447,
+      "playerId": 33321,
+      "name": "Luke Keaschall",
+      "team": "MIN",
+      "gbPct": 0.38,
+      "fbPct": 0.413,
+      "hardHitPct": 0.278,
+      "pullPct": 0.41700000000000004
+    },
+    {
+      "rank": 448,
       "playerId": 15362,
       "name": "Jeff McNeil",
       "team": "ATH",
@@ -4445,17 +4485,17 @@
       "pullPct": 0.408
     },
     {
-      "rank": 445,
-      "playerId": 33492,
-      "name": "Jim Jarvis",
-      "team": "ATL",
-      "gbPct": 0.565,
-      "fbPct": 0.261,
+      "rank": 449,
+      "playerId": 18036,
+      "name": "Jake Cronenworth",
+      "team": "SDP",
+      "gbPct": 0.48100000000000004,
+      "fbPct": 0.327,
       "hardHitPct": 0.278,
-      "pullPct": 0.319
+      "pullPct": 0.321
     },
     {
-      "rank": 446,
+      "rank": 450,
       "playerId": 24729,
       "name": "Logan O'Hoppe",
       "team": "LAA",
@@ -4465,7 +4505,7 @@
       "pullPct": 0.457
     },
     {
-      "rank": 447,
+      "rank": 451,
       "playerId": 25493,
       "name": "Joey Ortiz",
       "team": "MIL",
@@ -4475,7 +4515,7 @@
       "pullPct": 0.316
     },
     {
-      "rank": 448,
+      "rank": 452,
       "playerId": 13675,
       "name": "Tyrone Taylor",
       "team": "2 Tms",
@@ -4485,7 +4525,7 @@
       "pullPct": 0.512
     },
     {
-      "rank": 449,
+      "rank": 453,
       "playerId": 31545,
       "name": "Drew Gilbert",
       "team": "SFG",
@@ -4495,37 +4535,47 @@
       "pullPct": 0.43200000000000005
     },
     {
-      "rank": 450,
+      "rank": 454,
       "playerId": 26477,
       "name": "Spencer Horwitz",
       "team": "PIT",
-      "gbPct": 0.408,
-      "fbPct": 0.436,
-      "hardHitPct": 0.275,
-      "pullPct": 0.42700000000000005
+      "gbPct": 0.40299999999999997,
+      "fbPct": 0.434,
+      "hardHitPct": 0.276,
+      "pullPct": 0.42100000000000004
     },
     {
-      "rank": 451,
-      "playerId": 33321,
-      "name": "Luke Keaschall",
+      "rank": 455,
+      "playerId": 31564,
+      "name": "Alan Roden",
       "team": "MIN",
-      "gbPct": 0.385,
-      "fbPct": 0.409,
+      "gbPct": 0.425,
+      "fbPct": 0.425,
       "hardHitPct": 0.275,
-      "pullPct": 0.423
+      "pullPct": 0.35
     },
     {
-      "rank": 452,
-      "playerId": 31791,
-      "name": "Justin Crawford",
-      "team": "PHI",
-      "gbPct": 0.546,
-      "fbPct": 0.28300000000000003,
+      "rank": 456,
+      "playerId": 16997,
+      "name": "Gleyber Torres",
+      "team": "DET",
+      "gbPct": 0.445,
+      "fbPct": 0.366,
       "hardHitPct": 0.27399999999999997,
-      "pullPct": 0.278
+      "pullPct": 0.207
     },
     {
-      "rank": 453,
+      "rank": 457,
+      "playerId": 18568,
+      "name": "Luis Arraez",
+      "team": "2 Tms",
+      "gbPct": 0.382,
+      "fbPct": 0.379,
+      "hardHitPct": 0.27399999999999997,
+      "pullPct": 0.326
+    },
+    {
+      "rank": 458,
       "playerId": 25817,
       "name": "Braden Shewmake",
       "team": "2 Tms",
@@ -4535,7 +4585,7 @@
       "pullPct": 0.37
     },
     {
-      "rank": 454,
+      "rank": 459,
       "playerId": 22277,
       "name": "Nick Allen",
       "team": "HOU",
@@ -4545,17 +4595,7 @@
       "pullPct": 0.39299999999999996
     },
     {
-      "rank": 455,
-      "playerId": 23690,
-      "name": "Brayan Rocchio",
-      "team": "CLE",
-      "gbPct": 0.42200000000000004,
-      "fbPct": 0.373,
-      "hardHitPct": 0.273,
-      "pullPct": 0.474
-    },
-    {
-      "rank": 456,
+      "rank": 460,
       "playerId": 18819,
       "name": "Andy Ibáñez",
       "team": "2 Tms",
@@ -4565,7 +4605,7 @@
       "pullPct": 0.591
     },
     {
-      "rank": 457,
+      "rank": 461,
       "playerId": 20536,
       "name": "Vidal Bruján",
       "team": "NYM",
@@ -4575,27 +4615,7 @@
       "pullPct": 0.364
     },
     {
-      "rank": 458,
-      "playerId": 23917,
-      "name": "Jorbit Vivas",
-      "team": "WSN",
-      "gbPct": 0.444,
-      "fbPct": 0.34299999999999997,
-      "hardHitPct": 0.272,
-      "pullPct": 0.406
-    },
-    {
-      "rank": 459,
-      "playerId": 31580,
-      "name": "Chase Meidroth",
-      "team": "CHW",
-      "gbPct": 0.498,
-      "fbPct": 0.28,
-      "hardHitPct": 0.272,
-      "pullPct": 0.41
-    },
-    {
-      "rank": 460,
+      "rank": 462,
       "playerId": 20308,
       "name": "Jake Meyers",
       "team": "HOU",
@@ -4605,17 +4625,37 @@
       "pullPct": 0.374
     },
     {
-      "rank": 461,
-      "playerId": 24770,
-      "name": "James Outman",
-      "team": "2 Tms",
-      "gbPct": 0.365,
-      "fbPct": 0.45899999999999996,
+      "rank": 463,
+      "playerId": 31791,
+      "name": "Justin Crawford",
+      "team": "PHI",
+      "gbPct": 0.55,
+      "fbPct": 0.281,
       "hardHitPct": 0.271,
-      "pullPct": 0.5529999999999999
+      "pullPct": 0.27899999999999997
     },
     {
-      "rank": 462,
+      "rank": 464,
+      "playerId": 23690,
+      "name": "Brayan Rocchio",
+      "team": "CLE",
+      "gbPct": 0.418,
+      "fbPct": 0.376,
+      "hardHitPct": 0.271,
+      "pullPct": 0.473
+    },
+    {
+      "rank": 465,
+      "playerId": 19950,
+      "name": "Andrés Giménez",
+      "team": "TOR",
+      "gbPct": 0.467,
+      "fbPct": 0.341,
+      "hardHitPct": 0.271,
+      "pullPct": 0.42200000000000004
+    },
+    {
+      "rank": 466,
       "playerId": 37122,
       "name": "Sung-Mun Song",
       "team": "SDP",
@@ -4625,17 +4665,17 @@
       "pullPct": 0.376
     },
     {
-      "rank": 463,
-      "playerId": 18036,
-      "name": "Jake Cronenworth",
-      "team": "SDP",
-      "gbPct": 0.49,
-      "fbPct": 0.314,
-      "hardHitPct": 0.27,
-      "pullPct": 0.327
+      "rank": 467,
+      "playerId": 21479,
+      "name": "Nico Hoerner",
+      "team": "CHC",
+      "gbPct": 0.413,
+      "fbPct": 0.345,
+      "hardHitPct": 0.271,
+      "pullPct": 0.355
     },
     {
-      "rank": 464,
+      "rank": 468,
       "playerId": 29710,
       "name": "Cam Cauley",
       "team": "TEX",
@@ -4645,37 +4685,7 @@
       "pullPct": 0.45899999999999996
     },
     {
-      "rank": 465,
-      "playerId": 31564,
-      "name": "Alan Roden",
-      "team": "MIN",
-      "gbPct": 0.43200000000000005,
-      "fbPct": 0.43200000000000005,
-      "hardHitPct": 0.27,
-      "pullPct": 0.35100000000000003
-    },
-    {
-      "rank": 466,
-      "playerId": 21479,
-      "name": "Nico Hoerner",
-      "team": "CHC",
-      "gbPct": 0.41100000000000003,
-      "fbPct": 0.345,
-      "hardHitPct": 0.27,
-      "pullPct": 0.355
-    },
-    {
-      "rank": 467,
-      "playerId": 18568,
-      "name": "Luis Arraez",
-      "team": "2 Tms",
-      "gbPct": 0.386,
-      "fbPct": 0.37799999999999995,
-      "hardHitPct": 0.27,
-      "pullPct": 0.324
-    },
-    {
-      "rank": 468,
+      "rank": 469,
       "playerId": 20036,
       "name": "Isaac Paredes",
       "team": "HOU",
@@ -4685,7 +4695,7 @@
       "pullPct": 0.48200000000000004
     },
     {
-      "rank": 469,
+      "rank": 470,
       "playerId": 9847,
       "name": "Andrew McCutchen",
       "team": "TEX",
@@ -4695,7 +4705,7 @@
       "pullPct": 0.365
     },
     {
-      "rank": 470,
+      "rank": 471,
       "playerId": 18126,
       "name": "LaMonte Wade Jr.",
       "team": "HOU",
@@ -4705,7 +4715,7 @@
       "pullPct": 0.423
     },
     {
-      "rank": 471,
+      "rank": 472,
       "playerId": 21871,
       "name": "Jerar Encarnacion",
       "team": "SFG",
@@ -4715,17 +4725,17 @@
       "pullPct": 0.34600000000000003
     },
     {
-      "rank": 472,
+      "rank": 473,
       "playerId": 28253,
       "name": "Javier Sanoja",
       "team": "MIA",
-      "gbPct": 0.405,
-      "fbPct": 0.397,
+      "gbPct": 0.39799999999999996,
+      "fbPct": 0.39799999999999996,
       "hardHitPct": 0.26899999999999996,
-      "pullPct": 0.43200000000000005
+      "pullPct": 0.429
     },
     {
-      "rank": 473,
+      "rank": 474,
       "playerId": 23401,
       "name": "José Caballero",
       "team": "NYY",
@@ -4735,7 +4745,17 @@
       "pullPct": 0.46299999999999997
     },
     {
-      "rank": 474,
+      "rank": 475,
+      "playerId": 19734,
+      "name": "Josh Rojas",
+      "team": "KCR",
+      "gbPct": 0.389,
+      "fbPct": 0.5,
+      "hardHitPct": 0.268,
+      "pullPct": 0.28600000000000003
+    },
+    {
+      "rank": 476,
       "playerId": 12976,
       "name": "Austin Hedges",
       "team": "CLE",
@@ -4745,7 +4765,7 @@
       "pullPct": 0.52
     },
     {
-      "rank": 475,
+      "rank": 477,
       "playerId": 27647,
       "name": "Anthony Volpe",
       "team": "NYY",
@@ -4753,26 +4773,6 @@
       "fbPct": 0.341,
       "hardHitPct": 0.268,
       "pullPct": 0.37
-    },
-    {
-      "rank": 476,
-      "playerId": 19858,
-      "name": "Luis Rengifo",
-      "team": "2 Tms",
-      "gbPct": 0.55,
-      "fbPct": 0.282,
-      "hardHitPct": 0.268,
-      "pullPct": 0.39
-    },
-    {
-      "rank": 477,
-      "playerId": 19950,
-      "name": "Andrés Giménez",
-      "team": "TOR",
-      "gbPct": 0.47,
-      "fbPct": 0.33799999999999997,
-      "hardHitPct": 0.267,
-      "pullPct": 0.418
     },
     {
       "rank": 478,
@@ -4786,26 +4786,46 @@
     },
     {
       "rank": 479,
-      "playerId": 30063,
-      "name": "Tristan Peters",
-      "team": "CHW",
-      "gbPct": 0.396,
-      "fbPct": 0.4,
-      "hardHitPct": 0.266,
-      "pullPct": 0.5479999999999999
+      "playerId": 23917,
+      "name": "Jorbit Vivas",
+      "team": "WSN",
+      "gbPct": 0.444,
+      "fbPct": 0.34299999999999997,
+      "hardHitPct": 0.267,
+      "pullPct": 0.406
     },
     {
       "rank": 480,
-      "playerId": 27931,
-      "name": "Petey Halpin",
-      "team": "CLE",
-      "gbPct": 0.32899999999999996,
-      "fbPct": 0.48200000000000004,
-      "hardHitPct": 0.264,
-      "pullPct": 0.35200000000000004
+      "playerId": 33381,
+      "name": "Max Clark",
+      "team": "DET",
+      "gbPct": 0.2,
+      "fbPct": 0.5329999999999999,
+      "hardHitPct": 0.267,
+      "pullPct": 0.267
     },
     {
       "rank": 481,
+      "playerId": 33492,
+      "name": "Jim Jarvis",
+      "team": "ATL",
+      "gbPct": 0.569,
+      "fbPct": 0.264,
+      "hardHitPct": 0.267,
+      "pullPct": 0.33299999999999996
+    },
+    {
+      "rank": 482,
+      "playerId": 27931,
+      "name": "Petey Halpin",
+      "team": "CLE",
+      "gbPct": 0.341,
+      "fbPct": 0.466,
+      "hardHitPct": 0.266,
+      "pullPct": 0.36200000000000004
+    },
+    {
+      "rank": 483,
       "playerId": 21622,
       "name": "Jake McCarthy",
       "team": "COL",
@@ -4815,17 +4835,7 @@
       "pullPct": 0.395
     },
     {
-      "rank": 482,
-      "playerId": 23985,
-      "name": "Osleivis Basabe",
-      "team": "SFG",
-      "gbPct": 0.368,
-      "fbPct": 0.526,
-      "hardHitPct": 0.263,
-      "pullPct": 0.368
-    },
-    {
-      "rank": 483,
+      "rank": 484,
       "playerId": 33323,
       "name": "Charles McAdoo",
       "team": "TOR",
@@ -4835,17 +4845,27 @@
       "pullPct": 0.158
     },
     {
-      "rank": 484,
-      "playerId": 21501,
-      "name": "Trevor Larnach",
-      "team": "MIN",
-      "gbPct": 0.395,
-      "fbPct": 0.424,
-      "hardHitPct": 0.259,
-      "pullPct": 0.44799999999999995
+      "rank": 485,
+      "playerId": 30063,
+      "name": "Tristan Peters",
+      "team": "CHW",
+      "gbPct": 0.392,
+      "fbPct": 0.401,
+      "hardHitPct": 0.263,
+      "pullPct": 0.546
     },
     {
-      "rank": 485,
+      "rank": 486,
+      "playerId": 19858,
+      "name": "Luis Rengifo",
+      "team": "2 Tms",
+      "gbPct": 0.547,
+      "fbPct": 0.28300000000000003,
+      "hardHitPct": 0.261,
+      "pullPct": 0.39899999999999997
+    },
+    {
+      "rank": 487,
       "playerId": 13770,
       "name": "Rob Refsnyder",
       "team": "SEA",
@@ -4855,7 +4875,7 @@
       "pullPct": 0.506
     },
     {
-      "rank": 486,
+      "rank": 488,
       "playerId": 22458,
       "name": "Taylor Walls",
       "team": "TBR",
@@ -4865,7 +4885,7 @@
       "pullPct": 0.40299999999999997
     },
     {
-      "rank": 487,
+      "rank": 489,
       "playerId": 19339,
       "name": "Nicky Lopez",
       "team": "2 Tms",
@@ -4875,7 +4895,17 @@
       "pullPct": 0.344
     },
     {
-      "rank": 488,
+      "rank": 490,
+      "playerId": 21501,
+      "name": "Trevor Larnach",
+      "team": "MIN",
+      "gbPct": 0.4,
+      "fbPct": 0.42100000000000004,
+      "hardHitPct": 0.257,
+      "pullPct": 0.44799999999999995
+    },
+    {
+      "rank": 491,
       "playerId": 29704,
       "name": "Braxton Fulford",
       "team": "COL",
@@ -4885,7 +4915,7 @@
       "pullPct": 0.257
     },
     {
-      "rank": 489,
+      "rank": 492,
       "playerId": 33322,
       "name": "Matt Shaw",
       "team": "CHC",
@@ -4895,17 +4925,7 @@
       "pullPct": 0.324
     },
     {
-      "rank": 490,
-      "playerId": 21693,
-      "name": "Miguel Amaya",
-      "team": "CHC",
-      "gbPct": 0.321,
-      "fbPct": 0.48200000000000004,
-      "hardHitPct": 0.257,
-      "pullPct": 0.37200000000000005
-    },
-    {
-      "rank": 491,
+      "rank": 493,
       "playerId": 29668,
       "name": "Marcelo Mayer",
       "team": "BOS",
@@ -4915,7 +4935,17 @@
       "pullPct": 0.37200000000000005
     },
     {
-      "rank": 492,
+      "rank": 494,
+      "playerId": 16622,
+      "name": "Luis Urías",
+      "team": "TOR",
+      "gbPct": 0.37200000000000005,
+      "fbPct": 0.488,
+      "hardHitPct": 0.256,
+      "pullPct": 0.581
+    },
+    {
+      "rank": 495,
       "playerId": 17929,
       "name": "Cedric Mullins",
       "team": "TBR",
@@ -4925,17 +4955,17 @@
       "pullPct": 0.466
     },
     {
-      "rank": 493,
-      "playerId": 27763,
-      "name": "Drew Romo",
-      "team": "CHW",
-      "gbPct": 0.389,
-      "fbPct": 0.505,
-      "hardHitPct": 0.255,
-      "pullPct": 0.469
+      "rank": 496,
+      "playerId": 21693,
+      "name": "Miguel Amaya",
+      "team": "CHC",
+      "gbPct": 0.319,
+      "fbPct": 0.478,
+      "hardHitPct": 0.254,
+      "pullPct": 0.377
     },
     {
-      "rank": 494,
+      "rank": 497,
       "playerId": 5517,
       "name": "Kyle Higashioka",
       "team": "TEX",
@@ -4945,27 +4975,27 @@
       "pullPct": 0.381
     },
     {
-      "rank": 495,
-      "playerId": 25807,
-      "name": "Jared Triolo",
-      "team": "PIT",
-      "gbPct": 0.509,
-      "fbPct": 0.29600000000000004,
-      "hardHitPct": 0.253,
-      "pullPct": 0.414
-    },
-    {
-      "rank": 496,
+      "rank": 498,
       "playerId": 18123,
       "name": "Nathan Lukes",
       "team": "TOR",
-      "gbPct": 0.516,
-      "fbPct": 0.29600000000000004,
+      "gbPct": 0.512,
+      "fbPct": 0.3,
       "hardHitPct": 0.252,
-      "pullPct": 0.353
+      "pullPct": 0.35100000000000003
     },
     {
-      "rank": 497,
+      "rank": 499,
+      "playerId": 25807,
+      "name": "Jared Triolo",
+      "team": "PIT",
+      "gbPct": 0.506,
+      "fbPct": 0.3,
+      "hardHitPct": 0.251,
+      "pullPct": 0.41100000000000003
+    },
+    {
+      "rank": 500,
       "playerId": 16572,
       "name": "Connor Joe",
       "team": "SEA",
@@ -4975,7 +5005,7 @@
       "pullPct": 0.41700000000000004
     },
     {
-      "rank": 498,
+      "rank": 501,
       "playerId": 18054,
       "name": "Sam Haggerty",
       "team": "TEX",
@@ -4985,7 +5015,7 @@
       "pullPct": 0.429
     },
     {
-      "rank": 499,
+      "rank": 502,
       "playerId": 22274,
       "name": "Samad Taylor",
       "team": "SDP",
@@ -4995,7 +5025,7 @@
       "pullPct": 0.36700000000000005
     },
     {
-      "rank": 500,
+      "rank": 503,
       "playerId": 22505,
       "name": "Buddy Kennedy",
       "team": "2 Tms",
@@ -5005,7 +5035,7 @@
       "pullPct": 0.41700000000000004
     },
     {
-      "rank": 501,
+      "rank": 504,
       "playerId": 23698,
       "name": "Ronny Mauricio",
       "team": "NYM",
@@ -5015,7 +5045,7 @@
       "pullPct": 0.5
     },
     {
-      "rank": 502,
+      "rank": 505,
       "playerId": 24151,
       "name": "Eddys Leonard",
       "team": "SFG",
@@ -5025,7 +5055,7 @@
       "pullPct": 0.25
     },
     {
-      "rank": 503,
+      "rank": 506,
       "playerId": 24598,
       "name": "Addison Barger",
       "team": "TOR",
@@ -5035,7 +5065,7 @@
       "pullPct": 0.375
     },
     {
-      "rank": 504,
+      "rank": 507,
       "playerId": 24679,
       "name": "Brendan Donovan",
       "team": "SEA",
@@ -5045,7 +5075,7 @@
       "pullPct": 0.434
     },
     {
-      "rank": 505,
+      "rank": 508,
       "playerId": 25434,
       "name": "Will Wilson",
       "team": "SEA",
@@ -5055,7 +5085,7 @@
       "pullPct": 0.75
     },
     {
-      "rank": 506,
+      "rank": 509,
       "playerId": 25660,
       "name": "Will Brennan",
       "team": "SFG",
@@ -5065,7 +5095,7 @@
       "pullPct": 0.35
     },
     {
-      "rank": 507,
+      "rank": 510,
       "playerId": 26295,
       "name": "Oliver Dunn",
       "team": "TBR",
@@ -5075,7 +5105,17 @@
       "pullPct": 0.375
     },
     {
-      "rank": 508,
+      "rank": 511,
+      "playerId": 26396,
+      "name": "Josh Smith",
+      "team": "2 Tms",
+      "gbPct": 0.4,
+      "fbPct": 0.455,
+      "hardHitPct": 0.25,
+      "pullPct": 0.35700000000000004
+    },
+    {
+      "rank": 512,
       "playerId": 26469,
       "name": "Davis Wendzel",
       "team": "PIT",
@@ -5085,7 +5125,17 @@
       "pullPct": 0.25
     },
     {
-      "rank": 509,
+      "rank": 513,
+      "playerId": 27763,
+      "name": "Drew Romo",
+      "team": "CHW",
+      "gbPct": 0.392,
+      "fbPct": 0.505,
+      "hardHitPct": 0.25,
+      "pullPct": 0.47
+    },
+    {
+      "rank": 514,
       "playerId": 27789,
       "name": "Shay Whitcomb",
       "team": "HOU",
@@ -5095,7 +5145,7 @@
       "pullPct": 0.25
     },
     {
-      "rank": 510,
+      "rank": 515,
       "playerId": 31500,
       "name": "Ryan Ritter",
       "team": "COL",
@@ -5105,7 +5155,7 @@
       "pullPct": 0
     },
     {
-      "rank": 511,
+      "rank": 516,
       "playerId": 31988,
       "name": "Nate Furman",
       "team": "SFG",
@@ -5115,17 +5165,7 @@
       "pullPct": 0.25
     },
     {
-      "rank": 512,
-      "playerId": 33381,
-      "name": "Max Clark",
-      "team": "DET",
-      "gbPct": 0.25,
-      "fbPct": 0.5,
-      "hardHitPct": 0.25,
-      "pullPct": 0.25
-    },
-    {
-      "rank": 513,
+      "rank": 517,
       "playerId": 9774,
       "name": "Christian Vázquez",
       "team": "HOU",
@@ -5135,17 +5175,7 @@
       "pullPct": 0.311
     },
     {
-      "rank": 514,
-      "playerId": 19392,
-      "name": "Zach McKinstry",
-      "team": "DET",
-      "gbPct": 0.39899999999999997,
-      "fbPct": 0.39899999999999997,
-      "hardHitPct": 0.248,
-      "pullPct": 0.40299999999999997
-    },
-    {
-      "rank": 515,
+      "rank": 518,
       "playerId": 27531,
       "name": "David Hamilton",
       "team": "MIL",
@@ -5155,7 +5185,7 @@
       "pullPct": 0.319
     },
     {
-      "rank": 516,
+      "rank": 519,
       "playerId": 33266,
       "name": "Jacob Wilson",
       "team": "ATH",
@@ -5165,7 +5195,7 @@
       "pullPct": 0.373
     },
     {
-      "rank": 517,
+      "rank": 520,
       "playerId": 21780,
       "name": "Esteury Ruiz",
       "team": "MIA",
@@ -5175,7 +5205,7 @@
       "pullPct": 0.593
     },
     {
-      "rank": 518,
+      "rank": 521,
       "playerId": 21496,
       "name": "Brandon Lockridge",
       "team": "MIL",
@@ -5185,7 +5215,7 @@
       "pullPct": 0.27899999999999997
     },
     {
-      "rank": 519,
+      "rank": 522,
       "playerId": 29487,
       "name": "Blake Dunn",
       "team": "CIN",
@@ -5195,7 +5225,7 @@
       "pullPct": 0.264
     },
     {
-      "rank": 520,
+      "rank": 523,
       "playerId": 14111,
       "name": "Eric Haase",
       "team": "SFG",
@@ -5205,17 +5235,7 @@
       "pullPct": 0.34700000000000003
     },
     {
-      "rank": 521,
-      "playerId": 26202,
-      "name": "Jake Mangum",
-      "team": "PIT",
-      "gbPct": 0.579,
-      "fbPct": 0.23399999999999999,
-      "hardHitPct": 0.245,
-      "pullPct": 0.265
-    },
-    {
-      "rank": 522,
+      "rank": 524,
       "playerId": 16153,
       "name": "Austin Slater",
       "team": "3 Tms",
@@ -5225,17 +5245,7 @@
       "pullPct": 0.444
     },
     {
-      "rank": 523,
-      "playerId": 16622,
-      "name": "Luis Urías",
-      "team": "TOR",
-      "gbPct": 0.366,
-      "fbPct": 0.488,
-      "hardHitPct": 0.244,
-      "pullPct": 0.585
-    },
-    {
-      "rank": 524,
+      "rank": 525,
       "playerId": 21646,
       "name": "Rafael Marchán",
       "team": "PHI",
@@ -5243,16 +5253,6 @@
       "fbPct": 0.5479999999999999,
       "hardHitPct": 0.243,
       "pullPct": 0.446
-    },
-    {
-      "rank": 525,
-      "playerId": 26396,
-      "name": "Josh Smith",
-      "team": "2 Tms",
-      "gbPct": 0.40399999999999997,
-      "fbPct": 0.45,
-      "hardHitPct": 0.243,
-      "pullPct": 0.369
     },
     {
       "rank": 526,
@@ -5276,6 +5276,16 @@
     },
     {
       "rank": 528,
+      "playerId": 26202,
+      "name": "Jake Mangum",
+      "team": "PIT",
+      "gbPct": 0.58,
+      "fbPct": 0.231,
+      "hardHitPct": 0.242,
+      "pullPct": 0.27
+    },
+    {
+      "rank": 529,
       "playerId": 35322,
       "name": "Hyeseong Kim",
       "team": "LAD",
@@ -5285,7 +5295,7 @@
       "pullPct": 0.287
     },
     {
-      "rank": 529,
+      "rank": 530,
       "playerId": 29622,
       "name": "Sal Frelick",
       "team": "MIL",
@@ -5295,7 +5305,17 @@
       "pullPct": 0.406
     },
     {
-      "rank": 530,
+      "rank": 531,
+      "playerId": 19392,
+      "name": "Zach McKinstry",
+      "team": "DET",
+      "gbPct": 0.39799999999999996,
+      "fbPct": 0.39799999999999996,
+      "hardHitPct": 0.24,
+      "pullPct": 0.402
+    },
+    {
+      "rank": 532,
       "playerId": 26374,
       "name": "Kameron Misner",
       "team": "KCR",
@@ -5305,7 +5325,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 531,
+      "rank": 533,
       "playerId": 27883,
       "name": "Thomas Saggese",
       "team": "STL",
@@ -5315,17 +5335,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 532,
-      "playerId": 20352,
-      "name": "Ernie Clement",
-      "team": "TOR",
-      "gbPct": 0.375,
-      "fbPct": 0.42200000000000004,
-      "hardHitPct": 0.24,
-      "pullPct": 0.46399999999999997
-    },
-    {
-      "rank": 533,
+      "rank": 534,
       "playerId": 27497,
       "name": "Tyler Callihan",
       "team": "PIT",
@@ -5335,7 +5345,7 @@
       "pullPct": 0.441
     },
     {
-      "rank": 534,
+      "rank": 535,
       "playerId": 16953,
       "name": "Chadwick Tromp",
       "team": "2 Tms",
@@ -5345,7 +5355,17 @@
       "pullPct": 0.368
     },
     {
-      "rank": 535,
+      "rank": 536,
+      "playerId": 20352,
+      "name": "Ernie Clement",
+      "team": "TOR",
+      "gbPct": 0.373,
+      "fbPct": 0.419,
+      "hardHitPct": 0.237,
+      "pullPct": 0.46299999999999997
+    },
+    {
+      "rank": 537,
       "playerId": 26365,
       "name": "Jonny DeLuca",
       "team": "TBR",
@@ -5355,7 +5375,7 @@
       "pullPct": 0.467
     },
     {
-      "rank": 536,
+      "rank": 538,
       "playerId": 16512,
       "name": "Isiah Kiner-Falefa",
       "team": "BOS",
@@ -5365,27 +5385,17 @@
       "pullPct": 0.41200000000000003
     },
     {
-      "rank": 537,
+      "rank": 539,
       "playerId": 18900,
       "name": "Leody Taveras",
       "team": "BAL",
-      "gbPct": 0.402,
-      "fbPct": 0.41700000000000004,
-      "hardHitPct": 0.23399999999999999,
-      "pullPct": 0.35100000000000003
-    },
-    {
-      "rank": 538,
-      "playerId": 23395,
-      "name": "Eric Wagaman",
-      "team": "NYM",
-      "gbPct": 0.5,
-      "fbPct": 0.3,
+      "gbPct": 0.405,
+      "fbPct": 0.415,
       "hardHitPct": 0.233,
-      "pullPct": 0.36700000000000005
+      "pullPct": 0.354
     },
     {
-      "rank": 539,
+      "rank": 540,
       "playerId": 13152,
       "name": "Jorge Polanco",
       "team": "NYM",
@@ -5395,7 +5405,7 @@
       "pullPct": 0.5
     },
     {
-      "rank": 540,
+      "rank": 541,
       "playerId": 16925,
       "name": "Aramis Garcia",
       "team": "ARI",
@@ -5405,7 +5415,7 @@
       "pullPct": 0.385
     },
     {
-      "rank": 541,
+      "rank": 542,
       "playerId": 18821,
       "name": "José Azócar",
       "team": "ATL",
@@ -5415,7 +5425,7 @@
       "pullPct": 0.5379999999999999
     },
     {
-      "rank": 542,
+      "rank": 543,
       "playerId": 26467,
       "name": "Luis Matos",
       "team": "MIL",
@@ -5425,7 +5435,7 @@
       "pullPct": 0.462
     },
     {
-      "rank": 543,
+      "rank": 544,
       "playerId": 31349,
       "name": "Victor Scott II",
       "team": "STL",
@@ -5435,7 +5445,7 @@
       "pullPct": 0.39299999999999996
     },
     {
-      "rank": 544,
+      "rank": 545,
       "playerId": 19260,
       "name": "Jake Fraley",
       "team": "TBR",
@@ -5445,7 +5455,17 @@
       "pullPct": 0.456
     },
     {
-      "rank": 545,
+      "rank": 546,
+      "playerId": 23395,
+      "name": "Eric Wagaman",
+      "team": "NYM",
+      "gbPct": 0.484,
+      "fbPct": 0.29,
+      "hardHitPct": 0.226,
+      "pullPct": 0.355
+    },
+    {
+      "rank": 547,
       "playerId": 13185,
       "name": "Orlando Arcia",
       "team": "MIN",
@@ -5455,7 +5475,7 @@
       "pullPct": 0.45
     },
     {
-      "rank": 546,
+      "rank": 548,
       "playerId": 15223,
       "name": "Adam Frazier",
       "team": "LAA",
@@ -5465,17 +5485,7 @@
       "pullPct": 0.466
     },
     {
-      "rank": 547,
-      "playerId": 29539,
-      "name": "Abimelec Ortiz",
-      "team": "WSN",
-      "gbPct": 0.33299999999999996,
-      "fbPct": 0.444,
-      "hardHitPct": 0.222,
-      "pullPct": 0.667
-    },
-    {
-      "rank": 548,
+      "rank": 549,
       "playerId": 29930,
       "name": "Kyler Fedko",
       "team": "MIN",
@@ -5485,7 +5495,7 @@
       "pullPct": 0.222
     },
     {
-      "rank": 549,
+      "rank": 550,
       "playerId": 33708,
       "name": "Cooper Ingle",
       "team": "CLE",
@@ -5495,7 +5505,17 @@
       "pullPct": 0.444
     },
     {
-      "rank": 550,
+      "rank": 551,
+      "playerId": 12979,
+      "name": "Javier Báez",
+      "team": "DET",
+      "gbPct": 0.45299999999999996,
+      "fbPct": 0.326,
+      "hardHitPct": 0.221,
+      "pullPct": 0.45299999999999996
+    },
+    {
+      "rank": 552,
       "playerId": 20958,
       "name": "Rodolfo Durán",
       "team": "SDP",
@@ -5505,7 +5525,7 @@
       "pullPct": 0.441
     },
     {
-      "rank": 551,
+      "rank": 553,
       "playerId": 15271,
       "name": "Austin Wynns",
       "team": "3 Tms",
@@ -5515,7 +5535,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 552,
+      "rank": 554,
       "playerId": 19296,
       "name": "Alex Call",
       "team": "LAD",
@@ -5525,7 +5545,7 @@
       "pullPct": 0.43
     },
     {
-      "rank": 553,
+      "rank": 555,
       "playerId": 25643,
       "name": "Drew Millas",
       "team": "WSN",
@@ -5535,7 +5555,7 @@
       "pullPct": 0.385
     },
     {
-      "rank": 554,
+      "rank": 556,
       "playerId": 21735,
       "name": "Sebastián Rivero",
       "team": "LAA",
@@ -5545,7 +5565,7 @@
       "pullPct": 0.35700000000000004
     },
     {
-      "rank": 555,
+      "rank": 557,
       "playerId": 24589,
       "name": "Richie Palacios",
       "team": "TBR",
@@ -5555,7 +5575,7 @@
       "pullPct": 0.391
     },
     {
-      "rank": 556,
+      "rank": 558,
       "playerId": 27653,
       "name": "Christian Koss",
       "team": "SFG",
@@ -5565,7 +5585,7 @@
       "pullPct": 0.5
     },
     {
-      "rank": 557,
+      "rank": 559,
       "playerId": 31363,
       "name": "Graham Pauley",
       "team": "MIA",
@@ -5575,17 +5595,7 @@
       "pullPct": 0.48700000000000004
     },
     {
-      "rank": 558,
-      "playerId": 12979,
-      "name": "Javier Báez",
-      "team": "DET",
-      "gbPct": 0.43200000000000005,
-      "fbPct": 0.34600000000000003,
-      "hardHitPct": 0.21,
-      "pullPct": 0.42
-    },
-    {
-      "rank": 559,
+      "rank": 560,
       "playerId": 22541,
       "name": "George Valera",
       "team": "CLE",
@@ -5595,7 +5605,7 @@
       "pullPct": 0.621
     },
     {
-      "rank": 560,
+      "rank": 561,
       "playerId": 26991,
       "name": "Jesus Rodriguez",
       "team": "SFG",
@@ -5605,7 +5615,7 @@
       "pullPct": 0.364
     },
     {
-      "rank": 561,
+      "rank": 562,
       "playerId": 19352,
       "name": "Sean Murphy",
       "team": "ATL",
@@ -5615,7 +5625,17 @@
       "pullPct": 0.5
     },
     {
-      "rank": 562,
+      "rank": 563,
+      "playerId": 19358,
+      "name": "Weston Wilson",
+      "team": "2 Tms",
+      "gbPct": 0.483,
+      "fbPct": 0.38299999999999995,
+      "hardHitPct": 0.2,
+      "pullPct": 0.517
+    },
+    {
+      "rank": 564,
       "playerId": 23968,
       "name": "Jorge Barrosa",
       "team": "ARI",
@@ -5625,17 +5645,7 @@
       "pullPct": 0.442
     },
     {
-      "rank": 563,
-      "playerId": 28811,
-      "name": "Angel Genao",
-      "team": "CLE",
-      "gbPct": 0.4,
-      "fbPct": 0.2,
-      "hardHitPct": 0.2,
-      "pullPct": 0
-    },
-    {
-      "rank": 564,
+      "rank": 565,
       "playerId": 29524,
       "name": "Bryce Teodosio",
       "team": "LAA",
@@ -5645,17 +5655,17 @@
       "pullPct": 0.4
     },
     {
-      "rank": 565,
-      "playerId": 29958,
-      "name": "Harry Ford",
+      "rank": 566,
+      "playerId": 29539,
+      "name": "Abimelec Ortiz",
       "team": "WSN",
-      "gbPct": 0.45,
-      "fbPct": 0.55,
+      "gbPct": 0.3,
+      "fbPct": 0.5,
       "hardHitPct": 0.2,
-      "pullPct": 0.4
+      "pullPct": 0.6
     },
     {
-      "rank": 566,
+      "rank": 567,
       "playerId": 31396,
       "name": "Tyler Locklear",
       "team": "ARI",
@@ -5665,7 +5675,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 567,
+      "rank": 568,
       "playerId": 31792,
       "name": "Otto Kemp",
       "team": "PHI",
@@ -5675,7 +5685,7 @@
       "pullPct": 0.2
     },
     {
-      "rank": 568,
+      "rank": 569,
       "playerId": 18363,
       "name": "Victor Robles",
       "team": "SEA",
@@ -5685,7 +5695,7 @@
       "pullPct": 0.44299999999999995
     },
     {
-      "rank": 569,
+      "rank": 570,
       "playerId": 26224,
       "name": "Darell Hernaiz",
       "team": "ATH",
@@ -5695,7 +5705,7 @@
       "pullPct": 0.247
     },
     {
-      "rank": 570,
+      "rank": 571,
       "playerId": 18795,
       "name": "Ramón Urías",
       "team": "STL",
@@ -5705,7 +5715,7 @@
       "pullPct": 0.326
     },
     {
-      "rank": 571,
+      "rank": 572,
       "playerId": 20521,
       "name": "Nick Madrigal",
       "team": "LAA",
@@ -5713,16 +5723,6 @@
       "fbPct": 0.317,
       "hardHitPct": 0.195,
       "pullPct": 0.341
-    },
-    {
-      "rank": 572,
-      "playerId": 19358,
-      "name": "Weston Wilson",
-      "team": "2 Tms",
-      "gbPct": 0.456,
-      "fbPct": 0.40399999999999997,
-      "hardHitPct": 0.193,
-      "pullPct": 0.491
     },
     {
       "rank": 573,
@@ -5756,16 +5756,6 @@
     },
     {
       "rank": 576,
-      "playerId": 21009,
-      "name": "Leo Rivas",
-      "team": "SEA",
-      "gbPct": 0.358,
-      "fbPct": 0.46299999999999997,
-      "hardHitPct": 0.188,
-      "pullPct": 0.449
-    },
-    {
-      "rank": 577,
       "playerId": 19522,
       "name": "TJ Friedl",
       "team": "CIN",
@@ -5775,17 +5765,17 @@
       "pullPct": 0.373
     },
     {
-      "rank": 578,
-      "playerId": 16398,
-      "name": "Brian Navarreto",
-      "team": "MIA",
-      "gbPct": 0.33299999999999996,
-      "fbPct": 0.667,
-      "hardHitPct": 0.182,
-      "pullPct": 0.545
+      "rank": 577,
+      "playerId": 21009,
+      "name": "Leo Rivas",
+      "team": "SEA",
+      "gbPct": 0.348,
+      "fbPct": 0.46399999999999997,
+      "hardHitPct": 0.183,
+      "pullPct": 0.451
     },
     {
-      "rank": 579,
+      "rank": 578,
       "playerId": 31562,
       "name": "Zach Dezenzo",
       "team": "HOU",
@@ -5795,24 +5785,34 @@
       "pullPct": 0.409
     },
     {
+      "rank": 579,
+      "playerId": 25483,
+      "name": "Nick Sogard",
+      "team": "BOS",
+      "gbPct": 0.391,
+      "fbPct": 0.326,
+      "hardHitPct": 0.18,
+      "pullPct": 0.38
+    },
+    {
       "rank": 580,
       "playerId": 25979,
       "name": "Nasim Nuñez",
       "team": "WSN",
-      "gbPct": 0.519,
-      "fbPct": 0.303,
-      "hardHitPct": 0.179,
-      "pullPct": 0.354
+      "gbPct": 0.525,
+      "fbPct": 0.299,
+      "hardHitPct": 0.177,
+      "pullPct": 0.35
     },
     {
       "rank": 581,
-      "playerId": 25483,
-      "name": "Nick Sogard",
-      "team": "BOS",
-      "gbPct": 0.429,
-      "fbPct": 0.33299999999999996,
-      "hardHitPct": 0.17800000000000002,
-      "pullPct": 0.4
+      "playerId": 29958,
+      "name": "Harry Ford",
+      "team": "WSN",
+      "gbPct": 0.435,
+      "fbPct": 0.565,
+      "hardHitPct": 0.174,
+      "pullPct": 0.348
     },
     {
       "rank": 582,
@@ -5896,6 +5896,16 @@
     },
     {
       "rank": 590,
+      "playerId": 16398,
+      "name": "Brian Navarreto",
+      "team": "MIA",
+      "gbPct": 0.364,
+      "fbPct": 0.545,
+      "hardHitPct": 0.154,
+      "pullPct": 0.462
+    },
+    {
+      "rank": 591,
       "playerId": 18067,
       "name": "Garrett Stubbs",
       "team": "PHI",
@@ -5905,7 +5915,7 @@
       "pullPct": 0.321
     },
     {
-      "rank": 591,
+      "rank": 592,
       "playerId": 25448,
       "name": "Greg Jones",
       "team": "MIL",
@@ -5915,7 +5925,7 @@
       "pullPct": 0.14300000000000002
     },
     {
-      "rank": 592,
+      "rank": 593,
       "playerId": 27506,
       "name": "Ha-Seong Kim",
       "team": "ATL",
@@ -5925,7 +5935,7 @@
       "pullPct": 0.451
     },
     {
-      "rank": 593,
+      "rank": 594,
       "playerId": 18433,
       "name": "P.J. Higgins",
       "team": "CIN",
@@ -5935,7 +5945,7 @@
       "pullPct": 0.409
     },
     {
-      "rank": 594,
+      "rank": 595,
       "playerId": 27493,
       "name": "Rece Hinds",
       "team": "2 Tms",
@@ -5945,7 +5955,7 @@
       "pullPct": 0.353
     },
     {
-      "rank": 595,
+      "rank": 596,
       "playerId": 25690,
       "name": "Grant McCray",
       "team": "SFG",
@@ -5955,7 +5965,7 @@
       "pullPct": 0.3
     },
     {
-      "rank": 596,
+      "rank": 597,
       "playerId": 29949,
       "name": "Tyler Black",
       "team": "MIL",
@@ -5965,7 +5975,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 597,
+      "rank": 598,
       "playerId": 21489,
       "name": "Hayden Senger",
       "team": "NYM",
@@ -5975,7 +5985,7 @@
       "pullPct": 0.385
     },
     {
-      "rank": 598,
+      "rank": 599,
       "playerId": 20002,
       "name": "Bryce Johnson",
       "team": "SDP",
@@ -5985,7 +5995,7 @@
       "pullPct": 0.321
     },
     {
-      "rank": 599,
+      "rank": 600,
       "playerId": 15674,
       "name": "Reese McGuire",
       "team": "CHW",
@@ -5995,7 +6005,7 @@
       "pullPct": 0.33299999999999996
     },
     {
-      "rank": 600,
+      "rank": 601,
       "playerId": 29634,
       "name": "Will Wagner",
       "team": "SDP",
@@ -6005,7 +6015,7 @@
       "pullPct": 0.214
     },
     {
-      "rank": 601,
+      "rank": 602,
       "playerId": 9803,
       "name": "Miles Mikolas",
       "team": "WSN",
@@ -6015,7 +6025,7 @@
       "pullPct": 0
     },
     {
-      "rank": 602,
+      "rank": 603,
       "playerId": 17975,
       "name": "Scott Kingery",
       "team": "CHC",
@@ -6025,7 +6035,17 @@
       "pullPct": 0.5
     },
     {
-      "rank": 603,
+      "rank": 604,
+      "playerId": 19948,
+      "name": "Cristian Pache",
+      "team": "NYM",
+      "gbPct": 0,
+      "fbPct": 1,
+      "hardHitPct": 0,
+      "pullPct": 0
+    },
+    {
+      "rank": 605,
       "playerId": 20626,
       "name": "Logan Porter",
       "team": "2 Tms",
@@ -6035,7 +6055,7 @@
       "pullPct": 0
     },
     {
-      "rank": 604,
+      "rank": 606,
       "playerId": 22557,
       "name": "Michael Siani",
       "team": "BAL",
@@ -6045,7 +6065,7 @@
       "pullPct": 1
     },
     {
-      "rank": 605,
+      "rank": 607,
       "playerId": 22766,
       "name": "Steward Berroa",
       "team": "PHI",
@@ -6055,7 +6075,7 @@
       "pullPct": 0
     },
     {
-      "rank": 606,
+      "rank": 608,
       "playerId": 24719,
       "name": "Randy Vásquez",
       "team": "SDP",
@@ -6065,17 +6085,17 @@
       "pullPct": 1
     },
     {
-      "rank": 607,
+      "rank": 609,
       "playerId": 25346,
       "name": "Ronny Simon",
       "team": "PIT",
-      "gbPct": 1,
-      "fbPct": 0,
+      "gbPct": 0.4,
+      "fbPct": 0.4,
       "hardHitPct": 0,
       "pullPct": 0
     },
     {
-      "rank": 608,
+      "rank": 610,
       "playerId": 25353,
       "name": "Michael Stefanic",
       "team": "ATH",
@@ -6085,7 +6105,7 @@
       "pullPct": 0.25
     },
     {
-      "rank": 609,
+      "rank": 611,
       "playerId": 25369,
       "name": "Omar Martinez",
       "team": "LAA",
@@ -6095,7 +6115,7 @@
       "pullPct": 0.5
     },
     {
-      "rank": 610,
+      "rank": 612,
       "playerId": 28272,
       "name": "Jeferson Quero",
       "team": "MIL",
@@ -6105,7 +6125,7 @@
       "pullPct": 1
     },
     {
-      "rank": 611,
+      "rank": 613,
       "playerId": 28833,
       "name": "Gabriel Gonzalez",
       "team": "MIN",
@@ -6115,17 +6135,17 @@
       "pullPct": 0.5
     },
     {
-      "rank": 612,
+      "rank": 614,
       "playerId": 29189,
       "name": "Héctor Rodríguez",
       "team": "CIN",
-      "gbPct": 0.5,
+      "gbPct": 0.667,
       "fbPct": 0,
       "hardHitPct": 0,
-      "pullPct": 0
+      "pullPct": 0.33299999999999996
     },
     {
-      "rank": 613,
+      "rank": 615,
       "playerId": 29788,
       "name": "Brett Harris",
       "team": "2 Tms",
@@ -6135,7 +6155,7 @@
       "pullPct": 0
     },
     {
-      "rank": 614,
+      "rank": 616,
       "playerId": 29896,
       "name": "Christian Franklin",
       "team": "BAL",
@@ -6145,7 +6165,7 @@
       "pullPct": 0.667
     },
     {
-      "rank": 615,
+      "rank": 617,
       "playerId": 29962,
       "name": "Kenny Piper",
       "team": "TBR",
@@ -6155,7 +6175,7 @@
       "pullPct": 0.25
     },
     {
-      "rank": 616,
+      "rank": 618,
       "playerId": 31437,
       "name": "Jace Jung",
       "team": "DET",
@@ -6165,7 +6185,7 @@
       "pullPct": 0.4
     },
     {
-      "rank": 617,
+      "rank": 619,
       "playerId": 32119,
       "name": "Nick Morabito",
       "team": "NYM",
@@ -6175,44 +6195,44 @@
       "pullPct": 0
     },
     {
-      "rank": 618,
+      "rank": 620,
       "playerId": 19931,
       "name": "Luke Williams",
       "team": "ATL",
       "gbPct": 0,
       "fbPct": 0,
-      "hardHitPct": 0,
-      "pullPct": 0
+      "hardHitPct": null,
+      "pullPct": null
     },
     {
-      "rank": 619,
+      "rank": 621,
       "playerId": 23209,
       "name": "Blake Hunt",
       "team": "SDP",
       "gbPct": 0,
       "fbPct": 0,
-      "hardHitPct": 0,
-      "pullPct": 0
+      "hardHitPct": null,
+      "pullPct": null
     },
     {
-      "rank": 620,
+      "rank": 622,
       "playerId": 26106,
       "name": "Maverick Handley",
       "team": "BAL",
       "gbPct": 0,
       "fbPct": 0,
-      "hardHitPct": 0,
-      "pullPct": 0
+      "hardHitPct": null,
+      "pullPct": null
     },
     {
-      "rank": 621,
+      "rank": 623,
       "playerId": 31471,
       "name": "Jack Brannigan",
       "team": "PIT",
       "gbPct": 0,
       "fbPct": 0,
-      "hardHitPct": 0,
-      "pullPct": 0
+      "hardHitPct": null,
+      "pullPct": null
     }
   ],
   "source": "https://www.fangraphs.com/leaders/major-league?pos=all&qual=1&type=2&month=0&season=2026&season1=2026&pageitems=2000"
