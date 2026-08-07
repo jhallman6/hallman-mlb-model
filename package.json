@@ -12,7 +12,11 @@
     "start": "vinext start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
-    "db:generate": "drizzle-kit generate"
+    "db:generate": "drizzle-kit generate",
+    "auth:fangraphs": "node scripts/fangraphs-login.mjs",
+    "refresh:daily": "node scripts/refresh-daily.mjs"
+    ,"refresh:savant": "node scripts/refresh-savant.mjs",
+    "refresh:fangraphs-leaders": "node scripts/refresh-fangraphs-leaders.mjs"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",
@@ -31,6 +35,7 @@
     "drizzle-kit": "0.31.10",
     "eslint": "9.39.4",
     "eslint-config-next": "16.2.6",
+    "playwright-core": "^1.62.1",
     "react-server-dom-webpack": "19.2.6",
     "tailwindcss": "4.2.1",
     "typescript": "5.9.3",
