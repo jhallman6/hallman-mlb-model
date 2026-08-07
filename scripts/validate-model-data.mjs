@@ -4,7 +4,21 @@ import path from 'node:path';
 const DATA=path.resolve('data');
 const read=async name=>JSON.parse(await fs.readFile(path.join(DATA,name),'utf8'));
 const finite=value=>Number.isFinite(value);
+const normalize=value=>String(value??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 function assert(ok,message){if(!ok)throw new Error(message);}
+function assertUniquePlayers(data,name,rowName){
+  const keys=data.rows.map(row=>{
+    const id=row.playerId;
+    const player=rowName(row);
+    assert(player,`${name} contains a row without a player name`);
+    const rank=String(row.values?.[0]??'').trim();
+    assert(rank,`${name} contains a row without a displayed rank`);
+    return id?`id:${id}`:`rank:${rank}`;
+  });
+  assert(new Set(keys).size===keys.length,`${name} contains duplicate or repeated players`);
+  const ranks=data.rows.map(row=>String(row.values?.[0]??'').trim());
+  assert(new Set(ranks).size===ranks.length,`${name} contains repeated ranks, indicating a duplicated page`);
+}
 
 const hitters=await read('baseball-savant-hitter-pitches-bb-2026.json');
 assert(hitters.rows.length>500,'Savant hitter dataset is unexpectedly small');
@@ -41,14 +55,23 @@ for(const name of ['fangraphs-pitcher-batted-ball-2026.json','fangraphs-pitcher-
   assert(Array.isArray(data.headers)&&data.headers.length>3,`${name} has no headers`);
   assert(data.rows.every(row=>Array.isArray(row)&&row.length===data.headers.length),`${name} has a header/row width mismatch`);
   const names=data.rows.map(row=>String(row[1]??'').trim()).filter(Boolean);
-  assert(new Set(names).size===names.length,`${name} contains duplicate pitcher rows`);
+  assert(new Set(names.map(normalize)).size===names.length,`${name} contains duplicate pitcher rows`);
 }
 
-for(const name of ['fangraphs-zips-update-hitting-2026.json','fangraphs-zips-update-pitching-2026.json','fangraphs-steamer-ros-hitting-vs-rhp-2026.json','fangraphs-steamer-ros-hitting-vs-lhp-2026.json','fangraphs-steamer-ros-pitching-vs-rhb-2026.json','fangraphs-steamer-ros-pitching-vs-lhb-2026.json']){
+for(const [name,requiredHeaders] of [
+  ['fangraphs-zips-update-hitting-2026.json',['Name','PA','BB%','K%','BABIP']],
+  ['fangraphs-zips-update-pitching-2026.json',['Name','IP','K/9','BB/9','HR/9','BABIP']],
+  ['fangraphs-steamer-ros-hitting-vs-rhp-2026.json',['Name','PA','HR','BB%','K%','BABIP']],
+  ['fangraphs-steamer-ros-hitting-vs-lhp-2026.json',['Name','PA','HR','BB%','K%','BABIP']],
+  ['fangraphs-steamer-ros-pitching-vs-rhb-2026.json',['Name','TBF','HR','BB%','K%','BABIP']],
+  ['fangraphs-steamer-ros-pitching-vs-lhb-2026.json',['Name','TBF','HR','BB%','K%','BABIP']],
+]){
   const data=await read(name);
   assert(Array.isArray(data.rows)&&data.rows.length>500,`${name} is unexpectedly small`);
   assert(Array.isArray(data.headers)&&data.headers.length>3,`${name} has no headers`);
+  for(const header of requiredHeaders)assert(data.headers.includes(header),`${name} is missing displayed header ${header}`);
   assert(data.rows.every(row=>Array.isArray(row.values)&&row.values.length===data.headers.length),`${name} has a header/row width mismatch`);
+  assertUniquePlayers(data,name,row=>row.values[1]);
 }
 
 console.log('All model data passed schema, coverage, and range validation.');

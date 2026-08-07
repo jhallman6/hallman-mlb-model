@@ -68,7 +68,10 @@ async function extractGrid(page) {
 function dedupeRows(rows) {
   const unique = new Map();
   for (const row of rows) {
-    const key = row.playerId ? `id:${row.playerId}` : `name:${normalize(row.values[1])}`;
+    // FanGraphs can contain different minor leaguers with the same displayed
+    // name and no player link. The displayed rank is unique within a complete
+    // projection result and also exposes repeated-page extraction immediately.
+    const key = row.playerId ? `id:${row.playerId}` : `rank:${row.values[0]}`;
     if (!unique.has(key)) unique.set(key, row);
   }
   return [...unique.values()];
@@ -107,6 +110,8 @@ async function collectProjection(page, filename, sourceUrl) {
   }
   const unique = dedupeRows(saved.rows);
   if (saved.rawCount !== expected) throw new Error(`${filename}: collected ${saved.rawCount} source rows; FanGraphs reports ${expected}`);
+  if (unique.length !== expected) throw new Error(`${filename}: collected ${saved.rawCount} rows but only ${unique.length} unique players; refusing to replace the live dataset`);
+  if (!saved.headers.includes("Name")) throw new Error(`${filename}: displayed Name header is missing`);
   const old = await readJson(path.join(DATA, filename));
   await atomicJson(filename, { ...old, season: SEASON, fetchedAt: new Date().toISOString(), source: "FanGraphs", sourceUrl, headers: saved.headers, rows: unique });
   await fs.rm(checkpoint, { force: true });
@@ -148,5 +153,6 @@ for (const filename of required) {
   if (!String(data.fetchedAt ?? "").startsWith(today)) throw new Error(`${filename} was not refreshed today`);
 }
 await run("npm.cmd", ["run", "validate:data"]);
+await run("npm.cmd", ["run", "validate:model"]);
 await run("npm.cmd", ["run", "build"]);
 console.log("Daily refresh and validation succeeded. The site is ready to publish.");

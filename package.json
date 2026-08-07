@@ -18,7 +18,8 @@
     ,"refresh:savant": "node scripts/refresh-savant.mjs",
     "refresh:fangraphs-leaders": "node scripts/refresh-fangraphs-leaders.mjs"
     ,"refresh:lineups": "node scripts/refresh-lineups.mjs",
-    "validate:data": "node scripts/validate-model-data.mjs"
+    "validate:data": "node scripts/validate-model-data.mjs",
+    "validate:model": "node --experimental-strip-types --test tests/model-weights.test.mjs"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",
