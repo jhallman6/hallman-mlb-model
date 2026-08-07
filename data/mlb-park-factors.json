@@ -1,1279 +1,1832 @@
 {
   "source": "MLB Model park factors.xlsx",
-  "updatedAt": "2026-08-06T16:05:14.396Z",
+  "updatedAt": "2026-08-07T16:14:40.253457Z",
   "rows": [
     {
       "team": "NYM",
       "player": "A.J. Ewing",
-      "park": "Progressive Field",
+      "park": "PNC Park",
       "hr": 0.98,
-      "babip": 0.9199999999999999
+      "babip": 1.02
+    },
+    {
+      "team": "WAS",
+      "player": "Abimelec Ortiz",
+      "park": "Nationals Park",
+      "hr": 1.16,
+      "babip": 1.0150000000000001
     },
     {
       "team": "LAA",
       "player": "Adam Frazier",
-      "park": "Oriole Park",
-      "hr": 1.19,
-      "babip": 1.115
+      "park": "LoanDepot Park",
+      "hr": 0.84,
+      "babip": 0.985
     },
     {
       "team": "MIA",
       "player": "Agustin Ramirez",
-      "park": "Truist Park",
-      "hr": 1,
-      "babip": 0.9650000000000001
+      "park": "LoanDepot Park",
+      "hr": 0.93,
+      "babip": 1.04
     },
     {
       "team": "MIN",
       "player": "Alan Roden",
-      "park": "Kauffman Stadium",
-      "hr": 1.23,
+      "park": "American Family Fld",
+      "hr": 1.17,
       "babip": 0.99
     },
     {
       "team": "PHI",
       "player": "Alec Bohm",
       "park": "Citizens Bank Park",
-      "hr": 1.44,
-      "babip": 0.965
+      "hr": 1.41,
+      "babip": 0.985
+    },
+    {
+      "team": "STL",
+      "player": "Alec Burleson",
+      "park": "Busch Stadium",
+      "hr": 0.94,
+      "babip": 1.005
     },
     {
       "team": "TOR",
       "player": "Alejandro Kirk",
-      "park": "Wrigley Field",
-      "hr": 1.02,
-      "babip": 0.925
+      "park": "Citizens Bank Park",
+      "hr": 1.4,
+      "babip": 0.98
+    },
+    {
+      "team": "TEX",
+      "player": "Alejandro Osuna",
+      "park": "Globe Life Field",
+      "hr": 0.94,
+      "babip": 0.9550000000000001
     },
     {
       "team": "CHC",
       "player": "Alex Bregman",
-      "park": "Wrigley Field",
-      "hr": 1.11,
-      "babip": 0.915
+      "park": "Kauffman Stadium",
+      "hr": 1.03,
+      "babip": 0.9450000000000001
+    },
+    {
+      "team": "LAD",
+      "player": "Alex Call",
+      "park": "Chase Field",
+      "hr": 0.97,
+      "babip": 1.025
     },
     {
       "team": "MIN",
       "player": "Alex Jackson",
-      "park": "Kauffman Stadium",
-      "hr": 1.18,
-      "babip": 0.995
+      "park": "American Family Fld",
+      "hr": 1.15,
+      "babip": 0.985
+    },
+    {
+      "team": "NYY",
+      "player": "Ali Sanchez",
+      "park": "Yankee Stadium",
+      "hr": 1.17,
+      "babip": 0.9650000000000001
     },
     {
       "team": "ATH",
       "player": "Alika Williams",
-      "park": "Great American BP",
-      "hr": 1.42,
-      "babip": 0.99
+      "park": "Fenway Park",
+      "hr": 1.11,
+      "babip": 1.105
+    },
+    {
+      "team": "NYY",
+      "player": "Amed Rosario",
+      "park": "Yankee Stadium",
+      "hr": 1.38,
+      "babip": 0.925
     },
     {
       "team": "WAS",
       "player": "Andres Chaparro",
-      "park": "Citizens Bank Park",
-      "hr": 1.42,
-      "babip": 0.935
+      "park": "Nationals Park",
+      "hr": 1.2,
+      "babip": 0.98
     },
     {
       "team": "TOR",
       "player": "Andres Gimenez",
-      "park": "Wrigley Field",
-      "hr": 0.93,
-      "babip": 0.94
+      "park": "Citizens Bank Park",
+      "hr": 1.27,
+      "babip": 0.995
     },
     {
       "team": "CHW",
       "player": "Andrew Benintendi",
-      "park": "Fenway Park",
-      "hr": 1.14,
-      "babip": 1.225
+      "park": "Rate Field",
+      "hr": 1.11,
+      "babip": 1.005
+    },
+    {
+      "team": "WAS",
+      "player": "Andrew Pinckney",
+      "park": "Nationals Park",
+      "hr": 1.18,
+      "babip": 0.995
     },
     {
       "team": "MIL",
       "player": "Andrew Vaughn",
       "park": "American Family Fld",
-      "hr": 1.24,
-      "babip": 0.9199999999999999
+      "hr": 1.29,
+      "babip": 1.0
     },
     {
       "team": "BOS",
       "player": "Andruw Monasterio",
       "park": "Fenway Park",
-      "hr": 1.11,
-      "babip": 1.15
+      "hr": 1.02,
+      "babip": 1.13
+    },
+    {
+      "team": "LAD",
+      "player": "Andy Pages",
+      "park": "Chase Field",
+      "hr": 0.93,
+      "babip": 1.0350000000000001
+    },
+    {
+      "team": "CLE",
+      "player": "Angel Genao",
+      "park": "Rate Field",
+      "hr": 1.07,
+      "babip": 1.0
     },
     {
       "team": "CLE",
       "player": "Angel Martinez",
-      "park": "Progressive Field",
-      "hr": 1.01,
-      "babip": 0.9199999999999999
+      "park": "Rate Field",
+      "hr": 1.12,
+      "babip": 1.01
     },
     {
       "team": "BOS",
       "player": "Anthony Seigler",
       "park": "Fenway Park",
-      "hr": 1.12,
-      "babip": 1.1600000000000001
+      "hr": 1.01,
+      "babip": 1.15
     },
     {
       "team": "CLE",
       "player": "Austin Hedges",
-      "park": "Progressive Field",
-      "hr": 0.87,
-      "babip": 0.9450000000000001
+      "park": "Rate Field",
+      "hr": 1.15,
+      "babip": 1.01
     },
     {
       "team": "MIN",
       "player": "Austin Martin",
-      "park": "Kauffman Stadium",
-      "hr": 1,
-      "babip": 1
+      "park": "American Family Fld",
+      "hr": 1.21,
+      "babip": 1.005
     },
     {
       "team": "ATL",
       "player": "Austin Riley",
-      "park": "Truist Park",
-      "hr": 0.99,
-      "babip": 0.975
+      "park": "Yankee Stadium",
+      "hr": 1.15,
+      "babip": 0.9299999999999999
+    },
+    {
+      "team": "NYY",
+      "player": "Austin Wells",
+      "park": "Yankee Stadium",
+      "hr": 1.15,
+      "babip": 0.925
+    },
+    {
+      "team": "TEX",
+      "player": "Austin Wynns",
+      "park": "Globe Life Field",
+      "hr": 0.9,
+      "babip": 0.99
     },
     {
       "team": "DET",
       "player": "Ben Malgeri",
+      "park": "Oracle Park",
+      "hr": 0.82,
+      "babip": 1.0350000000000001
+    },
+    {
+      "team": "NYY",
+      "player": "Ben Rice",
+      "park": "Yankee Stadium",
+      "hr": 1.13,
+      "babip": 0.9199999999999999
+    },
+    {
+      "team": "LAD",
+      "player": "Ben Rortvedt",
+      "park": "Chase Field",
+      "hr": 0.98,
+      "babip": 1.05
+    },
+    {
+      "team": "TB",
+      "player": "Ben Williamson",
       "park": "T-Mobile Park",
-      "hr": 1.14,
-      "babip": 0.935
+      "hr": 1.02,
+      "babip": 0.96
+    },
+    {
+      "team": "STL",
+      "player": "Blaze Jordan",
+      "park": "Busch Stadium",
+      "hr": 0.96,
+      "babip": 1.005
     },
     {
       "team": "NYM",
       "player": "Bo Bichette",
-      "park": "Progressive Field",
-      "hr": 1.03,
-      "babip": 0.915
+      "park": "PNC Park",
+      "hr": 0.98,
+      "babip": 1.025
     },
     {
       "team": "KC",
       "player": "Bobby Witt Jr.",
       "park": "Kauffman Stadium",
-      "hr": 1.2,
-      "babip": 0.995
+      "hr": 1.17,
+      "babip": 0.9450000000000001
     },
     {
       "team": "CHW",
       "player": "Braden Montgomery",
-      "park": "Fenway Park",
-      "hr": 1.07,
-      "babip": 1.125
+      "park": "Rate Field",
+      "hr": 1.23,
+      "babip": 1.0
     },
     {
       "team": "WAS",
       "player": "Brady House",
-      "park": "Citizens Bank Park",
-      "hr": 1.33,
-      "babip": 0.96
+      "park": "Nationals Park",
+      "hr": 1.22,
+      "babip": 0.99
     },
     {
       "team": "MIL",
       "player": "Brandon Lockridge",
       "park": "American Family Fld",
-      "hr": 1.39,
-      "babip": 0.925
+      "hr": 1.43,
+      "babip": 1.005
     },
     {
       "team": "PIT",
       "player": "Brandon Lowe",
-      "park": "American Family Fld",
-      "hr": 1.12,
-      "babip": 0.905
+      "park": "PNC Park",
+      "hr": 1.0,
+      "babip": 1.025
     },
     {
       "team": "PHI",
       "player": "Brandon Marsh",
       "park": "Citizens Bank Park",
-      "hr": 1.48,
-      "babip": 0.965
+      "hr": 1.43,
+      "babip": 0.99
+    },
+    {
+      "team": "TEX",
+      "player": "Brandon Nimmo",
+      "park": "Globe Life Field",
+      "hr": 0.94,
+      "babip": 0.94
     },
     {
       "team": "TOR",
       "player": "Brandon Valenzuela",
-      "park": "Wrigley Field",
-      "hr": 0.98,
-      "babip": 0.9299999999999999
+      "park": "Citizens Bank Park",
+      "hr": 1.3,
+      "babip": 0.98
     },
     {
       "team": "CLE",
       "player": "Brayan Rocchio",
-      "park": "Progressive Field",
-      "hr": 1.05,
-      "babip": 0.9099999999999999
+      "park": "Rate Field",
+      "hr": 1.08,
+      "babip": 1.005
     },
     {
       "team": "SEA",
       "player": "Brendan Donovan",
       "park": "T-Mobile Park",
-      "hr": 1.18,
-      "babip": 0.905
+      "hr": 1.05,
+      "babip": 0.925
     },
     {
       "team": "CHW",
       "player": "Brenton Doyle",
-      "park": "Fenway Park",
+      "park": "Rate Field",
       "hr": 1.07,
-      "babip": 1.125
+      "babip": 1.0
     },
     {
       "team": "NYM",
       "player": "Brett Baty",
-      "park": "Progressive Field",
-      "hr": 0.95,
-      "babip": 0.9299999999999999
+      "park": "PNC Park",
+      "hr": 1.0,
+      "babip": 1.0150000000000001
+    },
+    {
+      "team": "COL",
+      "player": "Brett Sullivan",
+      "park": "Busch Stadium",
+      "hr": 0.88,
+      "babip": 1.025
+    },
+    {
+      "team": "MIA",
+      "player": "Brian Navarreto",
+      "park": "LoanDepot Park",
+      "hr": 0.85,
+      "babip": 1.02
     },
     {
       "team": "ATH",
       "player": "Brian Serven",
-      "park": "Great American BP",
-      "hr": 1.25,
-      "babip": 0.98
+      "park": "Fenway Park",
+      "hr": 1.01,
+      "babip": 1.145
     },
     {
       "team": "MIL",
       "player": "Brice Turang",
       "park": "American Family Fld",
-      "hr": 1.21,
-      "babip": 0.91
+      "hr": 1.26,
+      "babip": 0.98
     },
     {
       "team": "MIN",
       "player": "Brooks Lee",
-      "park": "Kauffman Stadium",
-      "hr": 1.19,
-      "babip": 1
+      "park": "American Family Fld",
+      "hr": 1.18,
+      "babip": 0.995
     },
     {
       "team": "PHI",
       "player": "Bryan De La Cruz",
       "park": "Citizens Bank Park",
-      "hr": 1.38,
-      "babip": 0.965
+      "hr": 1.35,
+      "babip": 0.975
     },
     {
       "team": "PIT",
       "player": "Bryan Reynolds",
-      "park": "American Family Fld",
-      "hr": 1.17,
-      "babip": 0.91
+      "park": "PNC Park",
+      "hr": 0.99,
+      "babip": 1.02
+    },
+    {
+      "team": "STL",
+      "player": "Bryan Torres",
+      "park": "Busch Stadium",
+      "hr": 0.91,
+      "babip": 1.01
+    },
+    {
+      "team": "SF",
+      "player": "Bryce Eldridge",
+      "park": "Oracle Park",
+      "hr": 0.8,
+      "babip": 1.0550000000000002
     },
     {
       "team": "PHI",
       "player": "Bryce Harper",
       "park": "Citizens Bank Park",
-      "hr": 1.3,
-      "babip": 0.965
+      "hr": 1.26,
+      "babip": 0.995
     },
     {
       "team": "PHI",
       "player": "Bryson Stott",
       "park": "Citizens Bank Park",
-      "hr": 1.45,
-      "babip": 0.98
+      "hr": 1.42,
+      "babip": 1.005
+    },
+    {
+      "team": "SF",
+      "player": "Buddy Kennedy",
+      "park": "Oracle Park",
+      "hr": 0.89,
+      "babip": 1.0150000000000001
     },
     {
       "team": "WAS",
       "player": "C.J. Abrams",
-      "park": "Citizens Bank Park",
-      "hr": 1.39,
-      "babip": 0.97
+      "park": "Nationals Park",
+      "hr": 1.17,
+      "babip": 1.01
     },
     {
       "team": "SEA",
       "player": "Cal Raleigh",
       "park": "T-Mobile Park",
-      "hr": 1.09,
-      "babip": 0.89
+      "hr": 1.02,
+      "babip": 0.9199999999999999
     },
     {
       "team": "BOS",
       "player": "Caleb Durbin",
       "park": "Fenway Park",
-      "hr": 1.2,
-      "babip": 1.145
+      "hr": 1.1,
+      "babip": 1.135
+    },
+    {
+      "team": "TEX",
+      "player": "Cam Cauley",
+      "park": "Globe Life Field",
+      "hr": 0.87,
+      "babip": 0.975
+    },
+    {
+      "team": "HOU",
+      "player": "Cam Smith",
+      "park": "Petco Park",
+      "hr": 1.03,
+      "babip": 0.985
     },
     {
       "team": "ATH",
       "player": "Carlos Cortes",
-      "park": "Great American BP",
-      "hr": 1.18,
-      "babip": 0.9550000000000001
+      "park": "Fenway Park",
+      "hr": 0.96,
+      "babip": 1.165
     },
     {
       "team": "BAL",
       "player": "Carlos Narvaez",
-      "park": "Oriole Park",
-      "hr": 1.09,
-      "babip": 1.1400000000000001
+      "park": "Globe Life Field",
+      "hr": 0.95,
+      "babip": 0.9650000000000001
     },
     {
       "team": "NYM",
       "player": "Carson Benge",
-      "park": "Progressive Field",
-      "hr": 0.99,
-      "babip": 0.9299999999999999
+      "park": "PNC Park",
+      "hr": 1.02,
+      "babip": 1.01
     },
     {
       "team": "CHC",
       "player": "Carson Kelly",
-      "park": "Wrigley Field",
-      "hr": 1.04,
-      "babip": 0.915
+      "park": "Kauffman Stadium",
+      "hr": 1.11,
+      "babip": 0.9450000000000001
     },
     {
       "team": "KC",
       "player": "Carter Jensen",
       "park": "Kauffman Stadium",
-      "hr": 1.29,
-      "babip": 0.985
+      "hr": 1.23,
+      "babip": 0.9299999999999999
     },
     {
       "team": "BOS",
       "player": "Ceddanne Rafaela",
       "park": "Fenway Park",
-      "hr": 1.09,
-      "babip": 1.105
+      "hr": 1.01,
+      "babip": 1.09
+    },
+    {
+      "team": "TB",
+      "player": "Cedric Mullins",
+      "park": "T-Mobile Park",
+      "hr": 1.05,
+      "babip": 0.925
+    },
+    {
+      "team": "STL",
+      "player": "Cesar Prieto",
+      "park": "Busch Stadium",
+      "hr": 0.92,
+      "babip": 1.0150000000000001
+    },
+    {
+      "team": "TB",
+      "player": "Chandler Simpson",
+      "park": "T-Mobile Park",
+      "hr": 1.07,
+      "babip": 0.955
     },
     {
       "team": "CLE",
       "player": "Chase DeLauter",
-      "park": "Progressive Field",
-      "hr": 1,
-      "babip": 0.9199999999999999
+      "park": "Rate Field",
+      "hr": 1.08,
+      "babip": 1.02
     },
     {
       "team": "CHW",
       "player": "Chase Meidroth",
-      "park": "Fenway Park",
-      "hr": 1.23,
-      "babip": 1.105
+      "park": "Rate Field",
+      "hr": 1.19,
+      "babip": 1.005
     },
     {
       "team": "BAL",
       "player": "Christian En-Strand",
-      "park": "Oriole Park",
-      "hr": 0.95,
-      "babip": 1.1400000000000001
+      "park": "Globe Life Field",
+      "hr": 0.93,
+      "babip": 0.995
+    },
+    {
+      "team": "BAL",
+      "player": "Christian Franklin",
+      "park": "Globe Life Field",
+      "hr": 0.92,
+      "babip": 0.975
+    },
+    {
+      "team": "SF",
+      "player": "Christian Koss",
+      "park": "Oracle Park",
+      "hr": 0.75,
+      "babip": 1.025
+    },
+    {
+      "team": "HOU",
+      "player": "Christian Vazquez",
+      "park": "Petco Park",
+      "hr": 1.08,
+      "babip": 0.995
+    },
+    {
+      "team": "HOU",
+      "player": "Christian Walker",
+      "park": "Petco Park",
+      "hr": 1.03,
+      "babip": 0.995
     },
     {
       "team": "MIL",
       "player": "Christian Yelich",
       "park": "American Family Fld",
-      "hr": 1.16,
-      "babip": 0.91
+      "hr": 1.2,
+      "babip": 0.98
     },
     {
       "team": "BAL",
       "player": "Coby Mayo",
-      "park": "Oriole Park",
-      "hr": 0.86,
-      "babip": 1.17
+      "park": "Globe Life Field",
+      "hr": 0.96,
+      "babip": 1.0150000000000001
+    },
+    {
+      "team": "COL",
+      "player": "Cole Carrigg",
+      "park": "Busch Stadium",
+      "hr": 0.91,
+      "babip": 1.01
     },
     {
       "team": "SEA",
       "player": "Cole Young",
       "park": "T-Mobile Park",
-      "hr": 1.15,
-      "babip": 0.905
+      "hr": 1.07,
+      "babip": 0.93
     },
     {
       "team": "CHW",
       "player": "Colson Montgomery",
-      "park": "Fenway Park",
-      "hr": 1.05,
-      "babip": 1.135
+      "park": "Rate Field",
+      "hr": 0.97,
+      "babip": 0.985
     },
     {
       "team": "SEA",
       "player": "Colt Emerson",
       "park": "T-Mobile Park",
-      "hr": 1.1,
-      "babip": 0.9099999999999999
+      "hr": 1.0,
+      "babip": 0.935
     },
     {
       "team": "DET",
       "player": "Colt Keith",
-      "park": "T-Mobile Park",
-      "hr": 1.12,
-      "babip": 0.9
+      "park": "Oracle Park",
+      "hr": 0.62,
+      "babip": 1.085
     },
     {
       "team": "BAL",
       "player": "Colton Cowser",
-      "park": "Oriole Park",
-      "hr": 1.19,
-      "babip": 1.07
+      "park": "Globe Life Field",
+      "hr": 0.94,
+      "babip": 0.925
     },
     {
       "team": "BOS",
       "player": "Connor Wong",
       "park": "Fenway Park",
-      "hr": 1.05,
-      "babip": 1.1099999999999999
+      "hr": 0.97,
+      "babip": 1.1
     },
     {
       "team": "MIL",
       "player": "Cooper Pratt",
       "park": "American Family Fld",
-      "hr": 1.18,
-      "babip": 0.925
+      "hr": 1.21,
+      "babip": 1.01
     },
     {
       "team": "ARI",
       "player": "Corbin Carroll",
       "park": "Chase Field",
-      "hr": 0.92,
-      "babip": 1.065
+      "hr": 0.93,
+      "babip": 1.055
+    },
+    {
+      "team": "TEX",
+      "player": "Corey Seager",
+      "park": "Globe Life Field",
+      "hr": 0.95,
+      "babip": 0.925
     },
     {
       "team": "NYM",
       "player": "Cristian Pache",
-      "park": "Progressive Field",
-      "hr": 0.93,
-      "babip": 0.925
+      "park": "PNC Park",
+      "hr": 0.97,
+      "babip": 1.005
     },
     {
       "team": "CIN",
       "player": "Dane Myers",
-      "park": "Great American BP",
-      "hr": 1.21,
-      "babip": 0.975
+      "park": "Nationals Park",
+      "hr": 1.25,
+      "babip": 1.005
+    },
+    {
+      "team": "SF",
+      "player": "Daniel Susac",
+      "park": "Oracle Park",
+      "hr": 0.84,
+      "babip": 1.02
     },
     {
       "team": "CHC",
       "player": "Dansby Swanson",
-      "park": "Wrigley Field",
-      "hr": 1.01,
-      "babip": 0.9199999999999999
+      "park": "Kauffman Stadium",
+      "hr": 1.12,
+      "babip": 0.95
+    },
+    {
+      "team": "HOU",
+      "player": "Daulton Varsho",
+      "park": "Petco Park",
+      "hr": 0.92,
+      "babip": 0.995
     },
     {
       "team": "MIL",
       "player": "David Hamilton",
       "park": "American Family Fld",
-      "hr": 1.25,
-      "babip": 0.905
+      "hr": 1.29,
+      "babip": 0.98
     },
     {
       "team": "TOR",
       "player": "Davis Schneider",
-      "park": "Wrigley Field",
-      "hr": 1.01,
-      "babip": 0.9199999999999999
+      "park": "Citizens Bank Park",
+      "hr": 1.32,
+      "babip": 0.9650000000000001
     },
     {
       "team": "WAS",
       "player": "Daylen Lile",
-      "park": "Citizens Bank Park",
-      "hr": 1.41,
-      "babip": 0.98
+      "park": "Nationals Park",
+      "hr": 1.09,
+      "babip": 1.02
     },
     {
       "team": "LAA",
       "player": "Denzer Guzman",
-      "park": "Oriole Park",
-      "hr": 0.94,
-      "babip": 1.17
+      "park": "LoanDepot Park",
+      "hr": 0.84,
+      "babip": 1.02
     },
     {
       "team": "PHI",
       "player": "Derek Hill",
       "park": "Citizens Bank Park",
-      "hr": 1.38,
-      "babip": 0.96
+      "hr": 1.36,
+      "babip": 0.97
     },
     {
       "team": "DET",
       "player": "Dillon Dingler",
-      "park": "T-Mobile Park",
-      "hr": 1.14,
-      "babip": 0.9199999999999999
+      "park": "Oracle Park",
+      "hr": 0.84,
+      "babip": 1.0350000000000001
     },
     {
       "team": "SEA",
       "player": "Dominic Canzone",
       "park": "T-Mobile Park",
-      "hr": 1.12,
-      "babip": 0.89
+      "hr": 1.02,
+      "babip": 0.925
     },
     {
       "team": "ATL",
       "player": "Dominic Smith",
-      "park": "Truist Park",
-      "hr": 1.05,
-      "babip": 0.9550000000000001
+      "park": "Yankee Stadium",
+      "hr": 1.22,
+      "babip": 0.9199999999999999
     },
     {
       "team": "ATH",
       "player": "Donovan Walton",
-      "park": "Great American BP",
-      "hr": 1.21,
-      "babip": 0.965
+      "park": "Fenway Park",
+      "hr": 0.92,
+      "babip": 1.135
     },
     {
       "team": "ATL",
       "player": "Drake Baldwin",
-      "park": "Truist Park",
-      "hr": 1.01,
-      "babip": 0.96
+      "park": "Yankee Stadium",
+      "hr": 1.08,
+      "babip": 0.915
+    },
+    {
+      "team": "SF",
+      "player": "Drew Cavanaugh",
+      "park": "Oracle Park",
+      "hr": 0.64,
+      "babip": 1.065
+    },
+    {
+      "team": "SF",
+      "player": "Drew Gilbert",
+      "park": "Oracle Park",
+      "hr": 0.56,
+      "babip": 1.06
     },
     {
       "team": "CHW",
       "player": "Drew Romo",
-      "park": "Fenway Park",
-      "hr": 1.02,
-      "babip": 1.1400000000000001
+      "park": "Rate Field",
+      "hr": 1.06,
+      "babip": 1.0
     },
     {
       "team": "BAL",
       "player": "Dylan Beavers",
-      "park": "Oriole Park",
-      "hr": 1.18,
-      "babip": 1.1
+      "park": "Globe Life Field",
+      "hr": 0.97,
+      "babip": 0.94
     },
     {
       "team": "WAS",
       "player": "Dylan Crews",
-      "park": "Citizens Bank Park",
-      "hr": 1.3,
-      "babip": 0.94
+      "park": "Nationals Park",
+      "hr": 1.23,
+      "babip": 0.975
+    },
+    {
+      "team": "SF",
+      "player": "Eddys Leonard",
+      "park": "Oracle Park",
+      "hr": 0.86,
+      "babip": 1.03
     },
     {
       "team": "PHI",
       "player": "Edmundo Sosa",
       "park": "Citizens Bank Park",
-      "hr": 1.35,
-      "babip": 0.96
+      "hr": 1.34,
+      "babip": 0.98
+    },
+    {
+      "team": "COL",
+      "player": "Edouard Julien",
+      "park": "Busch Stadium",
+      "hr": 0.95,
+      "babip": 1.01
+    },
+    {
+      "team": "DET",
+      "player": "Eduardo Valencia",
+      "park": "Oracle Park",
+      "hr": 0.86,
+      "babip": 1.03
     },
     {
       "team": "BOS",
       "player": "Eli White",
       "park": "Fenway Park",
-      "hr": 1.05,
-      "babip": 1.155
+      "hr": 0.96,
+      "babip": 1.13
+    },
+    {
+      "team": "TEX",
+      "player": "Elias Diaz",
+      "park": "Globe Life Field",
+      "hr": 0.89,
+      "babip": 0.975
     },
     {
       "team": "CIN",
       "player": "Elly De La Cruz",
-      "park": "Great American BP",
-      "hr": 1.09,
-      "babip": 0.98
+      "park": "Nationals Park",
+      "hr": 1.15,
+      "babip": 0.995
     },
     {
       "team": "PIT",
       "player": "Endy Rodriguez",
-      "park": "American Family Fld",
-      "hr": 1.31,
-      "babip": 0.875
+      "park": "PNC Park",
+      "hr": 0.87,
+      "babip": 1.03
+    },
+    {
+      "team": "LAD",
+      "player": "Enrique Hernandez",
+      "park": "Chase Field",
+      "hr": 0.93,
+      "babip": 1.04
     },
     {
       "team": "NYM",
       "player": "Eric Wagaman",
-      "park": "Progressive Field",
-      "hr": 0.96,
-      "babip": 0.935
+      "park": "PNC Park",
+      "hr": 0.98,
+      "babip": 1.01
     },
     {
       "team": "TOR",
       "player": "Ernie Clement",
-      "park": "Wrigley Field",
-      "hr": 1.25,
-      "babip": 0.9099999999999999
+      "park": "Citizens Bank Park",
+      "hr": 1.5,
+      "babip": 0.97
     },
     {
       "team": "PIT",
       "player": "Esmerlyn Valdez",
-      "park": "American Family Fld",
-      "hr": 1.11,
-      "babip": 0.91
+      "park": "PNC Park",
+      "hr": 0.93,
+      "babip": 1.0350000000000001
     },
     {
       "team": "MIA",
       "player": "Esteury Ruiz",
-      "park": "Truist Park",
-      "hr": 0.92,
-      "babip": 0.9450000000000001
+      "park": "LoanDepot Park",
+      "hr": 0.84,
+      "babip": 0.985
     },
     {
       "team": "CIN",
       "player": "Eugenio Suarez",
-      "park": "Great American BP",
-      "hr": 1.08,
-      "babip": 0.975
+      "park": "Nationals Park",
+      "hr": 1.15,
+      "babip": 0.97
+    },
+    {
+      "team": "TEX",
+      "player": "Evan Carter",
+      "park": "Globe Life Field",
+      "hr": 0.98,
+      "babip": 0.935
+    },
+    {
+      "team": "TEX",
+      "player": "Ezequiel Duran",
+      "park": "Globe Life Field",
+      "hr": 0.95,
+      "babip": 0.97
+    },
+    {
+      "team": "COL",
+      "player": "Ezequiel Tovar",
+      "park": "Busch Stadium",
+      "hr": 0.95,
+      "babip": 1.0
     },
     {
       "team": "SD",
       "player": "Fernando Tatis Jr.",
-      "park": "Chase Field",
-      "hr": 0.93,
-      "babip": 1.075
+      "park": "Petco Park",
+      "hr": 1.0,
+      "babip": 0.995
     },
     {
       "team": "NYM",
       "player": "Francisco Alvarez",
-      "park": "Progressive Field",
-      "hr": 0.95,
-      "babip": 0.925
+      "park": "PNC Park",
+      "hr": 0.96,
+      "babip": 1.025
     },
     {
       "team": "NYM",
       "player": "Francisco Lindor",
-      "park": "Progressive Field",
-      "hr": 0.98,
-      "babip": 0.9299999999999999
+      "park": "PNC Park",
+      "hr": 0.97,
+      "babip": 1.025
+    },
+    {
+      "team": "LAD",
+      "player": "Freddie Freeman",
+      "park": "Chase Field",
+      "hr": 0.91,
+      "babip": 1.04
     },
     {
       "team": "SD",
       "player": "Freddy Fermin",
-      "park": "Chase Field",
-      "hr": 0.95,
-      "babip": 1.05
+      "park": "Petco Park",
+      "hr": 1.06,
+      "babip": 1.01
     },
     {
       "team": "ARI",
       "player": "Gabriel Moreno",
       "park": "Chase Field",
-      "hr": 0.9,
-      "babip": 1.06
+      "hr": 0.91,
+      "babip": 1.0499999999999998
     },
     {
       "team": "SD",
       "player": "Gage Workman",
-      "park": "Chase Field",
-      "hr": 0.9,
-      "babip": 1.06
+      "park": "Petco Park",
+      "hr": 0.95,
+      "babip": 1.0
     },
     {
       "team": "MIL",
       "player": "Garrett Mitchell",
       "park": "American Family Fld",
-      "hr": 1.25,
-      "babip": 0.89
+      "hr": 1.27,
+      "babip": 0.97
     },
     {
       "team": "PHI",
       "player": "Garrett Stubbs",
       "park": "Citizens Bank Park",
-      "hr": 1.49,
-      "babip": 0.98
+      "hr": 1.47,
+      "babip": 1.0
     },
     {
       "team": "MIL",
       "player": "Gary Sanchez",
       "park": "American Family Fld",
-      "hr": 1.07,
-      "babip": 0.91
+      "hr": 1.11,
+      "babip": 0.985
     },
     {
       "team": "SD",
       "player": "Gavin Sheets",
-      "park": "Chase Field",
-      "hr": 0.9,
-      "babip": 1.0550000000000002
+      "park": "Petco Park",
+      "hr": 0.94,
+      "babip": 1.005
+    },
+    {
+      "team": "NYY",
+      "player": "George Lombard Jr.",
+      "park": "Yankee Stadium",
+      "hr": 1.15,
+      "babip": 0.9450000000000001
     },
     {
       "team": "TOR",
       "player": "George Springer",
-      "park": "Wrigley Field",
-      "hr": 0.98,
-      "babip": 0.9299999999999999
+      "park": "Citizens Bank Park",
+      "hr": 1.27,
+      "babip": 0.97
     },
     {
       "team": "ARI",
       "player": "Geraldo Perdomo",
       "park": "Chase Field",
-      "hr": 0.9,
-      "babip": 1.045
+      "hr": 0.91,
+      "babip": 1.0350000000000001
     },
     {
       "team": "DET",
       "player": "Gleyber Torres",
-      "park": "T-Mobile Park",
-      "hr": 1.12,
-      "babip": 0.925
+      "park": "Oracle Park",
+      "hr": 0.79,
+      "babip": 1.05
+    },
+    {
+      "team": "SF",
+      "player": "Grant McCray",
+      "park": "Oracle Park",
+      "hr": 0.71,
+      "babip": 1.065
     },
     {
       "team": "MIA",
       "player": "Griffin Conine",
-      "park": "Truist Park",
-      "hr": 1.03,
-      "babip": 0.97
+      "park": "LoanDepot Park",
+      "hr": 0.88,
+      "babip": 1.03
     },
     {
       "team": "BAL",
       "player": "Gunnar Henderson",
-      "park": "Oriole Park",
-      "hr": 1.17,
-      "babip": 1.0950000000000002
+      "park": "Globe Life Field",
+      "hr": 0.97,
+      "babip": 0.95
     },
     {
       "team": "ATL",
       "player": "Ha-seong Kim",
-      "park": "Truist Park",
-      "hr": 0.85,
-      "babip": 0.9450000000000001
+      "park": "Yankee Stadium",
+      "hr": 1.05,
+      "babip": 0.95
     },
     {
       "team": "DET",
       "player": "Hao-Yu Lee",
-      "park": "T-Mobile Park",
-      "hr": 1.15,
-      "babip": 0.9199999999999999
+      "park": "Oracle Park",
+      "hr": 0.77,
+      "babip": 1.05
     },
     {
       "team": "WAS",
       "player": "Harry Ford",
-      "park": "Citizens Bank Park",
-      "hr": 1.34,
-      "babip": 0.95
+      "park": "Nationals Park",
+      "hr": 1.22,
+      "babip": 0.985
+    },
+    {
+      "team": "CIN",
+      "player": "Hector Rodriguez",
+      "park": "Nationals Park",
+      "hr": 1.16,
+      "babip": 1.0150000000000001
+    },
+    {
+      "team": "NYY",
+      "player": "Heliot Ramos",
+      "park": "Yankee Stadium",
+      "hr": 1.31,
+      "babip": 0.9199999999999999
     },
     {
       "team": "ATH",
       "player": "Henry Bolte",
-      "park": "Great American BP",
-      "hr": 1.23,
-      "babip": 0.98
+      "park": "Fenway Park",
+      "hr": 1.08,
+      "babip": 1.1099999999999999
     },
     {
       "team": "PIT",
       "player": "Henry Davis",
-      "park": "American Family Fld",
-      "hr": 1.18,
-      "babip": 0.9199999999999999
+      "park": "PNC Park",
+      "hr": 0.9,
+      "babip": 1.01
     },
     {
       "team": "MIA",
       "player": "Heriberto Hernandez",
-      "park": "Truist Park",
-      "hr": 1.04,
-      "babip": 0.965
+      "park": "LoanDepot Park",
+      "hr": 0.91,
+      "babip": 1.0150000000000001
+    },
+    {
+      "team": "LAD",
+      "player": "Hunter Feduccia",
+      "park": "Chase Field",
+      "hr": 0.82,
+      "babip": 1.055
+    },
+    {
+      "team": "COL",
+      "player": "Hunter Goodman",
+      "park": "Busch Stadium",
+      "hr": 0.98,
+      "babip": 0.99
     },
     {
       "team": "CHC",
       "player": "Ian Happ",
-      "park": "Wrigley Field",
-      "hr": 1.04,
-      "babip": 0.935
+      "park": "Kauffman Stadium",
+      "hr": 1.19,
+      "babip": 0.94
     },
     {
       "team": "ARI",
       "player": "Ildemaro Vargas",
       "park": "Chase Field",
       "hr": 0.94,
-      "babip": 1.06
+      "babip": 1.05
     },
     {
       "team": "KC",
       "player": "Isaac Collins",
       "park": "Kauffman Stadium",
-      "hr": 1.1,
-      "babip": 0.985
+      "hr": 1.05,
+      "babip": 0.94
+    },
+    {
+      "team": "HOU",
+      "player": "Isaac Paredes",
+      "park": "Petco Park",
+      "hr": 1.07,
+      "babip": 1.0
+    },
+    {
+      "team": "STL",
+      "player": "Ivan Herrera",
+      "park": "Busch Stadium",
+      "hr": 0.97,
+      "babip": 1.0
+    },
+    {
+      "team": "CIN",
+      "player": "Ivan Johnson",
+      "park": "Nationals Park",
+      "hr": 1.17,
+      "babip": 1.0
     },
     {
       "team": "PHI",
       "player": "J.T. Realmuto",
       "park": "Citizens Bank Park",
-      "hr": 1.32,
-      "babip": 0.955
+      "hr": 1.3,
+      "babip": 0.97
     },
     {
       "team": "KC",
       "player": "Jac Caglianone",
       "park": "Kauffman Stadium",
-      "hr": 1.26,
-      "babip": 0.98
+      "hr": 1.21,
+      "babip": 0.9299999999999999
     },
     {
       "team": "MIL",
       "player": "Jackson Chourio",
       "park": "American Family Fld",
-      "hr": 1.21,
-      "babip": 0.9199999999999999
+      "hr": 1.25,
+      "babip": 0.995
     },
     {
       "team": "BAL",
       "player": "Jackson Holliday",
-      "park": "Oriole Park",
-      "hr": 1.26,
-      "babip": 1.07
+      "park": "Globe Life Field",
+      "hr": 0.96,
+      "babip": 0.9199999999999999
     },
     {
       "team": "SD",
       "player": "Jackson Merrill",
-      "park": "Chase Field",
-      "hr": 0.92,
-      "babip": 1.05
+      "park": "Petco Park",
+      "hr": 1.01,
+      "babip": 0.99
     },
     {
       "team": "PIT",
       "player": "Jacob Gonzalez",
-      "park": "American Family Fld",
-      "hr": 1.18,
-      "babip": 0.925
+      "park": "PNC Park",
+      "hr": 1.0,
+      "babip": 1.0150000000000001
     },
     {
       "team": "ATH",
       "player": "Jacob Wilson",
-      "park": "Great American BP",
-      "hr": 1.04,
-      "babip": 0.98
+      "park": "Fenway Park",
+      "hr": 0.99,
+      "babip": 1.085
     },
     {
       "team": "WAS",
       "player": "Jacob Young",
-      "park": "Citizens Bank Park",
-      "hr": 1.41,
-      "babip": 0.985
+      "park": "Nationals Park",
+      "hr": 1.16,
+      "babip": 1.025
     },
     {
       "team": "BOS",
       "player": "Jahmai Jones",
       "park": "Fenway Park",
-      "hr": 1.18,
-      "babip": 1.135
+      "hr": 1.09,
+      "babip": 1.12
     },
     {
       "team": "MIL",
       "player": "Jake Bauers",
       "park": "American Family Fld",
-      "hr": 1.15,
-      "babip": 0.91
+      "hr": 1.19,
+      "babip": 0.98
+    },
+    {
+      "team": "TEX",
+      "player": "Jake Burger",
+      "park": "Globe Life Field",
+      "hr": 0.96,
+      "babip": 0.985
     },
     {
       "team": "SD",
       "player": "Jake Cronenworth",
-      "park": "Chase Field",
-      "hr": 0.91,
-      "babip": 1.05
+      "park": "Petco Park",
+      "hr": 0.94,
+      "babip": 1.01
     },
     {
       "team": "PIT",
       "player": "Jake Mangum",
-      "park": "American Family Fld",
-      "hr": 1.35,
-      "babip": 0.925
+      "park": "PNC Park",
+      "hr": 0.91,
+      "babip": 0.985
+    },
+    {
+      "team": "COL",
+      "player": "Jake McCarthy",
+      "park": "Busch Stadium",
+      "hr": 0.9,
+      "babip": 1.005
     },
     {
       "team": "BOS",
       "player": "Jake Rogers",
       "park": "Fenway Park",
-      "hr": 1.14,
-      "babip": 1.175
+      "hr": 1.04,
+      "babip": 1.165
     },
     {
       "team": "MIA",
       "player": "Jakob Marsee",
-      "park": "Truist Park",
-      "hr": 1.05,
-      "babip": 0.9550000000000001
+      "park": "LoanDepot Park",
+      "hr": 0.86,
+      "babip": 1.005
     },
     {
       "team": "ARI",
       "player": "James McCann",
       "park": "Chase Field",
       "hr": 0.92,
-      "babip": 1.065
+      "babip": 1.055
     },
     {
       "team": "DET",
       "player": "James Outman",
-      "park": "T-Mobile Park",
-      "hr": 1.11,
-      "babip": 0.895
+      "park": "Oracle Park",
+      "hr": 0.76,
+      "babip": 1.105
+    },
+    {
+      "team": "CHC",
+      "player": "James Triantos",
+      "park": "Kauffman Stadium",
+      "hr": 1.13,
+      "babip": 0.9450000000000001
     },
     {
       "team": "PIT",
       "player": "Jared Triolo",
-      "park": "American Family Fld",
-      "hr": 1.2,
-      "babip": 0.9299999999999999
+      "park": "PNC Park",
+      "hr": 0.91,
+      "babip": 1.0350000000000001
     },
     {
       "team": "NYM",
       "player": "Jared Young",
-      "park": "Progressive Field",
-      "hr": 1.03,
-      "babip": 0.91
+      "park": "PNC Park",
+      "hr": 0.98,
+      "babip": 1.0150000000000001
     },
     {
       "team": "BOS",
       "player": "Jarren Duran",
       "park": "Fenway Park",
-      "hr": 1.17,
+      "hr": 1.04,
       "babip": 1.2000000000000002
     },
     {
       "team": "SD",
       "player": "Jase Bowen",
-      "park": "Chase Field",
-      "hr": 0.93,
-      "babip": 1.0699999999999998
+      "park": "Petco Park",
+      "hr": 1.04,
+      "babip": 1.005
     },
     {
       "team": "DET",
       "player": "Javier Baez",
-      "park": "T-Mobile Park",
-      "hr": 1.14,
-      "babip": 0.915
+      "park": "Oracle Park",
+      "hr": 0.8,
+      "babip": 1.05
     },
     {
       "team": "MIA",
       "player": "Javier Sanoja",
-      "park": "Truist Park",
-      "hr": 0.83,
-      "babip": 0.935
+      "park": "LoanDepot Park",
+      "hr": 0.71,
+      "babip": 1.005
+    },
+    {
+      "team": "NYY",
+      "player": "Jazz Chisholm",
+      "park": "Yankee Stadium",
+      "hr": 1.16,
+      "babip": 0.905
     },
     {
       "team": "ATH",
       "player": "Jeff McNeil",
-      "park": "Great American BP",
-      "hr": 1.25,
-      "babip": 0.97
+      "park": "Fenway Park",
+      "hr": 0.91,
+      "babip": 1.155
     },
     {
       "team": "BAL",
       "player": "Jeremiah Jackson",
-      "park": "Oriole Park",
-      "hr": 1.13,
-      "babip": 1.145
+      "park": "Globe Life Field",
+      "hr": 0.95,
+      "babip": 0.96
+    },
+    {
+      "team": "HOU",
+      "player": "Jeremy Pena",
+      "park": "Petco Park",
+      "hr": 1.04,
+      "babip": 1.0
     },
     {
       "team": "TOR",
       "player": "Jesus Sanchez",
-      "park": "Wrigley Field",
-      "hr": 1.08,
-      "babip": 0.9299999999999999
+      "park": "Citizens Bank Park",
+      "hr": 1.26,
+      "babip": 0.995
     },
     {
       "team": "SEA",
       "player": "Jhonny Pereda",
       "park": "T-Mobile Park",
-      "hr": 1.22,
-      "babip": 0.94
+      "hr": 1.11,
+      "babip": 0.965
     },
     {
       "team": "PIT",
       "player": "Jhostynxon Garcia",
-      "park": "American Family Fld",
-      "hr": 1.17,
-      "babip": 0.9199999999999999
+      "park": "PNC Park",
+      "hr": 0.9,
+      "babip": 1.0150000000000001
     },
     {
       "team": "ATL",
       "player": "Jim Jarvis",
-      "park": "Truist Park",
-      "hr": 1.03,
-      "babip": 0.9650000000000001
+      "park": "Yankee Stadium",
+      "hr": 1.28,
+      "babip": 0.925
+    },
+    {
+      "team": "STL",
+      "player": "Jimmy Crooks",
+      "park": "Busch Stadium",
+      "hr": 0.94,
+      "babip": 1.005
     },
     {
       "team": "CIN",
       "player": "JJ Bleday",
-      "park": "Great American BP",
-      "hr": 1.15,
-      "babip": 0.96
+      "park": "Nationals Park",
+      "hr": 1.11,
+      "babip": 1.025
+    },
+    {
+      "team": "STL",
+      "player": "JJ Wetherholt",
+      "park": "Busch Stadium",
+      "hr": 0.91,
+      "babip": 0.995
     },
     {
       "team": "CLE",
       "player": "Jo Adell",
-      "park": "Progressive Field",
-      "hr": 0.95,
-      "babip": 0.925
+      "park": "Rate Field",
+      "hr": 1.03,
+      "babip": 1.01
+    },
+    {
+      "team": "TEX",
+      "player": "Joc Pederson",
+      "park": "Globe Life Field",
+      "hr": 0.98,
+      "babip": 0.94
     },
     {
       "team": "MIA",
       "player": "Joe Mack",
-      "park": "Truist Park",
-      "hr": 1.1,
-      "babip": 0.9450000000000001
+      "park": "LoanDepot Park",
+      "hr": 0.97,
+      "babip": 1.0
     },
     {
       "team": "CHW",
       "player": "Joey Bart",
-      "park": "Fenway Park",
-      "hr": 1.09,
-      "babip": 1.13
+      "park": "Rate Field",
+      "hr": 1.07,
+      "babip": 1.0
     },
     {
       "team": "MIL",
       "player": "Joey Ortiz",
       "park": "American Family Fld",
       "hr": 1.2,
-      "babip": 0.9450000000000001
+      "babip": 1.02
     },
     {
       "team": "KC",
       "player": "John Rave",
       "park": "Kauffman Stadium",
-      "hr": 1.2,
-      "babip": 1
+      "hr": 1.15,
+      "babip": 0.9450000000000001
     },
     {
       "team": "ATH",
       "player": "Jonah Heim",
-      "park": "Great American BP",
-      "hr": 1.21,
-      "babip": 0.97
+      "park": "Fenway Park",
+      "hr": 0.96,
+      "babip": 1.135
+    },
+    {
+      "team": "TB",
+      "player": "Jonathan Aranda",
+      "park": "T-Mobile Park",
+      "hr": 1.0,
+      "babip": 0.9299999999999999
     },
     {
       "team": "ATH",
       "player": "Jonathan Ornelas",
-      "park": "Great American BP",
-      "hr": 1.18,
-      "babip": 0.99
+      "park": "Fenway Park",
+      "hr": 0.94,
+      "babip": 1.1
+    },
+    {
+      "team": "TB",
+      "player": "Jonny DeLuca",
+      "park": "T-Mobile Park",
+      "hr": 1.1,
+      "babip": 0.955
     },
     {
       "team": "WAS",
       "player": "Jorbit Vivas",
-      "park": "Citizens Bank Park",
-      "hr": 1.52,
-      "babip": 0.97
+      "park": "Nationals Park",
+      "hr": 1.21,
+      "babip": 1.02
+    },
+    {
+      "team": "COL",
+      "player": "Jordan Beck",
+      "park": "Busch Stadium",
+      "hr": 0.98,
+      "babip": 0.99
+    },
+    {
+      "team": "STL",
+      "player": "Jordan Walker",
+      "park": "Busch Stadium",
+      "hr": 0.97,
+      "babip": 1.0
     },
     {
       "team": "ARI",
       "player": "Jorge Barrosa",
       "park": "Chase Field",
       "hr": 0.93,
-      "babip": 1.0550000000000002
+      "babip": 1.045
     },
     {
       "team": "NYM",
       "player": "Jorge Polanco",
-      "park": "Progressive Field",
-      "hr": 1.02,
-      "babip": 0.925
+      "park": "PNC Park",
+      "hr": 0.98,
+      "babip": 1.025
+    },
+    {
+      "team": "HOU",
+      "player": "Jose Altuve",
+      "park": "Petco Park",
+      "hr": 1.03,
+      "babip": 0.995
+    },
+    {
+      "team": "NYY",
+      "player": "Jose Caballero",
+      "park": "Yankee Stadium",
+      "hr": 1.07,
+      "babip": 0.95
+    },
+    {
+      "team": "STL",
+      "player": "Jose Fermin",
+      "park": "Busch Stadium",
+      "hr": 0.82,
+      "babip": 1.0350000000000001
     },
     {
       "team": "CLE",
       "player": "Jose Ramirez",
-      "park": "Progressive Field",
-      "hr": 1.04,
-      "babip": 0.9199999999999999
+      "park": "Rate Field",
+      "hr": 1.08,
+      "babip": 1.0
     },
     {
       "team": "LAA",
       "player": "Jose Siri",
-      "park": "Oriole Park",
-      "hr": 1,
-      "babip": 1.13
+      "park": "LoanDepot Park",
+      "hr": 0.89,
+      "babip": 1.04
     },
     {
       "team": "WAS",
       "player": "Jose Tena",
-      "park": "Citizens Bank Park",
-      "hr": 1.71,
-      "babip": 0.965
+      "park": "Nationals Park",
+      "hr": 1.47,
+      "babip": 1.0
     },
     {
       "team": "CIN",
       "player": "Jose Trevino",
-      "park": "Great American BP",
-      "hr": 1.18,
+      "park": "Nationals Park",
+      "hr": 1.21,
       "babip": 0.99
     },
     {
       "team": "MIN",
       "player": "Josh Bell",
-      "park": "Kauffman Stadium",
-      "hr": 1.24,
-      "babip": 0.995
+      "park": "American Family Fld",
+      "hr": 1.19,
+      "babip": 0.985
     },
     {
       "team": "LAA",
       "player": "Josh Lowe",
-      "park": "Oriole Park",
-      "hr": 1.22,
-      "babip": 1.0950000000000002
+      "park": "LoanDepot Park",
+      "hr": 0.88,
+      "babip": 1.0150000000000001
     },
     {
       "team": "SEA",
       "player": "Josh Naylor",
       "park": "T-Mobile Park",
-      "hr": 1.14,
-      "babip": 0.9099999999999999
+      "hr": 1.05,
+      "babip": 0.935
     },
     {
       "team": "KC",
       "player": "Josh Rojas",
       "park": "Kauffman Stadium",
-      "hr": 1.06,
-      "babip": 0.99
+      "hr": 1.03,
+      "babip": 0.935
+    },
+    {
+      "team": "TOR",
+      "player": "Josh Smith",
+      "park": "Citizens Bank Park",
+      "hr": 1.35,
+      "babip": 1.0
     },
     {
       "team": "SEA",
       "player": "Julio Rodriguez",
       "park": "T-Mobile Park",
-      "hr": 1.11,
-      "babip": 0.925
+      "hr": 1.03,
+      "babip": 0.955
+    },
+    {
+      "team": "SF",
+      "player": "Jung Hoo Lee",
+      "park": "Oracle Park",
+      "hr": 0.41,
+      "babip": 1.05
+    },
+    {
+      "team": "TB",
+      "player": "Junior Caminero",
+      "park": "T-Mobile Park",
+      "hr": 1.04,
+      "babip": 0.94
     },
     {
       "team": "PHI",
       "player": "Justin Crawford",
       "park": "Citizens Bank Park",
-      "hr": 2.3,
+      "hr": 2.33,
+      "babip": 1.005
+    },
+    {
+      "team": "TEX",
+      "player": "Justin Foscue",
+      "park": "Globe Life Field",
+      "hr": 0.89,
       "babip": 0.98
     },
     {
       "team": "TOR",
       "player": "Kazuma Okamoto",
-      "park": "Wrigley Field",
-      "hr": 0.98,
-      "babip": 0.9299999999999999
+      "park": "Citizens Bank Park",
+      "hr": 1.31,
+      "babip": 0.96
     },
     {
       "team": "CIN",
       "player": "Ke'Bryan Hayes",
-      "park": "Great American BP",
-      "hr": 1.33,
-      "babip": 0.975
+      "park": "Nationals Park",
+      "hr": 1.26,
+      "babip": 1.01
     },
     {
       "team": "WAS",
       "player": "Keibert Ruiz",
-      "park": "Citizens Bank Park",
-      "hr": 1.38,
-      "babip": 0.98
+      "park": "Nationals Park",
+      "hr": 1.1,
+      "babip": 1.02
     },
     {
       "team": "ARI",
       "player": "Ketel Marte",
       "park": "Chase Field",
-      "hr": 0.91,
-      "babip": 1.0699999999999998
+      "hr": 0.92,
+      "babip": 1.06
     },
     {
       "team": "DET",
       "player": "Kevin McGonigle",
-      "park": "T-Mobile Park",
-      "hr": 1.09,
-      "babip": 0.89
+      "park": "Oracle Park",
+      "hr": 0.65,
+      "babip": 1.07
     },
     {
       "team": "MIN",
       "player": "Kody Clemens",
-      "park": "Kauffman Stadium",
+      "park": "American Family Fld",
       "hr": 1.21,
-      "babip": 1
+      "babip": 0.975
     },
     {
       "team": "KC",
       "player": "Kyle Isbel",
       "park": "Kauffman Stadium",
-      "hr": 1.2,
-      "babip": 0.995
+      "hr": 1.11,
+      "babip": 0.94
+    },
+    {
+      "team": "COL",
+      "player": "Kyle Karros",
+      "park": "Busch Stadium",
+      "hr": 0.9,
+      "babip": 1.005
     },
     {
       "team": "PHI",
       "player": "Kyle Schwarber",
       "park": "Citizens Bank Park",
-      "hr": 1.24,
-      "babip": 0.965
+      "hr": 1.21,
+      "babip": 0.995
     },
     {
       "team": "MIA",
       "player": "Kyle Stowers",
-      "park": "Truist Park",
-      "hr": 1.04,
-      "babip": 0.9650000000000001
+      "park": "LoanDepot Park",
+      "hr": 0.89,
+      "babip": 1.025
+    },
+    {
+      "team": "LAD",
+      "player": "Kyle Tucker",
+      "park": "Chase Field",
+      "hr": 0.93,
+      "babip": 1.0350000000000001
+    },
+    {
+      "team": "HOU",
+      "player": "LaMonte Wade Jr",
+      "park": "Petco Park",
+      "hr": 0.91,
+      "babip": 1.005
     },
     {
       "team": "ATL",
       "player": "Lane Thomas",
-      "park": "Truist Park",
-      "hr": 0.96,
-      "babip": 0.9550000000000001
+      "park": "Yankee Stadium",
+      "hr": 1.11,
+      "babip": 0.95
     },
     {
       "team": "ARI",
       "player": "Lars Nootbaar",
       "park": "Chase Field",
-      "hr": 0.92,
-      "babip": 1.06
+      "hr": 0.93,
+      "babip": 1.05
     },
     {
       "team": "ATH",
       "player": "Lawrence Butler",
-      "park": "Great American BP",
-      "hr": 1.12,
-      "babip": 0.985
+      "park": "Fenway Park",
+      "hr": 1.02,
+      "babip": 1.21
     },
     {
       "team": "MIA",
       "player": "Leo Jimenez",
-      "park": "Truist Park",
-      "hr": 0.97,
-      "babip": 0.95
+      "park": "LoanDepot Park",
+      "hr": 0.81,
+      "babip": 1.025
     },
     {
       "team": "SEA",
       "player": "Leo Rivas",
       "park": "T-Mobile Park",
-      "hr": 1.2,
-      "babip": 0.925
+      "hr": 1.12,
+      "babip": 0.9550000000000001
     },
     {
       "team": "BAL",
       "player": "Leody Taveras",
-      "park": "Oriole Park",
-      "hr": 1.23,
-      "babip": 1.105
+      "park": "Globe Life Field",
+      "hr": 0.97,
+      "babip": 0.95
+    },
+    {
+      "team": "TB",
+      "player": "Liam Hicks",
+      "park": "T-Mobile Park",
+      "hr": 1.06,
+      "babip": 0.935
     },
     {
       "team": "PHI",
       "player": "Luis Arraez",
       "park": "Citizens Bank Park",
-      "hr": 1.57,
-      "babip": 0.975
+      "hr": 1.56,
+      "babip": 1.0
     },
     {
       "team": "SD",
       "player": "Luis Campusano",
-      "park": "Chase Field",
-      "hr": 0.88,
-      "babip": 1.075
+      "park": "Petco Park",
+      "hr": 1.05,
+      "babip": 1.0
+    },
+    {
+      "team": "NYY",
+      "player": "Luis Garcia",
+      "park": "Yankee Stadium",
+      "hr": 1.2,
+      "babip": 0.9099999999999999
     },
     {
       "team": "MIL",
       "player": "Luis Lara",
       "park": "American Family Fld",
-      "hr": 1.2,
-      "babip": 0.915
+      "hr": 1.23,
+      "babip": 0.98
     },
     {
       "team": "SD",
       "player": "Luis Rengifo",
-      "park": "Chase Field",
-      "hr": 0.91,
-      "babip": 1.06
+      "park": "Petco Park",
+      "hr": 0.97,
+      "babip": 1.0
     },
     {
       "team": "NYM",
       "player": "Luis Robert",
-      "park": "Progressive Field",
-      "hr": 0.95,
-      "babip": 0.9450000000000001
+      "park": "PNC Park",
+      "hr": 0.97,
+      "babip": 1.0150000000000001
     },
     {
       "team": "NYM",
       "player": "Luis Torrens",
-      "park": "Progressive Field",
-      "hr": 1.07,
-      "babip": 0.905
+      "park": "PNC Park",
+      "hr": 1.05,
+      "babip": 1.025
+    },
+    {
+      "team": "TOR",
+      "player": "Luis Urias",
+      "park": "Citizens Bank Park",
+      "hr": 1.33,
+      "babip": 0.97
     },
     {
       "team": "CHW",
       "player": "Luisangel Acuna",
-      "park": "Fenway Park",
-      "hr": 1.05,
-      "babip": 1.04
+      "park": "Rate Field",
+      "hr": 1.02,
+      "babip": 1.0150000000000001
     },
     {
       "team": "MIN",
       "player": "Luke Keaschall",
-      "park": "Kauffman Stadium",
-      "hr": 0.98,
+      "park": "American Family Fld",
+      "hr": 1.19,
       "babip": 0.995
     },
     {
@@ -1281,637 +1834,896 @@
       "player": "Luke Maile",
       "park": "Kauffman Stadium",
       "hr": 1.05,
-      "babip": 0.995
+      "babip": 0.94
     },
     {
       "team": "SD",
       "player": "Manny Machado",
-      "park": "Chase Field",
-      "hr": 0.9,
-      "babip": 1.075
+      "park": "Petco Park",
+      "hr": 1.02,
+      "babip": 0.99
     },
     {
       "team": "NYM",
       "player": "Marcus Semien",
-      "park": "Progressive Field",
-      "hr": 0.85,
-      "babip": 0.955
+      "park": "PNC Park",
+      "hr": 0.86,
+      "babip": 1.025
     },
     {
       "team": "BOS",
       "player": "Masataka Yoshida",
       "park": "Fenway Park",
-      "hr": 1.12,
+      "hr": 0.99,
       "babip": 1.155
+    },
+    {
+      "team": "STL",
+      "player": "Masyn Winn",
+      "park": "Busch Stadium",
+      "hr": 0.86,
+      "babip": 1.0150000000000001
     },
     {
       "team": "CIN",
       "player": "Matt McLain",
-      "park": "Great American BP",
+      "park": "Nationals Park",
       "hr": 1.28,
-      "babip": 0.97
+      "babip": 0.99
     },
     {
       "team": "ATL",
       "player": "Matt Olson",
-      "park": "Truist Park",
-      "hr": 1.03,
-      "babip": 0.9650000000000001
+      "park": "Yankee Stadium",
+      "hr": 1.14,
+      "babip": 0.9099999999999999
     },
     {
       "team": "ATL",
       "player": "Mauricio Dubon",
-      "park": "Truist Park",
-      "hr": 0.86,
-      "babip": 0.95
+      "park": "Yankee Stadium",
+      "hr": 1.28,
+      "babip": 0.9450000000000001
+    },
+    {
+      "team": "DET",
+      "player": "Max Clark",
+      "park": "Oracle Park",
+      "hr": 0.66,
+      "babip": 1.06
     },
     {
       "team": "ARI",
       "player": "Max Kepler",
       "park": "Chase Field",
-      "hr": 0.88,
-      "babip": 1.06
+      "hr": 0.89,
+      "babip": 1.045
     },
     {
       "team": "ATH",
       "player": "Max Muncy",
-      "park": "Great American BP",
-      "hr": 1.07,
-      "babip": 0.99
+      "park": "Fenway Park",
+      "hr": 0.98,
+      "babip": 1.1
+    },
+    {
+      "team": "LAD",
+      "player": "Max Muncy",
+      "park": "Chase Field",
+      "hr": 0.94,
+      "babip": 1.04
     },
     {
       "team": "CHC",
       "player": "Michael Busch",
-      "park": "Wrigley Field",
-      "hr": 1.03,
+      "park": "Kauffman Stadium",
+      "hr": 1.19,
       "babip": 0.935
     },
     {
       "team": "CHC",
       "player": "Michael Conforto",
-      "park": "Wrigley Field",
-      "hr": 1.06,
-      "babip": 0.94
+      "park": "Kauffman Stadium",
+      "hr": 1.19,
+      "babip": 0.9450000000000001
     },
     {
       "team": "ATL",
       "player": "Michael Harris II",
-      "park": "Truist Park",
-      "hr": 1.04,
-      "babip": 0.9450000000000001
+      "park": "Yankee Stadium",
+      "hr": 1.12,
+      "babip": 0.9099999999999999
     },
     {
       "team": "KC",
       "player": "Michael Massey",
       "park": "Kauffman Stadium",
-      "hr": 1.15,
-      "babip": 0.995
+      "hr": 1.1,
+      "babip": 0.95
+    },
+    {
+      "team": "COL",
+      "player": "Mickey Moniak",
+      "park": "Busch Stadium",
+      "hr": 0.95,
+      "babip": 1.025
     },
     {
       "team": "CHC",
       "player": "Miguel Amaya",
-      "park": "Wrigley Field",
-      "hr": 1.05,
-      "babip": 0.905
+      "park": "Kauffman Stadium",
+      "hr": 1.09,
+      "babip": 0.935
+    },
+    {
+      "team": "LAD",
+      "player": "Miguel Rojas",
+      "park": "Chase Field",
+      "hr": 0.96,
+      "babip": 1.04
     },
     {
       "team": "CHW",
       "player": "Miguel Vargas",
-      "park": "Fenway Park",
-      "hr": 1.1,
-      "babip": 1.185
+      "park": "Rate Field",
+      "hr": 1.11,
+      "babip": 0.995
     },
     {
       "team": "LAA",
       "player": "Mike Trout",
-      "park": "Oriole Park",
-      "hr": 1.02,
-      "babip": 1.13
+      "park": "LoanDepot Park",
+      "hr": 0.93,
+      "babip": 1.02
     },
     {
       "team": "ATL",
       "player": "Mike Yastrzemski",
-      "park": "Truist Park",
-      "hr": 1.06,
-      "babip": 0.96
+      "park": "Yankee Stadium",
+      "hr": 1.18,
+      "babip": 0.9099999999999999
     },
     {
       "team": "LAA",
       "player": "Moises Ballesteros",
-      "park": "Oriole Park",
-      "hr": 1.18,
-      "babip": 1.0950000000000002
+      "park": "LoanDepot Park",
+      "hr": 0.87,
+      "babip": 1.01
+    },
+    {
+      "team": "LAD",
+      "player": "Mookie Betts",
+      "park": "Chase Field",
+      "hr": 0.92,
+      "babip": 1.04
     },
     {
       "team": "CHW",
       "player": "Munetaka Murakami",
-      "park": "Fenway Park",
-      "hr": 1.13,
-      "babip": 1.195
+      "park": "Rate Field",
+      "hr": 1.03,
+      "babip": 0.995
     },
     {
       "team": "TOR",
       "player": "Myles Straw",
-      "park": "Wrigley Field",
-      "hr": 1.39,
-      "babip": 0.915
+      "park": "Citizens Bank Park",
+      "hr": 1.61,
+      "babip": 0.985
     },
     {
       "team": "WAS",
       "player": "Nasim Nunez",
-      "park": "Citizens Bank Park",
-      "hr": 1.37,
-      "babip": 0.975
+      "park": "Nationals Park",
+      "hr": 1.1,
+      "babip": 1.04
+    },
+    {
+      "team": "SF",
+      "player": "Nate Furman",
+      "park": "Oracle Park",
+      "hr": 0.68,
+      "babip": 1.065
+    },
+    {
+      "team": "STL",
+      "player": "Nathan Church",
+      "park": "Busch Stadium",
+      "hr": 0.9,
+      "babip": 1.005
     },
     {
       "team": "TOR",
       "player": "Nathan Lukes",
-      "park": "Wrigley Field",
-      "hr": 0.93,
-      "babip": 0.95
+      "park": "Citizens Bank Park",
+      "hr": 1.38,
+      "babip": 0.99
     },
     {
       "team": "CLE",
       "player": "Nathaniel Lowe",
-      "park": "Progressive Field",
-      "hr": 0.96,
-      "babip": 0.925
+      "park": "Rate Field",
+      "hr": 1.08,
+      "babip": 1.01
+    },
+    {
+      "team": "STL",
+      "player": "Nelson Velazquez",
+      "park": "Busch Stadium",
+      "hr": 1.0,
+      "babip": 1.0
+    },
+    {
+      "team": "HOU",
+      "player": "Nick Allen",
+      "park": "Petco Park",
+      "hr": 1.18,
+      "babip": 1.01
+    },
+    {
+      "team": "TB",
+      "player": "Nick Fortes",
+      "park": "T-Mobile Park",
+      "hr": 1.01,
+      "babip": 0.965
     },
     {
       "team": "PIT",
       "player": "Nick Gonzales",
-      "park": "American Family Fld",
-      "hr": 1.29,
-      "babip": 0.925
+      "park": "PNC Park",
+      "hr": 0.93,
+      "babip": 1.0350000000000001
     },
     {
       "team": "KC",
       "player": "Nick Loftin",
       "park": "Kauffman Stadium",
-      "hr": 0.97,
-      "babip": 0.995
+      "hr": 0.95,
+      "babip": 0.94
     },
     {
       "team": "BOS",
       "player": "Nick Sogard",
       "park": "Fenway Park",
-      "hr": 0.96,
-      "babip": 1.1
+      "hr": 0.88,
+      "babip": 1.0899999999999999
+    },
+    {
+      "team": "TEX",
+      "player": "Nicky Lopez",
+      "park": "Globe Life Field",
+      "hr": 0.95,
+      "babip": 0.915
     },
     {
       "team": "CHC",
       "player": "Nico Hoerner",
-      "park": "Wrigley Field",
-      "hr": 1.18,
-      "babip": 0.915
+      "park": "Kauffman Stadium",
+      "hr": 0.94,
+      "babip": 0.93
     },
     {
       "team": "CIN",
       "player": "Noelvi Marte",
-      "park": "Great American BP",
+      "park": "Nationals Park",
       "hr": 1.1,
-      "babip": 0.98
+      "babip": 0.99
     },
     {
       "team": "ARI",
       "player": "Nolan Arenado",
       "park": "Chase Field",
-      "hr": 0.94,
-      "babip": 1.05
+      "hr": 0.95,
+      "babip": 1.04
     },
     {
       "team": "LAA",
       "player": "Nolan Schanuel",
-      "park": "Oriole Park",
-      "hr": 1.17,
-      "babip": 1.125
+      "park": "LoanDepot Park",
+      "hr": 0.89,
+      "babip": 0.985
+    },
+    {
+      "team": "SF",
+      "player": "Osleivis Basabe",
+      "park": "Oracle Park",
+      "hr": 0.86,
+      "babip": 1.03
     },
     {
       "team": "LAA",
       "player": "Oswald Peraza",
-      "park": "Oriole Park",
-      "hr": 1.05,
-      "babip": 1.115
+      "park": "LoanDepot Park",
+      "hr": 0.88,
+      "babip": 1.0150000000000001
     },
     {
       "team": "MIA",
       "player": "Otto Lopez",
-      "park": "Truist Park",
-      "hr": 0.97,
-      "babip": 0.9550000000000001
+      "park": "LoanDepot Park",
+      "hr": 0.85,
+      "babip": 1.01
     },
     {
       "team": "MIA",
       "player": "Owen Caissie",
-      "park": "Truist Park",
-      "hr": 1.02,
-      "babip": 0.9550000000000001
+      "park": "LoanDepot Park",
+      "hr": 0.89,
+      "babip": 1.01
     },
     {
       "team": "ATL",
       "player": "Ozzie Albies",
-      "park": "Truist Park",
-      "hr": 1.02,
-      "babip": 0.9650000000000001
+      "park": "Yankee Stadium",
+      "hr": 1.27,
+      "babip": 0.925
     },
     {
       "team": "CLE",
       "player": "Patrick Bailey",
-      "park": "Progressive Field",
-      "hr": 1.01,
-      "babip": 0.9099999999999999
+      "park": "Rate Field",
+      "hr": 1.09,
+      "babip": 0.99
+    },
+    {
+      "team": "NYY",
+      "player": "Paul Goldschmidt",
+      "park": "Yankee Stadium",
+      "hr": 1.24,
+      "babip": 0.925
+    },
+    {
+      "team": "STL",
+      "player": "Pedro Pages",
+      "park": "Busch Stadium",
+      "hr": 0.95,
+      "babip": 0.995
     },
     {
       "team": "CHC",
       "player": "Pedro Ramirez",
-      "park": "Wrigley Field",
-      "hr": 1.16,
-      "babip": 0.915
+      "park": "Kauffman Stadium",
+      "hr": 1.04,
+      "babip": 0.9450000000000001
     },
     {
       "team": "BAL",
       "player": "Pete Alonso",
-      "park": "Oriole Park",
-      "hr": 0.99,
-      "babip": 1.125
+      "park": "Globe Life Field",
+      "hr": 0.97,
+      "babip": 0.985
     },
     {
       "team": "CHC",
       "player": "Pete Crow-Armstrong",
-      "park": "Wrigley Field",
-      "hr": 0.98,
-      "babip": 0.94
+      "park": "Kauffman Stadium",
+      "hr": 1.18,
+      "babip": 0.9450000000000001
     },
     {
       "team": "CLE",
       "player": "Petey Halpin",
-      "park": "Progressive Field",
-      "hr": 1.09,
-      "babip": 0.9199999999999999
+      "park": "Rate Field",
+      "hr": 1.07,
+      "babip": 0.995
+    },
+    {
+      "team": "SF",
+      "player": "Rafael Devers",
+      "park": "Oracle Park",
+      "hr": 0.79,
+      "babip": 1.0550000000000002
     },
     {
       "team": "PIT",
       "player": "Rafael Flores",
-      "park": "American Family Fld",
-      "hr": 1.13,
-      "babip": 0.9199999999999999
+      "park": "PNC Park",
+      "hr": 0.92,
+      "babip": 1.02
     },
     {
       "team": "CHW",
       "player": "Randal Grichuk",
-      "park": "Fenway Park",
-      "hr": 1.08,
-      "babip": 1.115
+      "park": "Rate Field",
+      "hr": 1.06,
+      "babip": 1.0
     },
     {
       "team": "SEA",
       "player": "Randy Arozarena",
       "park": "T-Mobile Park",
-      "hr": 1.12,
-      "babip": 0.9199999999999999
+      "hr": 1.01,
+      "babip": 0.95
     },
     {
       "team": "CLE",
       "player": "Rhys Hoskins",
-      "park": "Progressive Field",
-      "hr": 0.89,
-      "babip": 0.955
+      "park": "Rate Field",
+      "hr": 1.07,
+      "babip": 0.995
+    },
+    {
+      "team": "TB",
+      "player": "Richie Palacios",
+      "park": "T-Mobile Park",
+      "hr": 1.07,
+      "babip": 0.94
     },
     {
       "team": "DET",
       "player": "Riley Greene",
-      "park": "T-Mobile Park",
-      "hr": 1.09,
-      "babip": 0.905
+      "park": "Oracle Park",
+      "hr": 0.82,
+      "babip": 1.0550000000000002
     },
     {
       "team": "ATL",
       "player": "Ronald Acuna Jr.",
-      "park": "Truist Park",
-      "hr": 1.01,
-      "babip": 0.975
+      "park": "Yankee Stadium",
+      "hr": 1.16,
+      "babip": 0.925
     },
     {
       "team": "PIT",
       "player": "Ronny Simon",
-      "park": "American Family Fld",
-      "hr": 1.3,
-      "babip": 0.915
+      "park": "PNC Park",
+      "hr": 1.12,
+      "babip": 1.025
     },
     {
       "team": "MIN",
       "player": "Royce Lewis",
-      "park": "Kauffman Stadium",
-      "hr": 1.16,
-      "babip": 1.005
+      "park": "American Family Fld",
+      "hr": 1.17,
+      "babip": 0.99
     },
     {
       "team": "MIN",
       "player": "Ryan Jeffers",
-      "park": "Kauffman Stadium",
-      "hr": 1.2,
-      "babip": 0.995
+      "park": "American Family Fld",
+      "hr": 1.16,
+      "babip": 0.99
     },
     {
       "team": "MIN",
       "player": "Ryan Kreidler",
-      "park": "Kauffman Stadium",
-      "hr": 1.16,
-      "babip": 1.01
+      "park": "American Family Fld",
+      "hr": 1.32,
+      "babip": 0.98
+    },
+    {
+      "team": "NYY",
+      "player": "Ryan McMahon",
+      "park": "Yankee Stadium",
+      "hr": 1.11,
+      "babip": 0.9199999999999999
+    },
+    {
+      "team": "TB",
+      "player": "Ryan Vilade",
+      "park": "T-Mobile Park",
+      "hr": 1.01,
+      "babip": 0.955
     },
     {
       "team": "ARI",
       "player": "Ryan Waldschmidt",
       "park": "Chase Field",
       "hr": 0.88,
-      "babip": 1.065
+      "babip": 1.06
     },
     {
       "team": "CIN",
       "player": "Sal Stewart",
-      "park": "Great American BP",
-      "hr": 1.17,
-      "babip": 0.935
+      "park": "Nationals Park",
+      "hr": 1.15,
+      "babip": 0.99
     },
     {
       "team": "KC",
       "player": "Salvador Perez",
       "park": "Kauffman Stadium",
-      "hr": 1.17,
-      "babip": 0.995
+      "hr": 1.15,
+      "babip": 0.9450000000000001
     },
     {
       "team": "CHW",
       "player": "Sam Antonacci",
-      "park": "Fenway Park",
-      "hr": 1.18,
-      "babip": 1.225
+      "park": "Rate Field",
+      "hr": 1.01,
+      "babip": 1.0
     },
     {
       "team": "ATL",
       "player": "Sean Murphy",
-      "park": "Truist Park",
-      "hr": 0.98,
-      "babip": 0.965
+      "park": "Yankee Stadium",
+      "hr": 1.18,
+      "babip": 0.935
     },
     {
       "team": "CHC",
       "player": "Seiya Suzuki",
-      "park": "Wrigley Field",
-      "hr": 1.01,
-      "babip": 0.9199999999999999
+      "park": "Kauffman Stadium",
+      "hr": 1.17,
+      "babip": 0.94
+    },
+    {
+      "team": "LAD",
+      "player": "Shohei Ohtani",
+      "park": "Chase Field",
+      "hr": 0.94,
+      "babip": 1.055
     },
     {
       "team": "PIT",
       "player": "Spencer Horwitz",
-      "park": "American Family Fld",
-      "hr": 1.19,
-      "babip": 0.9
+      "park": "PNC Park",
+      "hr": 0.99,
+      "babip": 1.0150000000000001
+    },
+    {
+      "team": "NYY",
+      "player": "Spencer Jones",
+      "park": "Yankee Stadium",
+      "hr": 1.18,
+      "babip": 0.925
     },
     {
       "team": "DET",
       "player": "Spencer Torkelson",
-      "park": "T-Mobile Park",
-      "hr": 1.11,
-      "babip": 0.9199999999999999
+      "park": "Oracle Park",
+      "hr": 0.88,
+      "babip": 1.045
     },
     {
       "team": "KC",
       "player": "Starling Marte",
       "park": "Kauffman Stadium",
-      "hr": 1.12,
-      "babip": 0.99
+      "hr": 1.1,
+      "babip": 0.94
     },
     {
       "team": "CLE",
       "player": "Steven Kwan",
-      "park": "Progressive Field",
-      "hr": 1.16,
-      "babip": 0.8999999999999999
+      "park": "Rate Field",
+      "hr": 1.11,
+      "babip": 1.0150000000000001
     },
     {
       "team": "SD",
       "player": "Sung-Mun Song",
-      "park": "Chase Field",
-      "hr": 0.87,
-      "babip": 1.05
+      "park": "Petco Park",
+      "hr": 0.9,
+      "babip": 1.0
+    },
+    {
+      "team": "HOU",
+      "player": "Taylor Trammell",
+      "park": "Petco Park",
+      "hr": 0.95,
+      "babip": 0.99
+    },
+    {
+      "team": "TB",
+      "player": "Taylor Walls",
+      "park": "T-Mobile Park",
+      "hr": 1.02,
+      "babip": 0.92
     },
     {
       "team": "SEA",
       "player": "Taylor Ward",
       "park": "T-Mobile Park",
-      "hr": 1.15,
-      "babip": 0.9199999999999999
+      "hr": 1.02,
+      "babip": 0.955
+    },
+    {
+      "team": "LAD",
+      "player": "Teoscar Hernandez",
+      "park": "Chase Field",
+      "hr": 0.94,
+      "babip": 1.055
     },
     {
       "team": "ARI",
       "player": "Tim Tawa",
       "park": "Chase Field",
-      "hr": 0.95,
-      "babip": 1.05
+      "hr": 0.96,
+      "babip": 1.04
     },
     {
       "team": "CIN",
       "player": "TJ Friedl",
-      "park": "Great American BP",
-      "hr": 1.3,
-      "babip": 0.95
+      "park": "Nationals Park",
+      "hr": 1.02,
+      "babip": 1.0350000000000001
+    },
+    {
+      "team": "COL",
+      "player": "TJ Rumfield",
+      "park": "Busch Stadium",
+      "hr": 0.9,
+      "babip": 1.02
+    },
+    {
+      "team": "LAD",
+      "player": "Tommy Edman",
+      "park": "Chase Field",
+      "hr": 0.9,
+      "babip": 1.04
     },
     {
       "team": "ATH",
       "player": "Tommy White",
-      "park": "Great American BP",
-      "hr": 1.33,
-      "babip": 0.985
+      "park": "Fenway Park",
+      "hr": 0.93,
+      "babip": 1.12
     },
     {
       "team": "CLE",
       "player": "Travis Bazzana",
-      "park": "Progressive Field",
-      "hr": 1.06,
-      "babip": 0.9
+      "park": "Rate Field",
+      "hr": 1.04,
+      "babip": 1.0150000000000001
     },
     {
       "team": "LAA",
       "player": "Travis d'Arnaud",
-      "park": "Oriole Park",
-      "hr": 1.09,
-      "babip": 1.13
+      "park": "LoanDepot Park",
+      "hr": 0.89,
+      "babip": 1.025
     },
     {
       "team": "PHI",
       "player": "Trea Turner",
       "park": "Citizens Bank Park",
-      "hr": 1.35,
-      "babip": 0.965
+      "hr": 1.33,
+      "babip": 0.98
+    },
+    {
+      "team": "NYY",
+      "player": "Trent Grisham",
+      "park": "Yankee Stadium",
+      "hr": 1.18,
+      "babip": 0.915
     },
     {
       "team": "MIN",
       "player": "Trevor Larnach",
-      "park": "Kauffman Stadium",
-      "hr": 1.25,
-      "babip": 0.995
+      "park": "American Family Fld",
+      "hr": 1.21,
+      "babip": 0.975
     },
     {
       "team": "MIN",
       "player": "Tristan Gray",
-      "park": "Kauffman Stadium",
-      "hr": 1.19,
+      "park": "American Family Fld",
+      "hr": 1.25,
       "babip": 0.99
     },
     {
       "team": "CHW",
       "player": "Tristan Peters",
-      "park": "Fenway Park",
-      "hr": 0.99,
-      "babip": 1.125
+      "park": "Rate Field",
+      "hr": 1.11,
+      "babip": 0.99
+    },
+    {
+      "team": "COL",
+      "player": "Troy Johnston",
+      "park": "Busch Stadium",
+      "hr": 0.88,
+      "babip": 1.025
     },
     {
       "team": "SD",
       "player": "Ty France",
-      "park": "Chase Field",
-      "hr": 0.92,
-      "babip": 1.065
+      "park": "Petco Park",
+      "hr": 1.03,
+      "babip": 1.01
+    },
+    {
+      "team": "COL",
+      "player": "Tyler Freeman",
+      "park": "Busch Stadium",
+      "hr": 0.82,
+      "babip": 1.02
     },
     {
       "team": "LAA",
       "player": "Tyler Heineman",
-      "park": "Oriole Park",
-      "hr": 1.15,
-      "babip": 1.0950000000000002
+      "park": "LoanDepot Park",
+      "hr": 0.85,
+      "babip": 0.985
     },
     {
       "team": "ARI",
       "player": "Tyler Locklear",
       "park": "Chase Field",
-      "hr": 0.95,
-      "babip": 1.065
+      "hr": 0.96,
+      "babip": 1.055
     },
     {
       "team": "BAL",
       "player": "Tyler O'Neill",
-      "park": "Oriole Park",
-      "hr": 1.02,
-      "babip": 1.135
+      "park": "Globe Life Field",
+      "hr": 0.98,
+      "babip": 0.9750000000000001
     },
     {
       "team": "ATH",
       "player": "Tyler Soderstrom",
-      "park": "Great American BP",
-      "hr": 1.15,
-      "babip": 0.97
+      "park": "Fenway Park",
+      "hr": 1.0,
+      "babip": 1.175
     },
     {
       "team": "CIN",
       "player": "Tyler Stephenson",
-      "park": "Great American BP",
-      "hr": 1.24,
-      "babip": 0.975
+      "park": "Nationals Park",
+      "hr": 1.2,
+      "babip": 0.995
     },
     {
       "team": "KC",
       "player": "Tyler Tolbert",
       "park": "Kauffman Stadium",
-      "hr": 1.08,
-      "babip": 0.995
+      "hr": 1.06,
+      "babip": 0.94
+    },
+    {
+      "team": "CHC",
+      "player": "Tyrone Taylor",
+      "park": "Kauffman Stadium",
+      "hr": 1.1,
+      "babip": 0.95
     },
     {
       "team": "LAA",
       "player": "Vaughn Grissom",
-      "park": "Oriole Park",
-      "hr": 1.12,
-      "babip": 1.145
+      "park": "LoanDepot Park",
+      "hr": 0.81,
+      "babip": 1.03
     },
     {
       "team": "MIN",
       "player": "Victor Caratini",
-      "park": "Kauffman Stadium",
-      "hr": 1.19,
+      "park": "American Family Fld",
+      "hr": 1.25,
       "babip": 0.995
+    },
+    {
+      "team": "TB",
+      "player": "Victor Mesa Jr.",
+      "park": "T-Mobile Park",
+      "hr": 1.06,
+      "babip": 0.92
     },
     {
       "team": "SEA",
       "player": "Victor Robles",
       "park": "T-Mobile Park",
-      "hr": 1.14,
-      "babip": 0.9299999999999999
+      "hr": 1.04,
+      "babip": 0.955
     },
     {
       "team": "TOR",
       "player": "Vladimir Guerrero Jr.",
-      "park": "Wrigley Field",
-      "hr": 0.98,
-      "babip": 0.925
+      "park": "Citizens Bank Park",
+      "hr": 1.26,
+      "babip": 0.98
     },
     {
       "team": "LAA",
       "player": "Wade Meckler",
-      "park": "Oriole Park",
-      "hr": 1.16,
-      "babip": 1.115
+      "park": "LoanDepot Park",
+      "hr": 0.84,
+      "babip": 1.0150000000000001
     },
     {
       "team": "SEA",
       "player": "Weston Wilson",
       "park": "T-Mobile Park",
-      "hr": 1.11,
-      "babip": 0.9199999999999999
+      "hr": 1.04,
+      "babip": 0.955
+    },
+    {
+      "team": "COL",
+      "player": "Willi Castro",
+      "park": "Busch Stadium",
+      "hr": 0.92,
+      "babip": 1.01
     },
     {
       "team": "MIL",
       "player": "William Contreras",
       "park": "American Family Fld",
-      "hr": 1.14,
-      "babip": 0.925
+      "hr": 1.18,
+      "babip": 1.0
     },
     {
       "team": "BOS",
       "player": "Willson Contreras",
       "park": "Fenway Park",
-      "hr": 1.05,
-      "babip": 1.1
+      "hr": 0.97,
+      "babip": 1.085
+    },
+    {
+      "team": "SF",
+      "player": "Willy Adames",
+      "park": "Oracle Park",
+      "hr": 0.83,
+      "babip": 1.06
     },
     {
       "team": "BOS",
       "player": "Wilyer Abreu",
       "park": "Fenway Park",
-      "hr": 1.09,
-      "babip": 1.24
+      "hr": 0.98,
+      "babip": 1.2349999999999999
+    },
+    {
+      "team": "TEX",
+      "player": "Wyatt Langford",
+      "park": "Globe Life Field",
+      "hr": 0.92,
+      "babip": 0.995
     },
     {
       "team": "SD",
       "player": "Xander Bogaerts",
-      "park": "Chase Field",
-      "hr": 0.91,
-      "babip": 1.065
+      "park": "Petco Park",
+      "hr": 1.05,
+      "babip": 1.0
     },
     {
       "team": "MIA",
       "player": "Xavier Edwards",
-      "park": "Truist Park",
-      "hr": 1,
-      "babip": 0.9299999999999999
+      "park": "LoanDepot Park",
+      "hr": 0.81,
+      "babip": 0.98
+    },
+    {
+      "team": "HOU",
+      "player": "Yainer Diaz",
+      "park": "Petco Park",
+      "hr": 1.02,
+      "babip": 0.995
+    },
+    {
+      "team": "TB",
+      "player": "Yandy Diaz",
+      "park": "T-Mobile Park",
+      "hr": 1.05,
+      "babip": 0.955
     },
     {
       "team": "BAL",
       "player": "Yohel Pozo",
-      "park": "Oriole Park",
-      "hr": 0.87,
-      "babip": 1.155
+      "park": "Globe Life Field",
+      "hr": 0.89,
+      "babip": 0.995
+    },
+    {
+      "team": "HOU",
+      "player": "Yordan Alvarez",
+      "park": "Petco Park",
+      "hr": 0.98,
+      "babip": 0.99
     },
     {
       "team": "DET",
       "player": "Zach McKinstry",
-      "park": "T-Mobile Park",
-      "hr": 1.15,
-      "babip": 0.9099999999999999
+      "park": "Oracle Park",
+      "hr": 0.54,
+      "babip": 1.05
     },
     {
       "team": "LAA",
       "player": "Zach Neto",
-      "park": "Oriole Park",
-      "hr": 0.96,
-      "babip": 1.17
+      "park": "LoanDepot Park",
+      "hr": 0.89,
+      "babip": 1.02
     }
   ]
 }

@@ -1,6 +1,7 @@
 import json
 import openpyxl
 from pathlib import Path
+from datetime import datetime, timezone
 
 source = Path(r"C:\Users\jimmy\OneDrive\Documents\MLB Model park factors.xlsx")
 target = Path(__file__).resolve().parents[1] / "data" / "mlb-park-factors.json"
@@ -18,5 +19,5 @@ for row in sheet.iter_rows(min_row=3, values_only=True):
         continue
     rows.append({"team": str(team), "player": str(player), "park": str(park or ""), "hr": hr, "babip": babip})
 
-target.write_text(json.dumps({"source": source.name, "rows": rows}, indent=2) + "\n", encoding="utf-8")
+target.write_text(json.dumps({"source": source.name, "updatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"), "rows": rows}, indent=2) + "\n", encoding="utf-8")
 print(f"wrote {len(rows)} park-factor rows to {target}")
