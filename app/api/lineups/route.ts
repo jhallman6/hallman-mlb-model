@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import fanGraphsLineups from "../../../data/fangraphs-lineups-2026-08-06.json";
+import fanGraphsLineups from "../../../data/fangraphs-lineups-current.json";
 export const dynamic = "force-dynamic";
 const DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 const FG_CHALLENGE = /performing security verification|just a moment|cf-chl/i;
