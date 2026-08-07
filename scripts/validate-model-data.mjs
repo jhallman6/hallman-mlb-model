@@ -19,7 +19,7 @@ assert(pitchers.rows.length>600,'Savant pitcher dataset is unexpectedly small');
 for(const row of pitchers.rows){
   assert(finite(row.totalPitches)&&row.totalPitches>=0,`Invalid pitcher pitches: ${row.player}`);
   for(const key of ['totalSwingingStrikes','calledStrikes','foulStrikes','threeOhPitches'])assert(finite(row[key])&&row[key]>=0&&row[key]<=row.totalPitches,`Invalid pitcher ${key}: ${row.player}`);
-  assert(finite(row.pullAirPct)&&row.pullAirPct>=0&&row.pullAirPct<=100,`Invalid Pull Air%: ${row.player}`);
+  assert(row.pullAirPct==null||(finite(row.pullAirPct)&&row.pullAirPct>=0&&row.pullAirPct<=100),`Invalid Pull Air%: ${row.player}`);
 }
 
 for(const [name,fields] of [
@@ -40,6 +40,8 @@ for(const name of ['fangraphs-pitcher-batted-ball-2026.json','fangraphs-pitcher-
   assert(data.rows.length>600,`${name} is unexpectedly small`);
   assert(Array.isArray(data.headers)&&data.headers.length>3,`${name} has no headers`);
   assert(data.rows.every(row=>Array.isArray(row)&&row.length===data.headers.length),`${name} has a header/row width mismatch`);
+  const names=data.rows.map(row=>String(row[1]??'').trim()).filter(Boolean);
+  assert(new Set(names).size===names.length,`${name} contains duplicate pitcher rows`);
 }
 
 for(const name of ['fangraphs-zips-update-hitting-2026.json','fangraphs-zips-update-pitching-2026.json','fangraphs-steamer-ros-hitting-vs-rhp-2026.json','fangraphs-steamer-ros-hitting-vs-lhp-2026.json','fangraphs-steamer-ros-pitching-vs-rhb-2026.json','fangraphs-steamer-ros-pitching-vs-lhb-2026.json']){
