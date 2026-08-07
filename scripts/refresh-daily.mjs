@@ -123,6 +123,7 @@ await fs.mkdir(STATE, { recursive: true });
 if (!await exists(PROFILE)) throw new Error("FanGraphs session is not initialized. Run npm run auth:fangraphs once.");
 await run("node", ["scripts/refresh-savant.mjs"]);
 await run("node", ["scripts/refresh-fangraphs-leaders.mjs"]);
+await run("node", ["scripts/refresh-lineups.mjs"]);
 // FanGraphs' Cloudflare protection rejects headless browser sessions. Keep this
 // as a normal visible Edge window using the dedicated authenticated profile.
 const context = await chromium.launchPersistentContext(PROFILE, { executablePath: EDGE, headless: false });

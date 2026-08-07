@@ -17,6 +17,7 @@
     "refresh:daily": "node scripts/refresh-daily.mjs"
     ,"refresh:savant": "node scripts/refresh-savant.mjs",
     "refresh:fangraphs-leaders": "node scripts/refresh-fangraphs-leaders.mjs"
+    ,"refresh:lineups": "node scripts/refresh-lineups.mjs"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",
